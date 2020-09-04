@@ -1,5 +1,6 @@
 import { connect } from 'dva';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from 'dva/router';
 import plusImg from '../../../../assets/plus.png'
 import reduceImg from '../../../../assets/reduce.png'
 import * as React from 'react';

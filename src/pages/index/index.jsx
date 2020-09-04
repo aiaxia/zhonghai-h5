@@ -1,5 +1,6 @@
 import { connect } from 'dva';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from 'dva/router';
 import * as React from 'react';
 import styles from './index.less';
 import mainImg from '../../assets/maintext.png'

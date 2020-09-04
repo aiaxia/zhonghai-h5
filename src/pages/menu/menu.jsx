@@ -1,5 +1,6 @@
 import { connect } from 'dva';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from 'dva/router';
 import * as React from 'react';
 import Logobox from '../../components/logobox/logobox'
 import mainImg from '../../assets/maintext.png'

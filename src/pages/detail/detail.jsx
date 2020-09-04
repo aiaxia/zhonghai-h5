@@ -1,5 +1,6 @@
 import { connect } from 'dva';
-import { Link } from "react-router-dom";
+import { Link } from 'dva/router';
+// import { Link } from "react-router-dom";
 import * as React from 'react';
 import Mainitem from '../../components/mainitem/mainitem'
 import returnIcon from '../../assets/return.png';

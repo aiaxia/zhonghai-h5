@@ -1,10 +1,18 @@
 import dva from 'dva';
-import { createBrowserHistory as createHistory } from "history";
 import './index.css';
+// import {createBrowserHistory} from "history";
+// import createHistory from 'history/createBrowserHistory';
 import 'antd-mobile/dist/antd-mobile.css';
 
 // 1. Initialize
-const app = dva({ history: createHistory() });
+const app = dva();
+// const app =dva({history:createBrowserHistory()});
+// const app = dva({
+//     ...createLoading({
+//         effects: true
+//     }),
+//     history: createHistory()
+// });
 
 // 4. Router
 app.router(require('./router').default);
