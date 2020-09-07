@@ -9,7 +9,6 @@ import ofU from '../../assets/ofu.png'
 import ofA from '../../assets/ofa.png'
 import plusImg from '../../assets/plus.png'
 import reduceImg from '../../assets/reduce.png'
-import Item from './components/item/item'
 import styles from './mainitem.less';
 
 class Mainitem extends React.PureComponent {
