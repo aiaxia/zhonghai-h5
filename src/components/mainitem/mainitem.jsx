@@ -135,7 +135,7 @@ class Mainitem extends React.PureComponent {
         },
         {
           icon: ofA,
-          title: "OFFICE RTIST +",
+          title: "OFFICE ARTIST +",
           data:[
             {
               title: '爱喜猫自助洗车',
