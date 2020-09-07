@@ -1,5 +1,4 @@
 import { connect } from 'dva';
-// import { Link } from "react-router-dom";
 import { Link } from 'dva/router';
 import * as React from 'react';
 import Logobox from '../../components/logobox/logobox'
@@ -27,52 +26,27 @@ class Menu extends React.PureComponent {
         </div>
         <div className={styles.itemBox}>
           <div>
-            <Link to={{
-              pathname:'/city',
-              state:{
-                cityName: 'bj'
-              }
-            }}>
+            <Link to={{pathname:'/city',state:{ cityName: 'bj' }}}>
               <img src={bJ} alt=""/>
             </Link>
           </div>
           <div>
-            <Link to={{
-              pathname:'/city',
-              state:{
-                cityName: 'tj'
-              }
-            }}>
+            <Link to={{pathname:'/city',state:{ cityName: 'tj' }}}>
               <img src={tJ} alt=""/>
             </Link>
           </div>
           <div>
-            <Link to={{
-              pathname:'/city',
-              state:{
-                cityName: 'qd'
-              }
-            }}>
+            <Link to={{pathname:'/city',state:{ cityName: 'qd' }}}>
               <img src={qD} alt=""/>
             </Link>
           </div>
           <div>
-            <Link to={{
-              pathname:'/city',
-              state:{
-                cityName: 'ty'
-              }
-            }}>
+            <Link to={{pathname:'/city',state:{ cityName: 'ty'}}}>
               <img src={tY} alt=""/>
             </Link>
           </div>
           <div>
-            <Link to={{
-              pathname:'/city',
-              state:{
-                cityName: 'jn'
-              }
-            }}>
+            <Link to={{pathname:'/city',state:{ cityName: 'jn'}}}>
               <img src={jN} alt=""/>
             </Link>
           </div>

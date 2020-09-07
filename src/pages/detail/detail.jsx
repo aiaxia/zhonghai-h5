@@ -1,6 +1,5 @@
 import { connect } from 'dva';
 import { Link } from 'dva/router';
-// import { Link } from "react-router-dom";
 import * as React from 'react';
 import Mainitem from '../../components/mainitem/mainitem'
 import returnIcon from '../../assets/return.png';
@@ -15,7 +14,17 @@ class Detail extends React.PureComponent {
   constructor (props) {
     super(props);
     this.state={
+      list: [],
+      cityName: ''
     };
+  }
+
+  componentDidMount(){
+    const {list,cityName} = this.props.location.state
+    this.setState({
+      list: list,
+      cityName: cityName
+    })
   }
   showAll=()=>{
     this.child.showAll(true)
@@ -35,10 +44,10 @@ class Detail extends React.PureComponent {
     this.child = ref
   }
   render() {
-    const {showAll,hiddenAll} = this.state
+    const {list,cityName} = this.state
     return (
       <div className={styles.detailBox}>
-        <Link to="/menu" className={styles.returnBtn}>
+        <Link to={{pathname:'/city', state:{ cityName: cityName }}} className={styles.returnBtn}>
           <img className={styles.returnIcon} src={returnIcon} alt=""/>
         </Link>
         <div className={styles.logoTitle}>
@@ -48,7 +57,7 @@ class Detail extends React.PureComponent {
           <img src={mainImg} alt=""/>
         </div>
         <div className={styles.mainBox}>
-          <Mainitem onRef={this.onRef}/>
+          <Mainitem onRef={this.onRef} list={list} />
         </div>
         <div className={styles.opIcon}>
           <img src={moreIcon} onClick={e=>this.showAll()} alt=""/>
