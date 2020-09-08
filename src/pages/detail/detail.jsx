@@ -3,6 +3,7 @@ import { Link } from 'dva/router';
 import * as React from 'react';
 import Mainitem from '../../components/mainitem/mainitem'
 import returnIcon from '../../assets/return.png';
+import return2Icon from '../../assets/return2.png';
 // import detailTitle from '../../assets/detailTitle.png';
 import mainImg from '../../assets/mainimg.png';
 import moreIcon from '../../assets/more.png'
@@ -16,16 +17,19 @@ class Detail extends React.PureComponent {
     this.state={
       list: [],
       cityName: '',
-      titleImg: ''
+      titleImg: '',
+      comImg: ''
     };
   }
 
   componentDidMount(){
-    const {list,cityName,titleImg} = this.props.location.state
+    const {list,cityName,titleImg,comImg,returnBut2} = this.props.location.state
     this.setState({
       list: list,
       cityName: cityName,
-      titleImg: titleImg
+      titleImg: titleImg,
+      comImg: comImg,
+      returnBut2: true
     })
   }
   showAll=()=>{
@@ -46,17 +50,19 @@ class Detail extends React.PureComponent {
     this.child = ref
   }
   render() {
-    const {list,cityName,titleImg} = this.state
+    const {list,cityName,titleImg,comImg,returnBut2} = this.state
     return (
       <div className={styles.detailBox}>
-        <Link to={{pathname:'/city', state:{ cityName: cityName }}} className={styles.returnBtn}>
-          <img className={styles.returnIcon} src={returnIcon} alt=""/>
-        </Link>
-        <div className={styles.logoTitle}>
-          <img src={titleImg} alt=""/>
-        </div>
-        <div className={styles.mainImg}>
-          <img src={mainImg} alt=""/>
+        <div className={styles.detailtopBox} style={{backgroundImage: `url(${comImg})`}}>
+          <Link to={{pathname:'/city', state:{ cityName: cityName }}} className={styles.returnBtn}>
+            {returnBut2?
+              <img className={styles.returnIcon} src={return2Icon} alt=""/>:
+              <img className={styles.returnIcon} src={returnIcon} alt=""/>
+            }
+          </Link>
+          {/* <div className={styles.logoTitle}>
+            <img src={titleImg} alt=""/>
+          </div> */}
         </div>
         <div className={styles.mainBox}>
           <Mainitem onRef={this.onRef} list={list} />
