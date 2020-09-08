@@ -19,11 +19,23 @@ import tjItem3 from '../../assets/tjitem3.png';
 import qdItem1 from '../../assets/qditem1.png';
 import tyItem1 from '../../assets/tyitem1.png';
 import jnItem1 from '../../assets/jnitem1.png';
-import ofT from '../../assets/oft.png'
-import ofI from '../../assets/ofi.png'
-import ofE from '../../assets/ofe.png'
-import ofU from '../../assets/ofu.png'
-import ofA from '../../assets/ofa.png'
+import ofT from '../../assets/oft.png';
+import ofI from '../../assets/ofi.png';
+import ofE from '../../assets/ofe.png';
+import ofU from '../../assets/ofu.png';
+import ofA from '../../assets/ofa.png';
+import bj01 from '../../assets/bj01.png';
+import bj02 from '../../assets/bj02.png';
+import bj03 from '../../assets/bj03.png';
+import bj04 from '../../assets/bj04.png';
+import bj05 from '../../assets/bj05.png';
+import bj06 from '../../assets/bj06.png';
+import tj01 from '../../assets/tj01.png';
+import tj02 from '../../assets/tj02.png';
+import tj03 from '../../assets/tj03.png';
+import qd01 from '../../assets/qd01.png';
+import ty01 from '../../assets/ty01.png';
+import jn01 from '../../assets/jn01.png';
 import styles from './city.less';
 
 class City extends React.PureComponent {
@@ -2067,56 +2079,56 @@ class City extends React.PureComponent {
         <div className={styles.itemBox}>
           {cityName=="bj"&&
             <div className={styles.bjBox}>
-              <Link to={{pathname:'/detail', state:{ list: bj.zhgc, cityName: cityName }}}>
+              <Link to={{pathname:'/detail', state:{ list: bj.zhgc, titleImg: bj01, cityName: cityName }}}>
                 <img src={bjItem1} alt=""/>
               </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.zhdcgc, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: bj.zhdcgc, titleImg: bj02, cityName: cityName }}}>
                 <img src={bjItem2} alt=""/>
               </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, titleImg: bj03, cityName: cityName }}}>
                 <img src={bjItem3} alt=""/>
               </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, titleImg: bj04, cityName: cityName }}}>
                 <img src={bjItem4} alt=""/>
               </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.zhgc, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: bj.zhgc, titleImg: bj05, cityName: cityName }}}>
                 <img src={bjItem5} alt=""/>
               </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.zhdsb, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: bj.zhdsb, titleImg: bj06, cityName: cityName }}}>
                 <img src={bjItem6} alt=""/>
               </Link>
             </div>
           }
           {cityName=="tj"&&
             <div>
-              <Link to={{pathname:'/detail',state:{ list: tj.zhgc, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: tj.zhgc, titleImg: tj01, cityName: cityName }}}>
                 <img src={tjItem1} alt=""/>
               </Link>
-              <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, titleImg: tj02, cityName: cityName }}}>
                 <img src={tjItem2} alt=""/>
               </Link>
-              <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, titleImg: tj03, cityName: cityName }}}>
                 <img src={tjItem3} alt=""/>
               </Link>
             </div>
           }
           {cityName=="qd"&&
             <div>
-              <Link to={{pathname:'/detail',state:{ list: qd.zhds, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: qd.zhds, titleImg: qd01, cityName: cityName }}}>
                 <img src={qdItem1} alt=""/>
               </Link>
             </div>
           }
           {cityName=="ty"&&
             <div>
-              <Link to={{pathname:'/detail',state:{ list: ty.zhgjzx, cityName: cityName }}}>
+              <Link to={{pathname:'/detail',state:{ list: ty.zhgjzx, titleImg: ty01, cityName: cityName }}}>
                 <img src={tyItem1} alt=""/>
               </Link>
             </div>
           }
           {cityName=="jn"&&
             <div>
-              <Link to={{pathname:'/detail',state:{ list: jn.zhgc, cityName: cityName } }}>
+              <Link to={{pathname:'/detail',state:{ list: jn.zhgc, titleImg: jn01, cityName: cityName } }}>
                 <img src={jnItem1} alt=""/>
               </Link>
             </div>

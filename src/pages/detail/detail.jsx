@@ -3,7 +3,7 @@ import { Link } from 'dva/router';
 import * as React from 'react';
 import Mainitem from '../../components/mainitem/mainitem'
 import returnIcon from '../../assets/return.png';
-import detailTitle from '../../assets/detailTitle.png';
+// import detailTitle from '../../assets/detailTitle.png';
 import mainImg from '../../assets/mainimg.png';
 import moreIcon from '../../assets/more.png'
 import hiddenIcon from '../../assets/hidden.png'
@@ -15,15 +15,17 @@ class Detail extends React.PureComponent {
     super(props);
     this.state={
       list: [],
-      cityName: ''
+      cityName: '',
+      titleImg: ''
     };
   }
 
   componentDidMount(){
-    const {list,cityName} = this.props.location.state
+    const {list,cityName,titleImg} = this.props.location.state
     this.setState({
       list: list,
-      cityName: cityName
+      cityName: cityName,
+      titleImg: titleImg
     })
   }
   showAll=()=>{
@@ -44,14 +46,14 @@ class Detail extends React.PureComponent {
     this.child = ref
   }
   render() {
-    const {list,cityName} = this.state
+    const {list,cityName,titleImg} = this.state
     return (
       <div className={styles.detailBox}>
         <Link to={{pathname:'/city', state:{ cityName: cityName }}} className={styles.returnBtn}>
           <img className={styles.returnIcon} src={returnIcon} alt=""/>
         </Link>
         <div className={styles.logoTitle}>
-          <img src={detailTitle} alt=""/>
+          <img src={titleImg} alt=""/>
         </div>
         <div className={styles.mainImg}>
           <img src={mainImg} alt=""/>
