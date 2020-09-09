@@ -352,7 +352,8 @@ class City extends React.PureComponent {
                 title: '北京莉莉世界文化有限公司',
                 sercon: '提供楼内客户各式餐饮活动服务',
                 sertime: '长久',
-                serphone: '冬梅姐ldm201016678',
+                serphonename: '冬梅姐ldm201016678',
+                serphone: '',
                 oflshop: '北京莉莉世界文化有限公司',
                 seradr: '北京东城区永定门外西滨河路8号中海地产广场1层',
                 discont: '提供楼内客户西式冷餐会、英式下午茶、定制茶歇会、酒会party等餐饮活动服务'
@@ -411,7 +412,8 @@ class City extends React.PureComponent {
                 title: '北京城坤筑洁生物科技有限公司',
                 sercon: '日常保洁消杀服务。',
                 sertime: '长久',
-                serphone: '直接联系物业',
+                serphonename: '直接联系物业',
+                serphone: '',
                 oflshop: '',
                 seradr: '',
                 discont: '日常保洁消杀服务。'
@@ -420,7 +422,8 @@ class City extends React.PureComponent {
                 title: '北京盛芳润雅花卉有限公司',
                 sercon: '提供项目外围绿化及室内绿色办公空间，办公室绿化园艺服务',
                 sertime: '长久',
-                serphone: '直接联系物业',
+                serphonename: '直接联系物业',
+                serphone: '',
                 oflshop: '',
                 seradr: '',
                 discont: '提供项目外围绿化及室内绿色办公空间，办公室绿化园艺服务'
@@ -474,7 +477,8 @@ class City extends React.PureComponent {
                 title: '柒一拾壹（北京）有限公司',
                 sercon: '提供楼内员工店内商品团购活动',
                 sertime: '长久',
-                serphone: '店长微信：Yu18910486953',
+                serphonename: '店长微信：Yu18910486953',
+                serphone: '',
                 oflshop: '柒一拾壹（北京中海地产广场店）',
                 seradr: '北京东城区永定门外西滨河路8号中海地产广场1层',
                 discont: '定期提供楼内员工店内商品团购及福袋等活动'
@@ -1064,8 +1068,8 @@ class City extends React.PureComponent {
               {
                 title: '国泰饭店',
                 sercon: '搭接楼内企业国泰饭店联系',
-                sertime: '(010)65683366',
-                serphone: '58345118',
+                sertime: '长久',
+                serphone: '(010)65683366',
                 oflshop: '国泰饭店',
                 seradr: '北京市朝阳区永安西里12号',
                 discont: ''
@@ -1385,7 +1389,8 @@ class City extends React.PureComponent {
                 title: '晨光',
                 sercon: '办公用品采购',
                 sertime: '长久',
-                serphone: '线上采购',
+                serphonename: '线上采购',
+                serphone: '',
                 oflshop: '',
                 seradr: '',
                 discont: ''
