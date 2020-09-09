@@ -2075,8 +2075,20 @@ class City extends React.PureComponent {
     };
   }
   componentDidMount(){
+    localStorage.removeItem("list");
+    localStorage.removeItem("titleImg");
+    localStorage.removeItem("comImg");
     this.setState({
-      cityName: this.props.location.state.cityName
+      cityName: localStorage.getItem("cityName")
+    })
+  }
+  showDetail=(list,titleImg,comImg,cityName)=>{
+    localStorage.setItem("list", JSON.stringify(list));
+    localStorage.setItem("titleImg", titleImg);
+    localStorage.setItem("comImg", comImg);
+    localStorage.setItem("cityName", cityName);
+    this.props.history.push({
+      pathname: "/detail"
     })
   }
   render() {
@@ -2097,58 +2109,34 @@ class City extends React.PureComponent {
           <div className={styles.itemBox}>
             {cityName=="bj"&&
               <div className={styles.bjBox}>
-                <Link to={{pathname:'/detail', state:{ list: bj.zhgc, titleImg: bj01, comImg: bjcon01, cityName: cityName }}}>
-                  <img src={bjItem1} alt=""/>
-                </Link>
-                <Link to={{pathname:'/detail',state:{ list: bj.zhdcgc, titleImg: bj02, comImg: bjcon02, cityName: cityName }}}>
-                  <img src={bjItem2} alt=""/>
-                </Link>
-                <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, titleImg: bj03, comImg: bjcon03, cityName: cityName }}}>
-                  <img src={bjItem3} alt=""/>
-                </Link>
-                <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, titleImg: bj04, comImg: bjcon04, cityName: cityName }}}>
-                  <img src={bjItem4} alt=""/>
-                </Link>
-                <Link to={{pathname:'/detail',state:{ list: bj.zhgc, titleImg: bj05, comImg: bjcon05, cityName: cityName }}}>
-                  <img src={bjItem5} alt=""/>
-                </Link>
-                <Link to={{pathname:'/detail',state:{ list: bj.zhdsb, titleImg: bj06, comImg: bjcon06, cityName: cityName }}}>
-                  <img src={bjItem6} alt=""/>
-                </Link>
+                <img src={bjItem1} alt="" onClick={e=>this.showDetail(bj.zhgc,bj01,bjcon01,cityName)}/>
+                <img src={bjItem2} alt="" onClick={e=>this.showDetail(bj.zhdcgc, bj02, bjcon02, cityName)}/>
+                <img src={bjItem3} alt="" onClick={e=>this.showDetail(bj.anzhgjzx, bj03, bjcon03, cityName)}/>
+                <img src={bjItem4} alt="" onClick={e=>this.showDetail(bj.anzhgjzx, bj04, bjcon04, cityName)}/>
+                <img src={bjItem5} alt="" onClick={e=>this.showDetail(bj.zhdcgc, bj05, bjcon05, cityName)}/>
+                <img src={bjItem6} alt="" onClick={e=>this.showDetail(bj.zhdsb, bj06, bjcon06, cityName)}/>
               </div>
             }
             {cityName=="tj"&&
               <div>
-                <Link to={{pathname:'/detail',state:{ list: tj.zhgc, titleImg: tj01, comImg: tjcon01, cityName: cityName }}}>
-                  <img src={tjItem1} alt=""/>
-                </Link>
-                <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, titleImg: tj02, comImg: tjcon02, cityName: cityName }}}>
-                  <img src={tjItem2} alt=""/>
-                </Link>
-                <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, titleImg: tj03, comImg: tjcon03, cityName: cityName }}}>
-                  <img src={tjItem3} alt=""/>
-                </Link>
+                <img src={tjItem1} alt="" onClick={e=>this.showDetail(tj.zhgc, tj01, tjcon01, cityName)}/>
+                <img src={tjItem2} alt="" onClick={e=>this.showDetail(tj.zhcfzx, tj02, tjcon02, cityName)}/>
+                <img src={tjItem3} alt="" onClick={e=>this.showDetail(tj.zhcfzx, tj03, tjcon03, cityName)}/>
               </div>
             }
             {cityName=="qd"&&
               <div>
-                <Link to={{pathname:'/detail',state:{ list: qd.zhds, titleImg: qd01, comImg: qdcon01, cityName: cityName }}}>
-                  <img src={qdItem1} alt=""/>
-                </Link>
+                <img src={qdItem1} alt="" onClick={e=>this.showDetail(qd.zhds, qd01, qdcon01, cityName)}/>
               </div>
             }
             {cityName=="ty"&&
               <div>
-                <Link to={{pathname:'/detail',state:{ list: ty.zhgjzx, titleImg: ty01, returnBut2: true, comImg: tycon01, cityName: cityName }}}>
-                  <img src={tyItem1} alt=""/>
-                </Link>
+                <img src={tyItem1} alt="" onClick={e=>this.showDetail(ty.zhgjzx, ty01, tycon01, cityName)}/>
               </div>
             }
             {cityName=="jn"&&
               <div>
-                <Link to={{pathname:'/detail',state:{ list: jn.zhgc, titleImg: jn01, comImg: jncon01, cityName: cityName } }}>
-                  <img src={jnItem1} alt=""/>
-                </Link>
+                <img src={jnItem1} alt="" onClick={e=>this.showDetail(jn.zhgc, jn01, jncon01, cityName)}/>
               </div>
             }
           </div>

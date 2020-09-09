@@ -23,12 +23,11 @@ class Detail extends React.PureComponent {
   }
 
   componentDidMount(){
-    const {list,cityName,titleImg,comImg,returnBut2} = this.props.location.state
     this.setState({
-      list: list,
-      cityName: cityName,
-      titleImg: titleImg,
-      comImg: comImg,
+      list: JSON.parse(localStorage.getItem("list")),
+      cityName: localStorage.getItem("cityName"),
+      titleImg: localStorage.getItem("titleImg"),
+      comImg: localStorage.getItem("comImg"),
       returnBut2: true
     })
   }
@@ -54,7 +53,7 @@ class Detail extends React.PureComponent {
     return (
       <div className={styles.detailBox}>
         <div className={styles.detailtopBox} style={{backgroundImage: `url(${comImg})`}}>
-          <Link to={{pathname:'/city', state:{ cityName: cityName }}} className={styles.returnBtn}>
+          <Link to='/city' className={styles.returnBtn}>
             {returnBut2?
               <img className={styles.returnIcon} src={return2Icon} alt=""/>:
               <img className={styles.returnIcon} src={returnIcon} alt=""/>
@@ -77,8 +76,9 @@ class Detail extends React.PureComponent {
   }
 }
 
-function mapStateToProps({}) {
+function mapStateToProps({city}) {
   return {
+    city
   };
 }
 

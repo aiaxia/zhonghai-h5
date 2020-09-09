@@ -1,5 +1,4 @@
 import { connect } from 'dva';
-import { Link } from 'dva/router';
 import * as React from 'react';
 import Logobox from '../../components/logobox/logobox'
 import mainImg from '../../assets/maintext.png'
@@ -17,6 +16,12 @@ class Menu extends React.PureComponent {
     this.state={
     };
   }
+  onShowcity=(cityName)=>{
+    localStorage.setItem("cityName", cityName);
+    this.props.history.push({
+      pathname: "/city"
+    })
+  }
   render() {
     return (
       <div className={styles.menuBox}>
@@ -27,29 +32,19 @@ class Menu extends React.PureComponent {
           </div>
           <div className={styles.itemBox}>
             <div>
-              <Link to={{pathname:'/city',state:{ cityName: 'bj' }}}>
-                <img src={bJ} alt=""/>
-              </Link>
+              <img src={bJ} alt="" onClick={e=>this.onShowcity('bj')}/>
             </div>
             <div>
-              <Link to={{pathname:'/city',state:{ cityName: 'tj' }}}>
-                <img src={tJ} alt=""/>
-              </Link>
+              <img src={tJ} alt="" onClick={e=>this.onShowcity('tj')}/>
             </div>
             <div>
-              <Link to={{pathname:'/city',state:{ cityName: 'qd' }}}>
-                <img src={qD} alt=""/>
-              </Link>
+              <img src={qD} alt="" onClick={e=>this.onShowcity('qd')}/>
             </div>
             <div>
-              <Link to={{pathname:'/city',state:{ cityName: 'ty'}}}>
-                <img src={tY} alt=""/>
-              </Link>
+              <img src={tY} alt="" onClick={e=>this.onShowcity('ty')}/>
             </div>
             <div>
-              <Link to={{pathname:'/city',state:{ cityName: 'jn'}}}>
-                <img src={jN} alt=""/>
-              </Link>
+              <img src={jN} alt="" onClick={e=>this.onShowcity('jn')}/>
             </div>
           </div>
         </div>
