@@ -1,6 +1,8 @@
 {
   "private": true,
   "homepage": "./",
+  "hash": true,
+  "version": "1.0.1",
   "scripts": {
     "start": "roadhog server",
     "build": "roadhog build",
