@@ -59,7 +59,7 @@ class City extends React.PureComponent {
         zhgc:[
           {
             icon: ofT,
-            title: 'OFFICE TECHINE +',
+            title: 'OFFICE TECHINE',
             data:[
               {
                 title: '北京通达三季科技有限公司',
@@ -86,7 +86,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofI,
-            title: "OFFICE ICON +",
+            title: "OFFICE ICON",
             data:[
               {
                 title: '北舞星空流行舞蹈培训中心',
@@ -109,7 +109,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: 'OFFICEZIP',
@@ -141,7 +141,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: 'CBD管委会',
@@ -246,7 +246,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '爱喜猫自助洗车',
@@ -290,7 +290,7 @@ class City extends React.PureComponent {
         zhdcgc:[
           {
             icon: ofT,
-            title: 'OFFICE TECHINE +',
+            title: 'OFFICE TECHINE',
             data:[
               {
                 title: '北京通达三季科技有限公司',
@@ -323,7 +323,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofI,
-            title: "OFFICE ICON +",
+            title: "OFFICE ICON",
             data:[
               {
                 title: '北舞星空流行舞蹈培训中心',
@@ -346,7 +346,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: '北京莉莉世界文化有限公司',
@@ -379,7 +379,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: '永外街道办事处',
@@ -550,7 +550,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '丰巢快递',
@@ -603,7 +603,7 @@ class City extends React.PureComponent {
         anzhgjzx:[
           {
             icon: ofT,
-            title: 'OFFICE TECHINE +',
+            title: 'OFFICE TECHINE',
             data:[
               {
                 title: '世纪二千',
@@ -636,7 +636,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofI,
-            title: "OFFICE ICON +",
+            title: "OFFICE ICON",
             data:[
               {
                 title: '北舞星空流行舞蹈培训中心',
@@ -659,7 +659,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: '云订餐',
@@ -673,7 +673,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: '北京奥林匹克公园管委会',
@@ -850,7 +850,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '百米站',
@@ -930,7 +930,7 @@ class City extends React.PureComponent {
         zhdsb:[
           {
             icon: ofT,
-            title: 'OFFICE TECHINE +',
+            title: 'OFFICE TECHINE',
             data:[
               {
                 title: '北京通达三季科技有限公司',
@@ -963,7 +963,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofI,
-            title: "OFFICE ICON +",
+            title: "OFFICE ICON",
             data:[
               {
                 title: '北舞星空流行舞蹈培训中心',
@@ -986,7 +986,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: 'cake boss蛋糕',
@@ -1009,7 +1009,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: '石景山投促局、古城街道办事处',
@@ -1114,7 +1114,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '丰巢、顺丰',
@@ -1169,7 +1169,7 @@ class City extends React.PureComponent {
         zhgc:[
           {
             icon: ofI,
-            title: "OFFICE ICON +",
+            title: "OFFICE ICON",
             data:[
               {
                 title: '维纳西装定制',
@@ -1183,7 +1183,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: '花里咖啡',
@@ -1197,7 +1197,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: '天津市和平区沐尔鲜花店',
@@ -1266,7 +1266,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '穆诺洗衣馆',
@@ -1301,7 +1301,7 @@ class City extends React.PureComponent {
         zhcfzx:[
           {
             icon: ofI,
-            title: "OFFICE ICON +",
+            title: "OFFICE ICON",
             data:[
               {
                 title: '天津市河西区明远美容美体店',
@@ -1333,7 +1333,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: '漫恩文化传播有限公司',
@@ -1356,7 +1356,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: '河西区商务局',
@@ -1453,7 +1453,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '顺丰',
@@ -1526,7 +1526,7 @@ class City extends React.PureComponent {
         zhds:[
           {
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: '青岛慕忆咖啡有限公司',
@@ -1540,7 +1540,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: '',
@@ -1636,7 +1636,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '',
@@ -1673,7 +1673,7 @@ class City extends React.PureComponent {
         zhgjzx:[
           {
             icon: ofI,
-            title: "OFFICE ICON +",
+            title: "OFFICE ICON",
             data:[
               {
                 title: '太原市万柏林区源途健身俱乐部',
@@ -1688,7 +1688,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: '太原锄禾园餐饮服务有限公司',
@@ -1721,7 +1721,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: '太原市万柏林区促进楼宇经济发展领导组办公室',
@@ -1853,7 +1853,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '合作商择优推荐',
@@ -1899,7 +1899,7 @@ class City extends React.PureComponent {
         zhgc:[
           {
             icon: ofT,
-            title: 'OFFICE TECHINE +',
+            title: 'OFFICE TECHINE',
             data:[
               {
                 title: '',
@@ -1911,7 +1911,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofE,
-            title: "OFFICE EPICURE +",
+            title: "OFFICE EPICURE",
             data:[
               {
                 title: '',
@@ -1925,7 +1925,7 @@ class City extends React.PureComponent {
             ],
           },{
             icon: ofU,
-            title: "OFFICE UPGRADER +",
+            title: "OFFICE UPGRADER",
             data:[
               {
                 title: '',
@@ -2057,7 +2057,7 @@ class City extends React.PureComponent {
           },
           {
             icon: ofA,
-            title: "OFFICE ARTIST +",
+            title: "OFFICE ARTIST",
             data:[
               {
                 title: '爱喜猫自助洗车',

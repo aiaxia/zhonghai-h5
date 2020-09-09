@@ -39,7 +39,7 @@ class Mainitem extends React.PureComponent {
           return <div key={i}>
             <div className={styles.title}>
               <img className={styles.icon} src={el.icon} alt=""/>
-              <span className={styles.text}>·{el.title}</span>
+              <span className={styles.text}>·{el.title}<span>+</span></span>
               {ifshowList[i]?
                 <img className={styles.showMore} onClick={e=>this.showMore(false,i)} src={reduceImg} alt=""/>:
                 <img className={styles.showMore} onClick={e=>this.showMore(true,i)} src={plusImg} alt=""/>
