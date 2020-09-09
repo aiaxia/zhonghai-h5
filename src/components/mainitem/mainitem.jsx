@@ -62,9 +62,9 @@ class Mainitem extends React.PureComponent {
                     </div>
                   :""}
                   {el2.serphone?
-                    <div className={styles.mainitem + " " +styles.clearfix}>
+                    <div className={styles.mainitem + " " +styles.clearfix + " "+ styles.phone}>
                       <div>服务电话：</div>
-                      <div className={styles.maincon}>{el2.serphone}</div>
+                      <div className={styles.maincon}><a href={"tel:"+el2.serphone}>{el2.serphone}</a></div>
                     </div>
                   :""}
                   {el2.seradr?
