@@ -2083,73 +2083,75 @@ class City extends React.PureComponent {
     const {cityName,bj,tj,qd,ty,jn} = this.state
     return (
       <div className={styles.cityBox}>
-        <Link to="/menu" className={styles.returnBtn}>
-          <img className={styles.returnIcon} src={returnIcon} alt=""/>
-        </Link>
-        <div className={styles.cityTitle}>
-          {cityName=="bj"&&<img src={bjTitle} alt=""/>}
-          {cityName=="tj"&&<img src={tjTitle} alt=""/>}
-          {cityName=="qd"&&<img src={qdTitle} alt=""/>}
-          {cityName=="ty"&&<img src={tyTitle} alt=""/>}
-          {cityName=="jn"&&<img src={jnTitle} alt=""/>}
-        </div>
-        <div className={styles.itemBox}>
-          {cityName=="bj"&&
-            <div className={styles.bjBox}>
-              <Link to={{pathname:'/detail', state:{ list: bj.zhgc, titleImg: bj01, comImg: bjcon01, cityName: cityName }}}>
-                <img src={bjItem1} alt=""/>
-              </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.zhdcgc, titleImg: bj02, comImg: bjcon02, cityName: cityName }}}>
-                <img src={bjItem2} alt=""/>
-              </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, titleImg: bj03, comImg: bjcon03, cityName: cityName }}}>
-                <img src={bjItem3} alt=""/>
-              </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, titleImg: bj04, comImg: bjcon04, cityName: cityName }}}>
-                <img src={bjItem4} alt=""/>
-              </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.zhgc, titleImg: bj05, comImg: bjcon05, cityName: cityName }}}>
-                <img src={bjItem5} alt=""/>
-              </Link>
-              <Link to={{pathname:'/detail',state:{ list: bj.zhdsb, titleImg: bj06, comImg: bjcon06, cityName: cityName }}}>
-                <img src={bjItem6} alt=""/>
-              </Link>
-            </div>
-          }
-          {cityName=="tj"&&
-            <div>
-              <Link to={{pathname:'/detail',state:{ list: tj.zhgc, titleImg: tj01, comImg: tjcon01, cityName: cityName }}}>
-                <img src={tjItem1} alt=""/>
-              </Link>
-              <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, titleImg: tj02, comImg: tjcon02, cityName: cityName }}}>
-                <img src={tjItem2} alt=""/>
-              </Link>
-              <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, titleImg: tj03, comImg: tjcon03, cityName: cityName }}}>
-                <img src={tjItem3} alt=""/>
-              </Link>
-            </div>
-          }
-          {cityName=="qd"&&
-            <div>
-              <Link to={{pathname:'/detail',state:{ list: qd.zhds, titleImg: qd01, comImg: qdcon01, cityName: cityName }}}>
-                <img src={qdItem1} alt=""/>
-              </Link>
-            </div>
-          }
-          {cityName=="ty"&&
-            <div>
-              <Link to={{pathname:'/detail',state:{ list: ty.zhgjzx, titleImg: ty01, returnBut2: true, comImg: tycon01, cityName: cityName }}}>
-                <img src={tyItem1} alt=""/>
-              </Link>
-            </div>
-          }
-          {cityName=="jn"&&
-            <div>
-              <Link to={{pathname:'/detail',state:{ list: jn.zhgc, titleImg: jn01, comImg: jncon01, cityName: cityName } }}>
-                <img src={jnItem1} alt=""/>
-              </Link>
-            </div>
-          }
+        <div>
+          <Link to="/menu" className={styles.returnBtn}>
+            <img className={styles.returnIcon} src={returnIcon} alt=""/>
+          </Link>
+          <div className={styles.cityTitle}>
+            {cityName=="bj"&&<img src={bjTitle} alt=""/>}
+            {cityName=="tj"&&<img src={tjTitle} alt=""/>}
+            {cityName=="qd"&&<img src={qdTitle} alt=""/>}
+            {cityName=="ty"&&<img src={tyTitle} alt=""/>}
+            {cityName=="jn"&&<img src={jnTitle} alt=""/>}
+          </div>
+          <div className={styles.itemBox}>
+            {cityName=="bj"&&
+              <div className={styles.bjBox}>
+                <Link to={{pathname:'/detail', state:{ list: bj.zhgc, titleImg: bj01, comImg: bjcon01, cityName: cityName }}}>
+                  <img src={bjItem1} alt=""/>
+                </Link>
+                <Link to={{pathname:'/detail',state:{ list: bj.zhdcgc, titleImg: bj02, comImg: bjcon02, cityName: cityName }}}>
+                  <img src={bjItem2} alt=""/>
+                </Link>
+                <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, titleImg: bj03, comImg: bjcon03, cityName: cityName }}}>
+                  <img src={bjItem3} alt=""/>
+                </Link>
+                <Link to={{pathname:'/detail',state:{ list: bj.anzhgjzx, titleImg: bj04, comImg: bjcon04, cityName: cityName }}}>
+                  <img src={bjItem4} alt=""/>
+                </Link>
+                <Link to={{pathname:'/detail',state:{ list: bj.zhgc, titleImg: bj05, comImg: bjcon05, cityName: cityName }}}>
+                  <img src={bjItem5} alt=""/>
+                </Link>
+                <Link to={{pathname:'/detail',state:{ list: bj.zhdsb, titleImg: bj06, comImg: bjcon06, cityName: cityName }}}>
+                  <img src={bjItem6} alt=""/>
+                </Link>
+              </div>
+            }
+            {cityName=="tj"&&
+              <div>
+                <Link to={{pathname:'/detail',state:{ list: tj.zhgc, titleImg: tj01, comImg: tjcon01, cityName: cityName }}}>
+                  <img src={tjItem1} alt=""/>
+                </Link>
+                <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, titleImg: tj02, comImg: tjcon02, cityName: cityName }}}>
+                  <img src={tjItem2} alt=""/>
+                </Link>
+                <Link to={{pathname:'/detail',state:{ list: tj.zhcfzx, titleImg: tj03, comImg: tjcon03, cityName: cityName }}}>
+                  <img src={tjItem3} alt=""/>
+                </Link>
+              </div>
+            }
+            {cityName=="qd"&&
+              <div>
+                <Link to={{pathname:'/detail',state:{ list: qd.zhds, titleImg: qd01, comImg: qdcon01, cityName: cityName }}}>
+                  <img src={qdItem1} alt=""/>
+                </Link>
+              </div>
+            }
+            {cityName=="ty"&&
+              <div>
+                <Link to={{pathname:'/detail',state:{ list: ty.zhgjzx, titleImg: ty01, returnBut2: true, comImg: tycon01, cityName: cityName }}}>
+                  <img src={tyItem1} alt=""/>
+                </Link>
+              </div>
+            }
+            {cityName=="jn"&&
+              <div>
+                <Link to={{pathname:'/detail',state:{ list: jn.zhgc, titleImg: jn01, comImg: jncon01, cityName: cityName } }}>
+                  <img src={jnItem1} alt=""/>
+                </Link>
+              </div>
+            }
+          </div>
         </div>
       </div>
     )

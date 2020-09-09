@@ -20,35 +20,37 @@ class Menu extends React.PureComponent {
   render() {
     return (
       <div className={styles.menuBox}>
-        <Logobox />
-        <div className={styles.mainImg}>
-          <img src={mainImg} alt=""/>
-        </div>
-        <div className={styles.itemBox}>
-          <div>
-            <Link to={{pathname:'/city',state:{ cityName: 'bj' }}}>
-              <img src={bJ} alt=""/>
-            </Link>
+        <div>
+          <Logobox />
+          <div className={styles.mainImg}>
+            <img src={mainImg} alt=""/>
           </div>
-          <div>
-            <Link to={{pathname:'/city',state:{ cityName: 'tj' }}}>
-              <img src={tJ} alt=""/>
-            </Link>
-          </div>
-          <div>
-            <Link to={{pathname:'/city',state:{ cityName: 'qd' }}}>
-              <img src={qD} alt=""/>
-            </Link>
-          </div>
-          <div>
-            <Link to={{pathname:'/city',state:{ cityName: 'ty'}}}>
-              <img src={tY} alt=""/>
-            </Link>
-          </div>
-          <div>
-            <Link to={{pathname:'/city',state:{ cityName: 'jn'}}}>
-              <img src={jN} alt=""/>
-            </Link>
+          <div className={styles.itemBox}>
+            <div>
+              <Link to={{pathname:'/city',state:{ cityName: 'bj' }}}>
+                <img src={bJ} alt=""/>
+              </Link>
+            </div>
+            <div>
+              <Link to={{pathname:'/city',state:{ cityName: 'tj' }}}>
+                <img src={tJ} alt=""/>
+              </Link>
+            </div>
+            <div>
+              <Link to={{pathname:'/city',state:{ cityName: 'qd' }}}>
+                <img src={qD} alt=""/>
+              </Link>
+            </div>
+            <div>
+              <Link to={{pathname:'/city',state:{ cityName: 'ty'}}}>
+                <img src={tY} alt=""/>
+              </Link>
+            </div>
+            <div>
+              <Link to={{pathname:'/city',state:{ cityName: 'jn'}}}>
+                <img src={jN} alt=""/>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
