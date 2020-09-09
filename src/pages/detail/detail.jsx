@@ -52,16 +52,16 @@ class Detail extends React.PureComponent {
     const {list,cityName,titleImg,comImg,returnBut2} = this.state
     return (
       <div className={styles.detailBox}>
-        <div className={styles.detailtopBox} style={{backgroundImage: `url(${comImg})`}}>
+        <div className={styles.detailtopBox}>
           <Link to='/city' className={styles.returnBtn}>
             {returnBut2?
               <img className={styles.returnIcon} src={return2Icon} alt=""/>:
               <img className={styles.returnIcon} src={returnIcon} alt=""/>
             }
           </Link>
-          {/* <div className={styles.logoTitle}>
-            <img src={titleImg} alt=""/>
-          </div> */}
+          <div className={styles.logoTitle}>
+            <img src={comImg} alt=""/>
+          </div>
         </div>
         <div className={styles.mainBox}>
           <Mainitem onRef={this.onRef} list={list} />
