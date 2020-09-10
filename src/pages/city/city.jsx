@@ -79,14 +79,7 @@ class City extends React.PureComponent {
                 sertime: '长久',
                 serphone: '010-59772009',
                 seradr: '北京中海广场'
-              },
-              {
-                title: '搜狗公司',
-                sercon: '专属软件可免费使用',
-                sertime: '长久',
-                serphone: '',
-                seradr: ''
-              },
+              }
             ],
           },
           {
@@ -314,16 +307,7 @@ class City extends React.PureComponent {
                 oflshop: '北京通达三季科技有限公司',
                 seradr: '北京东城区永定门外西滨河路8号中海地产广场B2层',
                 discont: '提供网络设备搭接及维护服务'
-              },
-              {
-                title: '搜狗公司',
-                sercon: '专属软件可免费使用',
-                sertime: '长久',
-                serphone: '',
-                oflshop: '',
-                seradr: '',
-                discont: ''
-              },
+              }
             ],
           },
           {
@@ -627,16 +611,7 @@ class City extends React.PureComponent {
                 oflshop: '',
                 seradr: '',
                 discont: ''
-              },
-              {
-                title: '搜狗公司',
-                sercon: '专属软件可免费使用',
-                sertime: '长久',
-                serphone: '',
-                oflshop: '',
-                seradr: '',
-                discont: ''
-              },
+              }
             ],
           },
           {
@@ -954,16 +929,7 @@ class City extends React.PureComponent {
                 oflshop: '北京通达三季科技有限公司',
                 seradr: '北京中海大厦B1',
                 discont: ''
-              },
-              {
-                title: '搜狗公司',
-                sercon: '专属软件可免费使用',
-                sertime: '长久',
-                serphone: '',
-                oflshop: '',
-                seradr: '',
-                discont: ''
-              },
+              }
             ],
           },
           {
