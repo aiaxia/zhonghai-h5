@@ -1,2 +1,14 @@
 {
+  "hash": true,
+  "html": {
+    "template": "./public/index.ejs"
+  },
+  "delete": ["./public/index.ejs"],
+  "extraBabelPlugins": [
+    ["import", {
+      "libraryName": "antd",
+      "libraryDirectory": "es",
+      "style": true
+    }]
+  ]
 }
