@@ -907,6 +907,115 @@ class City extends React.PureComponent {
             ]
           }
         ],
+        zhgjzx:[
+          {
+            icon: ofI,
+            title: title2,
+            data:[
+              {
+                title: '北舞星空流行舞蹈培训',
+                sercon: '街舞培训',
+                sertime: '2020/7/1-2021/6/30',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              },
+              {
+                title: '康乐家园俱乐部',
+                sercon: '健康咨询',
+                sertime: '2020/6/10-2020/12/10',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              }
+            ],
+          },{
+            icon: ofU,
+            title: title4,
+            data:[
+              {
+                title: '诺梵家具定制',
+                sercon: '家具定制',
+                sertime: '2020/6/20-2021/6/20',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              },
+              {
+                title: '英狮体育公园',
+                sercon: '体育运动、公司团建',
+                sertime: '2020/7/1-2021/6/30',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              },
+            ]
+          },
+          {
+            icon: ofA,
+            title: title5,
+            data:[
+              {
+                title: '滴滴出行',
+                sercon: '出行服务、权益等',
+                sertime: '2020/6/21-2021/12/31',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              },
+              {
+                title: '世纪佳缘',
+                sercon: '交友平台',
+                sertime: '2020/6/20-2021/6/20',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              },
+              {
+                title: 'cake boss蛋糕',
+                sercon: '产品定制等',
+                sertime: '2020/6/9-2021/6/8',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              },
+              {
+                title: '维尔纳斯蛋糕',
+                sercon: '产品定制等',
+                sertime: '2020/6/10-2020/12/10',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              },
+              {
+                title: '馨花语鲜花',
+                sercon: '产品定制，开业礼品定制等',
+                sertime: '2020/6/9-2020/12/10',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              },
+              {
+                title: '爱喜猫自助洗车',
+                sercon: '洗车服务、权益等',
+                sertime: '2020/6/15-2021/6/15',
+                serphone: '',
+                oflshop: '',
+                seradr: '',
+                discont: ''
+              }
+            ]
+          },
+        ],
         zhdsb:[
           {
             icon: ofT,
@@ -2084,7 +2193,7 @@ class City extends React.PureComponent {
                 <img src={bjItem2} alt="" onClick={e=>this.showDetail(bj.zhdcgc, bj02, bjcon02, cityName)}/>
                 <img src={bjItem3} alt="" onClick={e=>this.showDetail(bj.anzhgjzx, bj03, bjcon03, cityName)}/>
                 <img src={bjItem4} alt="" onClick={e=>this.showDetail(bj.anzhgjzx, bj04, bjcon04, cityName)}/>
-                <img src={bjItem5} alt="" onClick={e=>this.showDetail(bj.zhdcgc, bj05, bjcon05, cityName)}/>
+                <img src={bjItem5} alt="" onClick={e=>this.showDetail(bj.zhgjzx, bj05, bjcon05, cityName)}/>
                 <img src={bjItem6} alt="" onClick={e=>this.showDetail(bj.zhdsb, bj06, bjcon06, cityName)}/>
               </div>
             }
