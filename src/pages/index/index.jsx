@@ -9,6 +9,7 @@ import slip from '../../assets/slip.png'
 import lefttext from '../../assets/lefttext.png'
 import rightbtn from '../../assets/rightbtn.png'
 import indextext from '../../assets/indextext.png'
+import topimg from '../../assets/topimg.png'
 import Logobox from '../../components/logobox/logobox'
 
 class Index extends React.PureComponent {
@@ -53,7 +54,7 @@ class Index extends React.PureComponent {
           <img className={styles2.animated + " "+styles2.shake + " " +styles2.infinite} src={slip} alt=""/>
         </div>
         <div className={styles.introduce}>
-          {/* <img src={} alt=""/> */}
+          <img className={styles.topimg} src={topimg} alt=""/>
         </div>
       </div>
     )
