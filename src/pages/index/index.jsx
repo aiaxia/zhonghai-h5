@@ -1,11 +1,14 @@
 import { connect } from 'dva';
 import { Link } from 'dva/router';
 import * as React from 'react';
+import { Flex } from 'antd-mobile';
 import styles from './index.less';
-import mainImg from '../../assets/maintext.png'
-import startBtn from '../../assets/startBtn.png'
-import startBtn2 from '../../assets/startBtn2.png'
-import indexrTxt from '../../assets/indexrtxt.png'
+import styles2 from './animate.less';
+import main from '../../assets/main.png'
+import slip from '../../assets/slip.png'
+import lefttext from '../../assets/lefttext.png'
+import rightbtn from '../../assets/rightbtn.png'
+import indextext from '../../assets/indextext.png'
 import Logobox from '../../components/logobox/logobox'
 
 class Index extends React.PureComponent {
@@ -31,22 +34,26 @@ class Index extends React.PureComponent {
   }
 
   render() {
-    const {checked} = this.state
     return (
       <div className={styles.homeBox}>
-        <Logobox />
-        <div className={styles.mainImg}>
-          <img src={mainImg} alt=""/>
+        <div className={styles.indexBox}>
+          <Logobox />
+          <div className={styles.mainImg}>
+            <div className={styles.main} >
+              <img src={main} alt=""/>
+            </div>
+            <Flex className={styles.btnimg}>
+              <Flex.Item className={styles.leftLogo}><img src={lefttext} /></Flex.Item>
+              <Flex.Item className={styles.rightLogo}><img src={rightbtn} /></Flex.Item>
+            </Flex>
+          </div>
+          <div className={styles.botImg}>
+            <img src={indextext} alt=""/>
+          </div>
+          <img className={styles2.animated + " "+styles2.shake + " " +styles2.infinite} src={slip} alt=""/>
         </div>
-        <div className={styles.rtxt}>
-          <img src={indexrTxt} alt=""/>
-        </div>
-        <div className={styles.startBtn} onClick={e=>this.showMenu()}>
-          {checked?
-          <img src={startBtn} alt=""/>:
-          <img src={startBtn2} alt=""/>
-          }
-          {/* <Link to="/menu"><img src={startBtn} alt=""/></Link> */}
+        <div className={styles.introduce}>
+          {/* <img src={} alt=""/> */}
         </div>
       </div>
     )
