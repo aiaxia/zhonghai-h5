@@ -1,7 +1,9 @@
 import { connect } from 'dva';
 import { Link } from 'dva/router';
-import Swiper from 'swiper';
-import 'swiper/css/swiper.css';
+// import Swiper from 'swiper';
+// import 'swiper/css/swiper.css';
+import $ from "jquery";
+import "turn.js";
 import * as React from 'react';
 import styles from './index.less';
 import styles2 from './animate.less';
@@ -25,56 +27,22 @@ class Index extends React.PureComponent {
     };
   }
   componentDidMount(){
-    // new Swiper ('.swiper-container', {
-    //     simulateTouch: true,
-    //     allowTouchMove: true,
-    //     loop: true, // 循环模式选项
-    //     autoplay: {
-    //       delay: 3000,//3秒切换一次
-    //     },
-    //     pagination: {// 如果需要分页器
-    //       el: '.swiper-pagination',
-    //       clickable: false,
-    //     }
-    // })
-    this.instanceSwiper()
-  }
-  instanceSwiper() {
-    this.swiperObj = new Swiper('.swiper-container', {
-      simulateTouch: true,
-      allowTouchMove: true,
-      loop: false, // 循环模式选项
-      autoplay: false,
-      pagination: false,
-      direction: 'vertical',
-      observer: true,//修改swiper自己或子元素时，自动初始化swiper    重要
-      observeParents: true,//修改swiper的父元素时，自动初始化swiper  重要
-    })
-  }
-  componentDidUpdate() {
-    this.swiperObj.update();
-    this.swiperObj.slideTo(0, 3000, false);
-  }
-  componentWillUnmount() {
-  }
-  componentWillUnmount=()=>{
-    clearInterval(this.timeout)
-    if (this.swiperObj.destroy) { // 销毁swiper
-      this.swiperObj.destroy();
-      this.swiperObj = null;
-    }
+        $("#flipbook").turn({
+          width: "100vw",
+          height: "100vh",
+          acceleration: true, // 是否加速，对于触摸屏的设备，这个值必须为true
+          autoCenter: true, // 是否居中 默认值false
+          direction: "ltr", // 翻书方向，值为rtl / ltr（3种写法），②HTML: <div id="flipbook" dir="rtl"></div> ③ CSS:#flipbook { direction:rtl; }
+          display: 'single', // 显示单页or双页,默认值是double (如果single, class为hard的div首末各一个就可以)
+      });
   }
   showMenu=()=>{
     let t = this
     this.setState({
       checked: false
     })
-    this.timeout = setTimeout(function(){
-      // t.props.history.push({
-      //   pathname: "/menu"
-      // })
-      t.swiperObj.slideNext()
-    },400)
+    console.log(101)
+    $("#flipbook").turn("next");
   }
   onShowcity=(cityName)=>{
     localStorage.setItem("cityName", cityName);
@@ -87,30 +55,23 @@ class Index extends React.PureComponent {
     const {checked} = this.state
     return (
       <div className={styles.homeBox+" swiper-container"}>
-        <div className="swiper-wrapper">
-          <div className={styles.homeBox+" swiper-slide"}>
-            <Logobox />
-            <div className={styles.mainImg}>
-              <img src={mainImg} alt=""/>
-            </div>
-            <div className={styles.rtxt}>
-              <img src={indexrTxt} alt=""/>
-            </div>
-            <div className={styles.startBtn +" "+ styles2.animated + " "+styles2.bounce} onClick={e=>this.showMenu()}>
-              {checked?
-              <img src={startBtn} alt=""/>:
-              <img src={startBtn2} alt=""/>
-              }
-              {/* <Link to="/menu"><img src={startBtn} alt=""/></Link> */}
-            </div>
-          </div>
-          <div className={styles.secbox+" swiper-slide"}>
-            <div className={styles.startBtn +" "+ styles2.animated + " "+styles2.bounce} onClick={e=>this.showMenu()}>
-              {checked?
-              <img src={startBtn} alt=""/>:
-              <img src={startBtn2} alt=""/>
-              }
-              {/* <Link to="/menu"><img src={startBtn} alt=""/></Link> */}
+        <div className="swiper-wrapper" id="flipbook">
+          <div className={styles.indexBox+" swiper-slide"}>
+            <div>
+              <Logobox />
+              <div className={styles.mainImg}>
+                <img src={mainImg} alt=""/>
+              </div>
+              <div className={styles.rtxt}>
+                <img src={indexrTxt} alt=""/>
+              </div>
+              <div className={styles.startBtn +" "+ styles2.animated + " "+styles2.bounce} onClick={e=>this.showMenu()}>
+                {checked?
+                <img src={startBtn} alt=""/>:
+                <img src={startBtn2} alt=""/>
+                }
+                {/* <Link to="/menu"><img src={startBtn} alt=""/></Link> */}
+              </div>
             </div>
           </div>
           <div className={styles.menuBox+" swiper-slide"}>
