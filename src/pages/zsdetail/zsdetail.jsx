@@ -219,15 +219,15 @@ class Zsdetail extends React.PureComponent {
           list: [
             {
               title: '1.朝招金、日日鑫理财产品',
-              content: '<table><tr><td>产品代码<td>近期年化收益<td>开放时间<td>起息到账<td>风险等级<td>起点<td>单账户上限<td>大额赎回限制<tr><td>朝招金（7007）<td>2.227%<td>工作日9:00-16:00<td>T+0<td>PR2<td>1万<td>10亿元<td>15%<tr><td>日日鑫（80008）<td>2.656%<td>工作日9:00-15:30<td>T+1<td>PR2<td>1万<td>5亿元<td>上日20%连续三日30%</table><br/>产品特点：高流动性，工作日可申赎，实时或第二日可到账使用。主要投资于银行存款、国债、政策性金融债、央行票据、银行间及交易所债券等固定收益类金融资产，摊余成本法估值，风险评级为PR2稳健型。'
+              content: '产品特点：高流动性，工作日可申赎，实时或第二日可到账使用。主要投资于银行存款、国债、政策性金融债、央行票据、银行间及交易所债券等固定收益类金融资产，摊余成本法估值，风险评级为PR2稳健型。'
             },
             {
               title: '2.步步生金理财产品',
-              content: '<table><tr><td>产品代码<td>近期年化收益<td>开放时间<td>起息到账<td>风险等级<td>起点<td>单账户上限<td>大额赎回限制<tr><td>步步生金（8699）<td>2.3%-3.1%<td>工作日9:00-15:00<td>T+0<td>PR2<td>1万<td>10亿元<td>10%</table>步步生金8699为我行发行的阶梯收益型理财产品，不同持有期限对应理财收益不同。近期，步步生金8699各持有区间年化收益如下：<table><tr><td>产品代码<td>近期年化收益<td>开放时间<td>起息到账<td>风险等级<td>起点<td>单账户上限<td>大额赎回限制<tr><td>步步生金（8699）<td>2.3%-3.1%<td>工作日9:00-15:00<td>T+0<td>PR2<td>1万<td>10亿元<td>10%</table><table><tr><td>区间(天)<td>1~6<td>7~13<td>14~20<td>21~30<td>31~60<td>61~90<td>91~180<td>181~360<td>361及以上<tr><td>产品收益率（年率%）<td>2.3<td>2.5<td>2.6<td>2.7<td>2.85<td>2.95<td>3.00<td>3.05<td>3.1</table>'
+              content: '步步生金8699为我行发行的阶梯收益型理财产品，不同持有期限对应理财收益不同。近期，步步生金8699各持有区间年化收益如下：'
             },
             {
               title: '3. 货币基金',
-              content: '<table><tr><td>产品名称<td>产品代码<td>风险评级<td>近7日年化收益<td>申购赎回<td>扣款<td>单户上限<tr><td>招禧宝<td>004261<td>PR1<td>2.3430%<td>T+1<td>T+1<td>2亿<tr><td>鑫钱包<td>001931<td>PR1<td>2.4690%<td>T+1<td>T+2<td>1亿<tr><td>工银薪金<td>000528<td>PR1<td>2.1050%<td>T+1<td>T<td>3亿</table>产品特点：高流动性，T+1起息到账，每日分红。货币基金具有免征企业所得税的优势，成本法估值，净值增长较稳定。无申购赎回费用，无大额赎回限制。招行代销货币基金风险评级为PR1。<br />（二）固定期限固定收益类产品——“增利系列”理财产品（需满足监管对合格投资者的要求，即上年净资产需大于1000万的企业）<br />增利系列是招商银行/招银理财发行、管理的以同业信用资产打底，主打收益稳健、风险可控的符合资管新规的新产品。',
+              content: '产品特点：高流动性，T+1起息到账，每日分红。货币基金具有免征企业所得税的优势，成本法估值，净值增长较稳定。无申购赎回费用，无大额赎回限制。招行代销货币基金风险评级为PR1。<br />（二）固定期限固定收益类产品——“增利系列”理财产品（需满足监管对合格投资者的要求，即上年净资产需大于1000万的企业）<br />增利系列是招商银行/招银理财发行、管理的以同业信用资产打底，主打收益稳健、风险可控的符合资管新规的新产品。',
               list: [
                 {
                   title: '1.产品主要特点',
@@ -239,11 +239,11 @@ class Zsdetail extends React.PureComponent {
                 },
                 {
                   title: '3. 近期收益测算',
-                  content: '根据近期市场资产价格，按上述投资策略下，预计各期限业绩比较基准为（具体以实际起息市场资产情况为准）：<table><tr><td>产品期限<td>业绩比较基准<tr><td>三个月<td>3.30%<tr><td>四个月<td>3.40%<tr><td>六个月<td>3.50%<tr><td>九个月<td>3.60%<tr><td>一年<td>3.7%</table>'
+                  content: '根据近期市场资产价格，按上述投资策略下，预计各期限业绩比较基准为（具体以实际起息市场资产情况为准）：'
                 },
                 {
                   title: '4.专属福利',
-                  content: '对于中海入驻企业可优先预留额度。<br />（三）短期定开固定收益类产品（需满足监管对合格投资者的要求，即上年净资产需大于1000万的企业）<br />短期定开类产品兼顾收益与流动性，主要投资于现金类、固定收益类等债权类投资品种或债券型基金，通过管理人的主动管理能力，以久期、杠杆、信用挖掘等策略获取债券投资收益。该类产品收益率在4%左右。<table><tr><td>产品名称<td>业绩计提基准<td>期限<td>认购日<td>下一开放日<td>风险评级<td>额度<tr><td>首创证券招享4号<td>4.20%<td>4个月<td>预计2020/12/2<td>预计2021/4/7<td>PR2<td>3亿<tr><td>首创证券招享1号<td>4.20%<td>4个月<td>预计2020/12/16<td>预计2021/4/21<td>PR2<td>3亿</table>专属福利：对于中海入驻企业可优先预留额度。<br />专属福利：对于中海入驻企业可优先预留额度。'
+                  content: '对于中海入驻企业可优先预留额度。<br />（三）短期定开固定收益类产品（需满足监管对合格投资者的要求，即上年净资产需大于1000万的企业）<br />短期定开类产品兼顾收益与流动性，主要投资于现金类、固定收益类等债权类投资品种或债券型基金，通过管理人的主动管理能力，以久期、杠杆、信用挖掘等策略获取债券投资收益。该类产品收益率在4%左右'
                 },
                 {
                   title: '1.业务介绍',
@@ -258,7 +258,7 @@ class Zsdetail extends React.PureComponent {
                     },
                     {
                       title: '（2）收益稳健',
-                      content: '当前市场利率维持下行趋势，将带来投资收益普降。与此同时，资管新规过渡期已步入倒计时阶段，常规理财产品规模压降进程加快。在多种因素叠加下，代销信托产品优势明显：产品为私募发行，采用成本法估值，非净值法估值浮动报价；产品收益水平较同期限常规理财产品高100-200bps；在存续期内，产品可按季付息，形成稳定资金回流，可有效承接对公客户的固定期限产品投资需求。<table><tr><td>产品销售期限<td>投资人参考收益<tr><td>3个月<td>4.9%<tr><td>6个月<td>5.2%<tr><td>9个月<td>5.5%<tr><td>12个月<td>6.0%<tr><td>1年以上/5000万以上<td>可单笔询价定制</table>'
+                      content: '当前市场利率维持下行趋势，将带来投资收益普降。与此同时，资管新规过渡期已步入倒计时阶段，常规理财产品规模压降进程加快。在多种因素叠加下，代销信托产品优势明显：产品为私募发行，采用成本法估值，非净值法估值浮动报价；产品收益水平较同期限常规理财产品高100-200bps；在存续期内，产品可按季付息，形成稳定资金回流，可有效承接对公客户的固定期限产品投资需求。'
                     },
                     {
                       title: '（3）风控严格',
@@ -387,46 +387,48 @@ class Zsdetail extends React.PureComponent {
             中海商务联合招商银行北京分行，为北京中海商务旗下写字楼入驻企业提供专属金融产品及服务，帮助企业实现财富增长，从融资到融智，覆盖企业全生命周期，为企业提供“一站式”服务，伴随企业持续发展。
           </div>
         </div>
-        {list.map(el=>{
-          return <div className={styles.contentBox}>
-                  <div>
-                    <div className={styles.content}>
-                      <div className={styles.title}>{el.title}</div>
-                      <div className={styles.connect}>{el.connect}</div>
-                      <div dangerouslySetInnerHTML={{'__html':el.content}}></div>
-                      <div>
-                        {el.list&&el.list.map(el2=>{
-                          return <div className={styles.firstStle}>
-                            <div className={styles.title2}>{el2.title}</div>
-                            <div className={styles.connect2}>{el2.connect}</div>
-                            <div dangerouslySetInnerHTML={{'__html':el2.content}}></div>
-                            <div>
-                              {
-                                el2.list&&el2.list.map(el3=>{
-                                  return <div className={styles.secBox}>
-                                    <div className={styles.title3}>{el3.title}</div>
-                                    <div className={styles.connect3}>{el3.connect}</div>
-                                    <div dangerouslySetInnerHTML={{'__html':el3.content}}></div>
-                                    <div>
-                                      {el3.list&&el3.list.map(el4=>{
-                                        return <div className={styles.thiBox}>
-                                          <div className={styles.title4}>{el4.title}</div>
-                                          <div>{el4.connect}</div>
-                                          <div dangerouslySetInnerHTML={{'__html':el4.content}}></div>
-                                        </div>
-                                      })}
+        <div className={styles.main}>
+          {list.map(el=>{
+            return <div className={styles.contentBox}>
+                    <div>
+                      <div className={styles.content}>
+                        <div className={styles.title}>{el.title}</div>
+                        <div className={styles.connect}>{el.connect}</div>
+                        <div dangerouslySetInnerHTML={{'__html':el.content}}></div>
+                        <div>
+                          {el.list&&el.list.map(el2=>{
+                            return <div className={styles.firstStle}>
+                              <div className={styles.title2}>{el2.title}</div>
+                              <div className={styles.connect2}>{el2.connect}</div>
+                              <div dangerouslySetInnerHTML={{'__html':el2.content}}></div>
+                              <div>
+                                {
+                                  el2.list&&el2.list.map(el3=>{
+                                    return <div className={styles.secBox}>
+                                      <div className={styles.title3}>{el3.title}</div>
+                                      <div className={styles.connect3}>{el3.connect}</div>
+                                      <div dangerouslySetInnerHTML={{'__html':el3.content}}></div>
+                                      <div>
+                                        {el3.list&&el3.list.map(el4=>{
+                                          return <div className={styles.thiBox}>
+                                            <div className={styles.title4}>{el4.title}</div>
+                                            <div>{el4.connect}</div>
+                                            <div dangerouslySetInnerHTML={{'__html':el4.content}}></div>
+                                          </div>
+                                        })}
+                                      </div>
                                     </div>
-                                  </div>
-                                })
-                              }
+                                  })
+                                }
+                              </div>
                             </div>
-                          </div>
-                        })}
+                          })}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-        })}
+          })}
+        </div>
       </div>
     )
   }
