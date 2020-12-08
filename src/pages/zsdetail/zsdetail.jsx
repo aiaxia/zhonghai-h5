@@ -19,7 +19,7 @@ class Zsdetail extends React.PureComponent {
               list: [
                 {
                   title: '1.企业经营贷（适用于小微企业）',
-                  connect: '联系人：田晓伟-86493254',
+                  connect: '联系人：田晓伟-<a href="tel:86493254">86493254</a>',
                   list: [
                     {
                       title: '（1）产品概况',
@@ -45,7 +45,7 @@ class Zsdetail extends React.PureComponent {
                 },
                 {
                   title: '2.园企贷（适用于成长型企业)',
-                  connect: '联系人：肖航86493072',
+                  connect: '联系人：肖航-<a href="tel:86493072">86493072</a>',
                   list: [
                     {
                       title: '（1）产品介绍',
@@ -59,7 +59,7 @@ class Zsdetail extends React.PureComponent {
                 },
                 {
                   title: '3.结算流量贷（适用于中小企业）',
-                  connect: '联系人：肖航-86493072',
+                  connect: '联系人：肖航-<a href="tel:86493072">86493072</a>',
                   list: [
                     {
                       title: '（1）产品介绍',
@@ -73,7 +73,7 @@ class Zsdetail extends React.PureComponent {
                 },
                 {
                   title: '4.招抵快贷（适用于中小企业）',
-                  connect: '联系人：肖航-86493072',
+                  connect: '联系人：肖航-<a href="tel:86493072">86493072</a>',
                   list: [
                     {
                       title: '（1）产品介绍',
@@ -89,7 +89,7 @@ class Zsdetail extends React.PureComponent {
             },
             {
               title: '（二）员工消费贷（适用于各类企业）',
-              connect: '联系人：田晓伟-86493254',
+              connect: '联系人：田晓伟-<a href="tel:86493254">86493254</a>',
               list: [
                 {
                   title: '1.产品概况',
@@ -156,7 +156,7 @@ class Zsdetail extends React.PureComponent {
         },
         {
           title: '二、工资类产品',
-          connect: '联系人：尹逊雅-86493101',
+          connect: '联系人：尹逊雅-<a href="tel:86493101">86493101</a>',
           content: '招商银行薪资代发产品薪福通，为企业提供各类薪酬福利款项的数字化代发服务，针对中海商业旗下入驻企业及中海商业，均提供定制化服务。',
           list: [
             {
@@ -214,7 +214,7 @@ class Zsdetail extends React.PureComponent {
         },
         {
           title: '三、公司财富管理类产品',
-          connect: '联系人：桂斯苑-66428512',
+          connect: '联系人：桂斯苑-<a href="tel:66428512">66428512</a>',
           content: '（一）现金管理类产品（使用于各类企业）<br />现金管理类理财产品及公募货币基金均仅投资于货币市场工具，每个交易日均可申购赎回，具有高流动性。因此，现金管理类产品能够有效帮助企业进行日常流动性资金的管理。我行现金管理类理财产品及代销货币基金产品推荐如下：',
           list: [
             {
@@ -279,7 +279,7 @@ class Zsdetail extends React.PureComponent {
           list: [
             {
               title: '（一）企业APP（适用于中小企业）',
-              connect: '联系人：刘娟-66428792',
+              connect: '联系人：刘娟-<a href="tel:66428792">66428792</a>',
               list: [
                 {
                   title: '1.产品介绍',
@@ -293,7 +293,7 @@ class Zsdetail extends React.PureComponent {
             },
             {
               title: '（二）企业现金管理平台（适用于大中企业）',
-              connect: '联系人：刘娟-66428792',
+              connect: '联系人：刘娟-<a href="tel:66428792">66428792</a>',
               list: [
                 {
                   title: '1.产品介绍',
@@ -311,7 +311,7 @@ class Zsdetail extends React.PureComponent {
             },
             {
               title: '（三）金融机构服务平台-招赢通（适用于金融机构）',
-              connect: '联系人：段都昀-66419912',
+              connect: '联系人：段都昀-<a href="tel:66419912">66419912</a>',
               list:[
                 {
                   title: '1.平台介绍',
@@ -325,7 +325,7 @@ class Zsdetail extends React.PureComponent {
             },
             {
               title: '（四）企业股权激励管理系统（适用于创业公司）',
-              connect: '联系人：刘娟-66428792',
+              connect: '联系人：刘娟-<a href="tel:66428792">66428792</a>',
               list: [
                 {
                   title: '1.产品介绍',
@@ -345,7 +345,7 @@ class Zsdetail extends React.PureComponent {
         },
         {
           title: '五、“一站式”服务',
-          connect: '联系人：闫冬-66426602',
+          connect: '联系人：闫冬-<a href="tel:66426602">66426602</a>',
           list: [
             {
               title: '（一）专属客户经理上门服务',
@@ -393,26 +393,26 @@ class Zsdetail extends React.PureComponent {
                     <div>
                       <div className={styles.content}>
                         <div className={styles.title}>{el.title}</div>
-                        <div className={styles.connect}>{el.connect}</div>
+                        <div className={styles.connect} dangerouslySetInnerHTML={{'__html':el.connect}}></div>
                         <div dangerouslySetInnerHTML={{'__html':el.content}}></div>
                         <div>
                           {el.list&&el.list.map(el2=>{
                             return <div className={styles.firstStle}>
                               <div className={styles.title2}>{el2.title}</div>
-                              <div className={styles.connect2}>{el2.connect}</div>
+                              <div className={styles.connect2} dangerouslySetInnerHTML={{'__html':el2.connect}}></div>
                               <div dangerouslySetInnerHTML={{'__html':el2.content}}></div>
                               <div>
                                 {
                                   el2.list&&el2.list.map(el3=>{
                                     return <div className={styles.secBox}>
                                       <div className={styles.title3}>{el3.title}</div>
-                                      <div className={styles.connect3}>{el3.connect}</div>
+                                      <div className={styles.connect3} dangerouslySetInnerHTML={{'__html':el3.connect}}></div>
                                       <div dangerouslySetInnerHTML={{'__html':el3.content}}></div>
                                       <div>
                                         {el3.list&&el3.list.map(el4=>{
                                           return <div className={styles.thiBox}>
                                             <div className={styles.title4}>{el4.title}</div>
-                                            <div>{el4.connect}</div>
+                                            <div dangerouslySetInnerHTML={{'__html':el4.connect}}></div>
                                             <div dangerouslySetInnerHTML={{'__html':el4.content}}></div>
                                           </div>
                                         })}
