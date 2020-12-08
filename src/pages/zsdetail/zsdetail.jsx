@@ -5,6 +5,13 @@ import { Flex } from 'antd-mobile';
 import styles from './zsdetail.less';
 import returnb from '../../assets/returnb.png';
 import zstbox from '../../assets/zstbox.png';
+import table1 from '../../assets/table1.png';
+import table2 from '../../assets/table2.png';
+import table3 from '../../assets/table3.png';
+import table4 from '../../assets/table4.png';
+import table5 from '../../assets/table5.png';
+import table6 from '../../assets/table6.png';
+import table7 from '../../assets/table7.png';
 
 class Zsdetail extends React.PureComponent {
   constructor (props) {
@@ -219,15 +226,15 @@ class Zsdetail extends React.PureComponent {
           list: [
             {
               title: '1.朝招金、日日鑫理财产品',
-              content: '产品特点：高流动性，工作日可申赎，实时或第二日可到账使用。主要投资于银行存款、国债、政策性金融债、央行票据、银行间及交易所债券等固定收益类金融资产，摊余成本法估值，风险评级为PR2稳健型。'
+              content: '<img src='+table1+' />产品特点：高流动性，工作日可申赎，实时或第二日可到账使用。主要投资于银行存款、国债、政策性金融债、央行票据、银行间及交易所债券等固定收益类金融资产，摊余成本法估值，风险评级为PR2稳健型。'
             },
             {
               title: '2.步步生金理财产品',
-              content: '步步生金8699为我行发行的阶梯收益型理财产品，不同持有期限对应理财收益不同。近期，步步生金8699各持有区间年化收益如下：'
+              content: '<img src='+table2+' />步步生金8699为我行发行的阶梯收益型理财产品，不同持有期限对应理财收益不同。近期，步步生金8699各持有区间年化收益如下：<img src='+table3+'/>产品特点：灵活性强，持有时间越长收益率越高，工作日可申赎，当天到账。投资于银行存款、国债、政策性金融债、央行票据、银行间及交易所债券等固定收益类金融资产，摊余成本法估值，风险评级为PR2稳健型。'
             },
             {
               title: '3. 货币基金',
-              content: '产品特点：高流动性，T+1起息到账，每日分红。货币基金具有免征企业所得税的优势，成本法估值，净值增长较稳定。无申购赎回费用，无大额赎回限制。招行代销货币基金风险评级为PR1。<br />（二）固定期限固定收益类产品——“增利系列”理财产品（需满足监管对合格投资者的要求，即上年净资产需大于1000万的企业）<br />增利系列是招商银行/招银理财发行、管理的以同业信用资产打底，主打收益稳健、风险可控的符合资管新规的新产品。',
+              content: '<img src='+table4+' />产品特点：高流动性，T+1起息到账，每日分红。货币基金具有免征企业所得税的优势，成本法估值，净值增长较稳定。无申购赎回费用，无大额赎回限制。招行代销货币基金风险评级为PR1。<br />（二）固定期限固定收益类产品——“增利系列”理财产品（需满足监管对合格投资者的要求，即上年净资产需大于1000万的企业）<br />增利系列是招商银行/招银理财发行、管理的以同业信用资产打底，主打收益稳健、风险可控的符合资管新规的新产品。',
               list: [
                 {
                   title: '1.产品主要特点',
@@ -239,11 +246,11 @@ class Zsdetail extends React.PureComponent {
                 },
                 {
                   title: '3. 近期收益测算',
-                  content: '根据近期市场资产价格，按上述投资策略下，预计各期限业绩比较基准为（具体以实际起息市场资产情况为准）：'
+                  content: '根据近期市场资产价格，按上述投资策略下，预计各期限业绩比较基准为（具体以实际起息市场资产情况为准）：<img src='+table5+' />'
                 },
                 {
                   title: '4.专属福利',
-                  content: '对于中海入驻企业可优先预留额度。<br />（三）短期定开固定收益类产品（需满足监管对合格投资者的要求，即上年净资产需大于1000万的企业）<br />短期定开类产品兼顾收益与流动性，主要投资于现金类、固定收益类等债权类投资品种或债券型基金，通过管理人的主动管理能力，以久期、杠杆、信用挖掘等策略获取债券投资收益。该类产品收益率在4%左右'
+                  content: '对于中海入驻企业可优先预留额度。<br />（三）短期定开固定收益类产品（需满足监管对合格投资者的要求，即上年净资产需大于1000万的企业）<br />短期定开类产品兼顾收益与流动性，主要投资于现金类、固定收益类等债权类投资品种或债券型基金，通过管理人的主动管理能力，以久期、杠杆、信用挖掘等策略获取债券投资收益。该类产品收益率在4%左右。<img src='+table6+'/>'
                 },
                 {
                   title: '1.业务介绍',
@@ -258,7 +265,7 @@ class Zsdetail extends React.PureComponent {
                     },
                     {
                       title: '（2）收益稳健',
-                      content: '当前市场利率维持下行趋势，将带来投资收益普降。与此同时，资管新规过渡期已步入倒计时阶段，常规理财产品规模压降进程加快。在多种因素叠加下，代销信托产品优势明显：产品为私募发行，采用成本法估值，非净值法估值浮动报价；产品收益水平较同期限常规理财产品高100-200bps；在存续期内，产品可按季付息，形成稳定资金回流，可有效承接对公客户的固定期限产品投资需求。'
+                      content: '当前市场利率维持下行趋势，将带来投资收益普降。与此同时，资管新规过渡期已步入倒计时阶段，常规理财产品规模压降进程加快。在多种因素叠加下，代销信托产品优势明显：产品为私募发行，采用成本法估值，非净值法估值浮动报价；产品收益水平较同期限常规理财产品高100-200bps；在存续期内，产品可按季付息，形成稳定资金回流，可有效承接对公客户的固定期限产品投资需求。<br />近期产品参考收益水平<img src='+table7+'/>'
                     },
                     {
                       title: '（3）风控严格',
@@ -400,20 +407,20 @@ class Zsdetail extends React.PureComponent {
                             return <div className={styles.firstStle}>
                               <div className={styles.title2}>{el2.title}</div>
                               <div className={styles.connect2} dangerouslySetInnerHTML={{'__html':el2.connect}}></div>
-                              <div dangerouslySetInnerHTML={{'__html':el2.content}}></div>
+                              <div className={styles.content2} dangerouslySetInnerHTML={{'__html':el2.content}}></div>
                               <div>
                                 {
                                   el2.list&&el2.list.map(el3=>{
                                     return <div className={styles.secBox}>
                                       <div className={styles.title3}>{el3.title}</div>
                                       <div className={styles.connect3} dangerouslySetInnerHTML={{'__html':el3.connect}}></div>
-                                      <div dangerouslySetInnerHTML={{'__html':el3.content}}></div>
-                                      <div>
+                                      <div className={styles.content3} dangerouslySetInnerHTML={{'__html':el3.content}}></div>
+                                      <div className={styles.box4}>
                                         {el3.list&&el3.list.map(el4=>{
                                           return <div className={styles.thiBox}>
                                             <div className={styles.title4}>{el4.title}</div>
-                                            <div dangerouslySetInnerHTML={{'__html':el4.connect}}></div>
-                                            <div dangerouslySetInnerHTML={{'__html':el4.content}}></div>
+                                            <div className={styles.connect4} dangerouslySetInnerHTML={{'__html':el4.connect}}></div>
+                                            <div className={styles.content4} dangerouslySetInnerHTML={{'__html':el4.content}}></div>
                                           </div>
                                         })}
                                       </div>

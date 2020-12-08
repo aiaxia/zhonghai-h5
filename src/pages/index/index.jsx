@@ -21,6 +21,12 @@ import rl4txt from '../../assets/rl4txt.png';
 import rr4txt from '../../assets/rr4txt.png';
 import returny from '../../assets/returny.png';
 import returnb from '../../assets/returnb.png';
+import topimg4 from '../../assets/topimg4.png';
+import bj from '../../assets/bj.png';
+import tj from '../../assets/tj.png';
+import ty from '../../assets/ty.png';
+import qd from '../../assets/qd.png';
+import jn from '../../assets/jn.png';
 import Logobox from '../../components/logobox/logobox';
 import Botbox from '../../components/botbox/botbox';
 
@@ -48,23 +54,25 @@ class Index extends React.PureComponent {
     };
   }
   componentDidMount=()=>{
-    $("#flipbook").turn({
-        width: "100vw",
-        height: "100vh",
-        duration: '1000',
-        gradients: false,
-        turnCorners: 'br',
-        acceleration: true, // 是否加速，对于触摸屏的设备，这个值必须为true
-        autoCenter: false, // 是否居中 默认值false
-        direction: "ltr", // 翻书方向，值为rtl / ltr（3种写法），②HTML: <div id="flipbook" dir="rtl"></div> ③ CSS:#flipbook { direction:rtl; }
-        display: 'single', // 显示单页or双页,默认值是double (如果single, class为hard的div首末各一个就可以)
-    });
+    // $("#flipbook").turn({
+    //     width: "100vw",
+    //     height: "100vh",
+    //     duration: '1000',
+    //     gradients: false,
+    //     turnCorners: 'br',
+    //     acceleration: true, // 是否加速，对于触摸屏的设备，这个值必须为true
+    //     autoCenter: false, // 是否居中 默认值false
+    //     direction: "rtl", // 翻书方向，值为rtl / ltr（3种写法），②HTML: <div id="flipbook" dir="rtl"></div> ③ CSS:#flipbook { direction:rtl; }
+    //     display: 'single', // 显示单页or双页,默认值是double (如果single, class为hard的div首末各一个就可以)
+    // });
   }
   nexpage=()=>{
+    // $("#flipbook").turn({direction: "rtl",turnCorners:'br'});
     $("#flipbook").turn("next");
   }
   returnBack=()=>{
-    $("#flipbook").turn("previous", {direction: "ltr",turnCorners:'tl'});
+    // $("#flipbook").turn({direction: "ltr",turnCorners:'tl'});
+    $("#flipbook").turn("next", {direction: "ltr",turnCorners:'tl'});
   }
 
   render() {
@@ -131,11 +139,19 @@ class Index extends React.PureComponent {
           <div className={styles.textBox}>
             <div className={styles.lefttxt}>
               <img className={styles.returny} onClick={e=>this.returnBack()} src={returnb} alt=""/>
+              <img className={styles.topimg4} src={topimg4} alt=""/>
+              <div className={styles.itembtnimg}>
+                <img src={bj} alt=""/>
+                <img src={tj} alt=""/>
+                <img src={ty} alt=""/>
+                <img src={qd} alt=""/>
+                <img src={jn} alt=""/>
+              </div>
             </div>
             <div className={styles.rightline}>
-              <img className={styles.rltxt} src={rl4txt} alt=""/>
+              <img className={styles.rltxt+" "+styles.rl4txt} src={rl4txt} alt=""/>
               <div></div>
-              <img className={styles.rrtxt}  src={rr4txt} alt=""/>
+              <img className={styles.rrtxt+" "+styles.rr4txt}  src={rr4txt} alt=""/>
             </div>
           </div>
           <div className={styles.botbox}>
