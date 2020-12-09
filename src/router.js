@@ -2,7 +2,7 @@ import { Router, Route, Switch } from 'dva/router';
 import React from 'react';
 import Index from './pages/index/index';
 import Zsdetail from './pages/zsdetail/zsdetail';
-// import City from './pages/city/city';
+import Introduce from './pages/introduce/introduce';
 // import Detail from './pages/detail/detail';
 
 function RouterConfig({ history }) {
@@ -11,8 +11,8 @@ function RouterConfig({ history }) {
         <Switch>
             <Route path="/" exact component={Index} />
             <Route path="/zsdetail" exact component={Zsdetail} />
-            {/* <Route path="/city" component={City} />
-            <Route path="/detail" component={Detail} /> */}
+            <Route path="/introduce" component={Introduce} />
+            {/* <Route path="/detail" component={Detail} /> */}
         </Switch>
     </Router>
   );

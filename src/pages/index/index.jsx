@@ -14,12 +14,8 @@ import textimg from '../../assets/textimg.png';
 import button2 from '../../assets/button2.png';
 import rltxt from '../../assets/rltxt.png';
 import rrtxt from '../../assets/rrtxt.png';
-import txt3 from '../../assets/txt3.png';
-import rl3txt from '../../assets/rl3txt.png';
-import rr3txt from '../../assets/rr3txt.png';
 import rl4txt from '../../assets/rl4txt.png';
 import rr4txt from '../../assets/rr4txt.png';
-import returny from '../../assets/returny.png';
 import returnb from '../../assets/returnb.png';
 import topimg4 from '../../assets/topimg4.png';
 import bj from '../../assets/bj.png';
@@ -54,17 +50,20 @@ class Index extends React.PureComponent {
     };
   }
   componentDidMount=()=>{
-    // $("#flipbook").turn({
-    //     width: "100vw",
-    //     height: "100vh",
-    //     duration: '1000',
-    //     gradients: false,
-    //     turnCorners: 'br',
-    //     acceleration: true, // 是否加速，对于触摸屏的设备，这个值必须为true
-    //     autoCenter: false, // 是否居中 默认值false
-    //     direction: "rtl", // 翻书方向，值为rtl / ltr（3种写法），②HTML: <div id="flipbook" dir="rtl"></div> ③ CSS:#flipbook { direction:rtl; }
-    //     display: 'single', // 显示单页or双页,默认值是double (如果single, class为hard的div首末各一个就可以)
-    // });
+    let t = this
+    let pageindex = (this.props.location.state&&this.props.location.state.page)?this.props.location.state.page:1
+    $("#flipbook").turn({
+        page: pageindex,
+        width: "100vw",
+        height: "100vh",
+        duration: '1000',
+        gradients: false,
+        turnCorners: 'bls',
+        acceleration: true, // 是否加速，对于触摸屏的设备，这个值必须为true
+        autoCenter: false, // 是否居中 默认值false
+        direction: "ltr", // 翻书方向，值为rtl / ltr（3种写法），②HTML: <div id="flipbook" dir="rtl"></div> ③ CSS:#flipbook { direction:rtl; }
+        display: 'single', // 显示单页or双页,默认值是double (如果single, class为hard的div首末各一个就可以)
+    });
   }
   nexpage=()=>{
     // $("#flipbook").turn({direction: "rtl",turnCorners:'br'});
@@ -106,7 +105,7 @@ class Index extends React.PureComponent {
             })} */}
             <div className={styles.lefttxt}>
               <img className={styles.textimg} src={textimg} alt=""/>
-              <img className={styles.button2} src={button2} alt=""/>
+              <Link to="/introduce"><img className={styles.button2} src={button2} alt=""/></Link>
             </div>
             <div className={styles.rightline}>
               <img className={styles.rltxt} src={rltxt} alt=""/>
@@ -118,24 +117,7 @@ class Index extends React.PureComponent {
             <Botbox indexnum={2} />
           </div>
         </div>
-        <div className={styles.introduce+" "+styles.usebox}>
-          <img className={styles.topimg} src={topimg} alt=""/>
-          <div className={styles.textBox}>
-            <div className={styles.lefttxt}>
-              <img className={styles.returny} onClick={e=>this.returnBack()} src={returny} alt=""/>
-              <img className={styles.textimg} src={txt3} alt=""/>
-            </div>
-            <div className={styles.rightline}>
-              <img className={styles.rltxt} src={rl3txt} alt=""/>
-              <div></div>
-              <img className={styles.rrtxt}  src={rr3txt} alt=""/>
-            </div>
-          </div>
-          <div className={styles.botbox}>
-            <Botbox indexnum={2} />
-          </div>
-        </div>
-        <div className={styles.introduce+" "+styles.usebox+" "+styles.citybox}>
+        <div className={styles.introduce+" "+styles.citybox}>
           <div className={styles.textBox}>
             <div className={styles.lefttxt}>
               <img className={styles.returny} onClick={e=>this.returnBack()} src={returnb} alt=""/>
