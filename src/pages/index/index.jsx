@@ -66,12 +66,10 @@ class Index extends React.PureComponent {
     });
   }
   nexpage=()=>{
-    // $("#flipbook").turn({direction: "rtl",turnCorners:'br'});
     $("#flipbook").turn("next");
   }
   returnBack=()=>{
-    // $("#flipbook").turn({direction: "ltr",turnCorners:'tl'});
-    $("#flipbook").turn("next", {direction: "ltr",turnCorners:'tl'});
+    $("#flipbook").turn("next");
   }
 
   render() {
@@ -123,7 +121,7 @@ class Index extends React.PureComponent {
               <img className={styles.returny} onClick={e=>this.returnBack()} src={returnb} alt=""/>
               <img className={styles.topimg4} src={topimg4} alt=""/>
               <div className={styles.itembtnimg}>
-                <img src={bj} alt=""/>
+                <Link to="/project"><img src={bj} alt=""/></Link>
                 <img src={tj} alt=""/>
                 <img src={ty} alt=""/>
                 <img src={qd} alt=""/>
