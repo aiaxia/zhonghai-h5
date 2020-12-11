@@ -22,22 +22,22 @@ class Introduce extends React.PureComponent {
   render() {
     return (
       <div className={styles.introduceBox}>
-      <img className={styles.topimg} src={topimg} alt=""/>
-      <div className={styles.textBox}>
-        <div className={styles.lefttxt}>
-          <Link to={{pathname:'/',state:{page:2}}}><img className={styles.returny} src={returny} alt=""/></Link>
-          <img className={styles.textimg} src={txt3} alt=""/>
+        <img className={styles.topimg} src={topimg} alt=""/>
+        <div className={styles.textBox}>
+          <div className={styles.lefttxt}>
+            <Link to={{pathname:'/',state:{page:2}}}><img className={styles.returny} src={returny} alt=""/></Link>
+            <img className={styles.textimg} src={txt3} alt=""/>
+          </div>
+          <div className={styles.rightline}>
+            <img className={styles.rltxt} src={rl3txt} alt=""/>
+            <div></div>
+            <img className={styles.rrtxt}  src={rr3txt} alt=""/>
+          </div>
         </div>
-        <div className={styles.rightline}>
-          <img className={styles.rltxt} src={rl3txt} alt=""/>
-          <div></div>
-          <img className={styles.rrtxt}  src={rr3txt} alt=""/>
+        <div className={styles.botbox}>
+          <Botbox returnPage={3} indexnum={2} />
         </div>
       </div>
-      <div className={styles.botbox}>
-        <Botbox returnPage={3} indexnum={2} />
-      </div>
-    </div>
     )
   }
 }

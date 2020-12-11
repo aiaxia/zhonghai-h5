@@ -18,6 +18,10 @@ import rl4txt from '../../assets/rl4txt.png';
 import rr4txt from '../../assets/rr4txt.png';
 import returnb from '../../assets/returnb.png';
 import topimg4 from '../../assets/topimg4.png';
+import txt3 from '../../assets/txt3.png';
+import rl3txt from '../../assets/rl3txt.png';
+import rr3txt from '../../assets/rr3txt.png';
+import returny from '../../assets/returny.png';
 import bj from '../../assets/bj.png';
 import tj from '../../assets/tj.png';
 import ty from '../../assets/ty.png';
@@ -46,7 +50,8 @@ class Index extends React.PureComponent {
           lilTitle: "——全域商办资产管理品牌旗舰",
           con: '现代社会的办公需求日新月异，中海商务深度挖掘商业规律，调配内外部资源，退出综合商办服务品牌--中海云商。基于五大写字楼产品系的规模效应，多年来服务各行业的经验积累，令中海云商自诞生起就更懂市场。以中海商务规模化效应为基础，东西商机，凭借强大资源聚合能力，衔接周边商务磁场形成商业闭环；为上下游企业提供交互平台，打破产业壁垒，为闭环内的每一个商业伙伴创造良好的发展环境，从而反向影响闭环内的企业，创造更多的机会，开发更大的市场。'
         },
-      ]
+      ],
+      showInterduce: false
     };
   }
   componentDidMount=()=>{
@@ -66,14 +71,21 @@ class Index extends React.PureComponent {
     });
   }
   nexpage=()=>{
+    this.showInterduce(false)
     $("#flipbook").turn("next");
   }
   returnBack=()=>{
+    this.showInterduce(false)
     $("#flipbook").turn("next");
+  }
+  showInterduce=(show)=>{
+    this.setState({
+      showInterduce: show
+    })
   }
 
   render() {
-    const { intruduceList } = this.state
+    const { intruduceList, showInterduce } = this.state
     return (
       <div className={styles.homeBox} id="flipbook">
         <div className={styles.indexBox}>
@@ -101,14 +113,21 @@ class Index extends React.PureComponent {
                 <div className={styles.con}>{el.con}</div>
               </div>
             })} */}
-            <div className={styles.lefttxt}>
-              <img className={styles.textimg} src={textimg} alt=""/>
-              <Link to="/introduce"><img className={styles.button2} src={button2} alt=""/></Link>
-            </div>
+            {showInterduce?
+              <div className={styles.lefttxt}>
+                <img className={styles.returny} src={returny} onClick={e=>this.showInterduce(false)} alt=""/>
+                <img className={styles.textimg} src={txt3} alt=""/>
+              </div>
+            :
+              <div className={styles.lefttxt}>
+                <img className={styles.textimg} src={textimg} alt=""/>
+                <img className={styles.button2} src={button2} alt="" onClick={e=>this.showInterduce(true)}/>
+              </div>
+            }
             <div className={styles.rightline}>
-              <img className={styles.rltxt} src={rltxt} alt=""/>
+              <img className={styles.rltxt} src={showInterduce?rl3txt:rltxt} alt=""/>
               <div></div>
-              <img className={styles.rrtxt}  src={rrtxt} alt=""/>
+              <img className={styles.rrtxt}  src={showInterduce?rr3txt:rrtxt} alt=""/>
             </div>
           </div>
           <div className={styles.botbox}>
