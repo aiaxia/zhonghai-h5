@@ -24,7 +24,9 @@ class Project extends React.PureComponent {
   componentDidMount=()=>{
   }
   onDetailgo=()=>{
-
+    this.props.history.push({
+        pathname:'/detail'
+    })
   }
 
   render() {
