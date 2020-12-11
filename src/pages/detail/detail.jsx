@@ -52,7 +52,7 @@ class Detail extends React.PureComponent {
       <div className={styles.detailBox}>
         <div className={styles.topmainBox}>
           <img className={styles.topmain} src={topmain} alt=""/>
-          <img className={styles.returnw} src={returnw} alt=""/>
+          <Link to="/project"><img className={styles.returnw} src={returnw} alt=""/></Link>
         </div>
         <div className={styles.mainBox}>
           <ul>

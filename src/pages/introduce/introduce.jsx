@@ -35,7 +35,7 @@ class Introduce extends React.PureComponent {
         </div>
       </div>
       <div className={styles.botbox}>
-        <Botbox indexnum={2} />
+        <Botbox returnPage={3} indexnum={2} />
       </div>
     </div>
     )
