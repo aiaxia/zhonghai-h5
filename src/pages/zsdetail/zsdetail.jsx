@@ -382,12 +382,17 @@ class Zsdetail extends React.PureComponent {
   }
   componentDidMount=()=>{
   }
+  onReturndetail=()=>{
+    this.props.history.push({
+        pathname:'/detail'
+    })
+  }
 
   render() {
     const {list} = this.state
     return (
       <div className={styles.zsdetailBox}>
-        <img className={styles.return} src={returnb} alt=""/>
+        <img className={styles.return} src={returnb} alt="" onClick={e=>this.onReturndetail()} />
         <div className={styles.titleBox}>
           <img src={zstbox} alt=""/>
           <div>
