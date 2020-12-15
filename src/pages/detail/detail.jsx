@@ -114,7 +114,6 @@ class Detail extends React.PureComponent {
             <li><img src={ungrander} alt=""/></li>
             <li><img src={artist} alt=""/></li>
           </ul>
-          <div className={styles.connect}>项目物业：<a href="tel:010-59772083">010-5977 2083</a></div>
         </div>
         <div className={styles.opIcon}>
           <img src={showmore} onClick={e=>this.showAll()} alt=""/>
