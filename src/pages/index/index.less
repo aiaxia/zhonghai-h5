@@ -57,6 +57,18 @@
     .topimg{
       width: 100vw;
     }
+    .turnw{
+      position: absolute;
+      top: 4.16vh;
+      left: 2.77vw;
+      width: 7.77vw;
+    }
+    .returnw{
+      position: absolute;
+      top: 5.41vh;
+      left: 4.72vw;
+      width: 3.88vw;
+    }
     .textBox{
       width: 100%;
       height: 100%;
@@ -104,7 +116,7 @@
     }
     .slip{
       position: absolute;
-      right: 10.66vw;
+      right: 6.11vw;
       bottom: 2.5vh;
       width: 6.48vw;
     }
@@ -172,10 +184,21 @@
       background-size: 100% 100%;
     }
     .textBox{
+      position: relative;
       .lefttxt{
+        padding-top: 10.11vh;
+        padding-left: 7.12vw;
+        .turnb{
+          position: absolute;
+          top: 3.82vh;
+          left: 2.77vw;
+          width: 7.77vw;
+        }
         .returny{
-          width: 4.62vw;
-          margin-bottom: 3.9vh;
+          position: absolute;
+          top: 5.05vh;
+          left: 4.72vw;
+          width: 3.88vw;
         }
         .topimg4{
           width: 67.31vw;
@@ -184,11 +207,21 @@
           margin-top: 4.68vh;
           img{
             width: 67.4vw;
-            margin-bottom: 1.5vh;
+            margin-bottom: 2.6vh;
           }
         }
       }
     }
+  }
+  .turn{
+    animation:turn 1.5s linear infinite;
+  }
+  @keyframes turn{
+    0%{-webkit-transform:rotate(0deg);}
+    25%{-webkit-transform:rotate(90deg);}
+    50%{-webkit-transform:rotate(180deg);}
+    75%{-webkit-transform:rotate(270deg);}
+    100%{-webkit-transform:rotate(360deg);}
   }
 }
 @media screen and (min-height: 750px) {

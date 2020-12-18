@@ -18,8 +18,8 @@
     height: 100%;
     .lefttxt{
       width: 52vw;
-      padding-top: 4.11vh;
-      padding-left: 10.64vw;
+      padding-top: 10.3vh;
+      padding-left: 7.12vw;
       .textimg{
         width: 100%;
       }
@@ -47,15 +47,23 @@
         width: 37.22vw;
         margin-top: 3.54vh;
       }
+      .turnb{
+        position: absolute;
+        top: 3.82vh;
+        left: 2.77vw;
+        width: 7.77vw;
+      }
       .returny{
-        width: 4.62vw;
-        margin-bottom: 3.9vh;
+        position: absolute;
+        top: 5.05vh;
+        left: 4.72vw;
+        width: 3.88vw;
       }
       .topimg4{
         width: 67.31vw;
       }
       .itembtnimg{
-        margin-top: 1.68vh;
+        margin-top: 2.3vh;
         width: 67.4vw;
         div{
           position: relative;
@@ -91,5 +99,15 @@
     position: absolute;
     height: 14.0vh;
     bottom: 0;
+  }
+  .turn{
+    animation:turn 1.5s linear infinite;
+  }
+  @keyframes turn{
+    0%{-webkit-transform:rotate(0deg);}
+    25%{-webkit-transform:rotate(90deg);}
+    50%{-webkit-transform:rotate(180deg);}
+    75%{-webkit-transform:rotate(270deg);}
+    100%{-webkit-transform:rotate(360deg);}
   }
 }

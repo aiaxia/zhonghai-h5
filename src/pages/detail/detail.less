@@ -8,11 +8,17 @@
       width: 100vw;
       height: auto;
     }
+    .turnw{
+      position: absolute;
+      top: 3.82vh;
+      left: 2.77vw;
+      width: 7.77vw;
+    }
     .returnw{
       position: absolute;
-      top: 4.81vw;
-      left: 2.59vw;
-      width: 5.37vw;
+      top: 5.05vh;
+      left: 4.72vw;
+      width: 3.88vw;
     }
   }
   .mainBox{
@@ -114,5 +120,15 @@
       height: 3.33vh;
       margin-top: 1.56vh;
     }
+  }
+  .turn{
+    animation:turn 1.5s linear infinite;
+  }
+  @keyframes turn{
+    0%{-webkit-transform:rotate(0deg);}
+    25%{-webkit-transform:rotate(90deg);}
+    50%{-webkit-transform:rotate(180deg);}
+    75%{-webkit-transform:rotate(270deg);}
+    100%{-webkit-transform:rotate(360deg);}
   }
 }

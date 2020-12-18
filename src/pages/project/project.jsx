@@ -4,6 +4,7 @@ import { Link } from 'dva/router';
 import styles from './project.less';
 import returnb from '../../assets/returnb.png';
 import topimg4 from '../../assets/topimg4.png';
+import turnb from '../../assets/turnb.png';
 import zhgc from '../../assets/zhgc.png';
 import zhdcgc from '../../assets/zhdcgc.png';
 import anzhgjzx from '../../assets/anzhgjzx.png';
@@ -32,7 +33,10 @@ class Project extends React.PureComponent {
         <div>
           <div className={styles.textBox}>
             <div className={styles.lefttxt}>
-              <Link to={{pathname:'/',state:{page:3}}}><img className={styles.returny} src={returnb} alt=""/></Link>
+              <Link to={{pathname:'/',state:{page:3}}}>
+                <img className={styles.turnb + " " + styles.turn} src={turnb} alt=""/>
+                <img className={styles.returny} src={returnb} alt=""/>
+              </Link>
               <img className={styles.topimg4} src={topimg4} alt=""/>
               <div className={styles.itembtnimg}>
                 <div>

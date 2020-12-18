@@ -9,6 +9,9 @@ import main from '../../assets/main.png';
 import topimg from '../../assets/topimg.png';
 import textimg from '../../assets/textimg.png';
 import button2 from '../../assets/button2.png';
+import turnw from '../../assets/turnw.png';
+import returnw from '../../assets/returnw.png';
+import turnb from '../../assets/turnb.png';
 import returnb from '../../assets/returnb.png';
 import topimg4 from '../../assets/topimg4.png';
 import txt3 from '../../assets/txt3.png';
@@ -67,9 +70,9 @@ class Index extends React.PureComponent {
     this.showInterduce(false)
     $("#flipbook").turn("next");
   }
-  returnBack=()=>{
+  lastpage=()=>{
     this.showInterduce(false)
-    $("#flipbook").turn("next");
+    $("#flipbook").turn("previous");
   }
   showInterduce=(show)=>{
     this.setState({
@@ -104,6 +107,8 @@ class Index extends React.PureComponent {
         <div className={styles.introduce}>
           <div className={styles[shownum]}>
             <img className={styles.topimg} src={topimg} alt=""/>
+            <img className={styles.turnw+" "+styles.turn} src={turnw} onClick={e=>this.lastpage()} alt=""/>
+            <img className={styles.returnw} src={returnw} onClick={e=>this.lastpage()} alt=""/>
             <div className={styles.textBox}>
               {showInterduce?
                 <div className={styles.lefttxt}>
@@ -124,7 +129,8 @@ class Index extends React.PureComponent {
           <div>
             <div className={styles.textBox}>
               <div className={styles.lefttxt}>
-                <img className={styles.returny} onClick={e=>this.returnBack()} src={returnb} alt=""/>
+                <img className={styles.turnb + " " + styles.turn} onClick={e=>this.lastpage()} src={turnb} alt=""/>
+                <img className={styles.returny} onClick={e=>this.lastpage()} src={returnb} alt=""/>
                 <img className={styles.topimg4} src={topimg4} alt=""/>
                 <div className={styles.itembtnimg}>
                   <Link to="/project"><img src={bj} alt=""/></Link>
