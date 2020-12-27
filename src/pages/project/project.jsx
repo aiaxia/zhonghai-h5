@@ -66,7 +66,8 @@ class Project extends React.PureComponent {
           img: bj_zj,
           name: 'bj_zj',
           tel: '010-5704 0668',
-          detailimg: bj_zjcfgjzx_topmain
+          detailimg: bj_zjcfgjzx_topmain,
+          returnB: true
         },
         {
           img: bj_zhgjzxcgz,
@@ -78,7 +79,8 @@ class Project extends React.PureComponent {
           img: bj_zhds,
           name: 'bj_zhds',
           tel: '010-5977 2888',
-          detailimg: bj_zhds_topmain
+          detailimg: bj_zhds_topmain,
+          returnB: true
         },
       ],
       tj: [
@@ -133,6 +135,11 @@ class Project extends React.PureComponent {
     let city = this.props.location.search.split("?city=")[1]
     localStorage.setItem("city", city);
     localStorage.setItem("topImg", obj.detailimg);
+    if(obj.returnB){
+      localStorage.setItem("returnB", true);
+    }else{
+      localStorage.setItem("returnB", false);
+    }
     this.props.history.push({
       pathname: '/detail'
     })

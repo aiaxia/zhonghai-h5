@@ -2,13 +2,8 @@ import { connect } from 'dva';
 import * as React from 'react';
 import styles from './detail.less';
 import styles2 from '../../components/animate.less';
-import bj_anhgjzx_topmain from '../../assets/bj_anhgjzx_topmain.png';
-import bj_zhdcgc_topmain from '../../assets/bj_zhdcgc_topmain.png';
-import bj_zhds_topmain from '../../assets/bj_zhds_topmain.png';
-import bj_zhgc_topmain from '../../assets/bj_zhgc_topmain.png';
-import bj_zhgjzx_topmain from '../../assets/bj_zhgjzx_topmain.png';
-import bj_zjcfgjzx_topmain from '../../assets/bj_zjcfgjzx_topmain.png';
 import returnBtn from '../../assets/return.png';
+import returnb from '../../assets/returnb.png';
 import master from '../../assets/master.png';
 import icon from '../../assets/icon.png';
 import epicure from '../../assets/epicure.png';
@@ -58,13 +53,14 @@ class Detail extends React.PureComponent {
   }
   render() {
     const {show} = this.state
-    const {city, topImg} = localStorage
+    const {city, topImg, returnB} = localStorage
+    console.log('returnB',returnB)
     return (
       <div className={styles.detailBox}>
         <div className={styles.topmainBox}>
           <img className={styles.topmain} src={topImg} alt=""/>
           <Link to={"/project?city="+city}>
-            <img className={styles.returnw+" "+styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} src={returnBtn} alt=""/>
+            <img className={styles.returnw+" "+styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} src={returnB=="true"?returnb:returnBtn} alt=""/>
           </Link>
         </div>
         <div className={styles.mainBox}>
