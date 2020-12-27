@@ -28,7 +28,12 @@ class Detail extends React.PureComponent {
     console.log('city',city)
     console.log('area',area)
     this.state={
-      show: false
+      show: false,
+      list: [
+        {
+          topmain: ''
+        }
+      ]
     };
   }
   componentDidMount=()=>{
