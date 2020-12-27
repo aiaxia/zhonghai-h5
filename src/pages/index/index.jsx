@@ -4,17 +4,15 @@ import * as React from 'react';
 import $ from "jquery";
 import "turn.js";
 import styles from './index.less';
-import styles2 from './animate.less';
+import styles2 from '../../components/animate.less';
 import main from '../../assets/main.png';
 import topimg from '../../assets/topimg.png';
 import textimg from '../../assets/textimg.png';
 import button2 from '../../assets/button2.png';
-import turnw from '../../assets/turnw.png';
-import returnw from '../../assets/returnw.png';
-import turnb from '../../assets/turnb.png';
-import returnb from '../../assets/returnb.png';
+import returnw from '../../assets/return.png';
 import topimg4 from '../../assets/topimg4.png';
 import txt3 from '../../assets/txt3.png';
+import returnb from '../../assets/returnb.png';
 import returny from '../../assets/returny.png';
 import bj from '../../assets/bj.png';
 import tj from '../../assets/tj.png';
@@ -107,8 +105,7 @@ class Index extends React.PureComponent {
         <div className={styles.introduce}>
           <div className={styles[shownum]}>
             <img className={styles.topimg} src={topimg} alt=""/>
-            <img className={styles.turnw+" "+styles.turn} src={turnw} onClick={e=>this.lastpage()} alt=""/>
-            <img className={styles.returnw} src={returnw} onClick={e=>this.lastpage()} alt=""/>
+            <img className={styles.returnw+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} src={returnw} onClick={e=>this.lastpage()} alt=""/>
             <div className={styles.textBox}>
               {showInterduce?
                 <div className={styles.lefttxt}>
@@ -129,8 +126,7 @@ class Index extends React.PureComponent {
           <div>
             <div className={styles.textBox}>
               <div className={styles.lefttxt}>
-                <img className={styles.turnb + " " + styles.turn} onClick={e=>this.lastpage()} src={turnb} alt=""/>
-                <img className={styles.returny} onClick={e=>this.lastpage()} src={returnb} alt=""/>
+                <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} onClick={e=>this.lastpage()} src={returnb} alt=""/>
                 <img className={styles.topimg4} src={topimg4} alt=""/>
                 <div className={styles.itembtnimg}>
                   <Link to="/project"><img src={bj} alt=""/></Link>

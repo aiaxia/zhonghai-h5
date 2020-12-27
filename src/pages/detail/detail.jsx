@@ -1,9 +1,9 @@
 import { connect } from 'dva';
 import * as React from 'react';
 import styles from './detail.less';
+import styles2 from '../../components/animate.less';
 import topmain from '../../assets/topmain.png';
-import turnw from '../../assets/turnw.png';
-import returnw from '../../assets/returnw.png';
+import returnBtn from '../../assets/return.png';
 import master from '../../assets/master.png';
 import icon from '../../assets/icon.png';
 import epicure from '../../assets/epicure.png';
@@ -54,8 +54,7 @@ class Detail extends React.PureComponent {
         <div className={styles.topmainBox}>
           <img className={styles.topmain} src={topmain} alt=""/>
           <Link to="/project">
-            <img className={styles.turnw + " " + styles.turn} src={turnw} alt=""/>
-            <img className={styles.returnw} src={returnw} alt=""/>
+            <img className={styles.returnw+" "+styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} src={returnBtn} alt=""/>
           </Link>
         </div>
         <div className={styles.mainBox}>

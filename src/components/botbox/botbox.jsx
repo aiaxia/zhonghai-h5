@@ -10,8 +10,7 @@ import styles from './botbox.less';
 import styles2 from './animate.less';
 import { Link } from 'dva/router';
 
-@connect(({ loading }) => ({ loading }))
-class Index extends React.PureComponent {
+class Botbox extends React.PureComponent {
   constructor (props) {
     super(props);
     this.state={
@@ -41,14 +40,13 @@ class Index extends React.PureComponent {
   }
 }
 
-Index.propTypes = {
+Botbox.propTypes = {
 	dispatch: PropTypes.func,
 	loading: PropTypes.object,
 }
-function mapStateToProps({index}) {
+function mapStateToProps({}) {
   return {
-    index:index
   };
 }
 
-export default connect(mapStateToProps)(Index)
+export default connect(mapStateToProps)(Botbox)

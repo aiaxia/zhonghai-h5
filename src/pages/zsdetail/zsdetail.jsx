@@ -1,9 +1,7 @@
 import { connect } from 'dva';
-import { Link } from 'dva/router';
 import * as React from 'react';
-import { Flex } from 'antd-mobile';
 import styles from './zsdetail.less';
-import turnb from '../../assets/turnb.png';
+import styles2 from '../../components/animate.less';
 import returnb from '../../assets/returnb.png';
 import zstbox from '../../assets/zstbox.png';
 import table1 from '../../assets/table1.png';
@@ -393,8 +391,7 @@ class Zsdetail extends React.PureComponent {
     const {list} = this.state
     return (
       <div className={styles.zsdetailBox}>
-        <img className={styles.turnb + " " + styles.turn} src={turnb}  onClick={e=>this.onReturndetail()} alt=""/>
-        <img className={styles.return} src={returnb} alt="" onClick={e=>this.onReturndetail()} />
+        <img className={styles.return+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} src={returnb} alt="" onClick={e=>this.onReturndetail()} />
         <div className={styles.titleBox}>
           <img src={zstbox} alt=""/>
           <div>

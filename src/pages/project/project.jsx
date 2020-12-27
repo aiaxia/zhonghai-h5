@@ -2,9 +2,9 @@ import { connect } from 'dva';
 import * as React from 'react';
 import { Link } from 'dva/router';
 import styles from './project.less';
+import styles2 from '../../components/animate.less';
 import returnb from '../../assets/returnb.png';
 import topimg4 from '../../assets/topimg4.png';
-import turnb from '../../assets/turnb.png';
 import zhgc from '../../assets/zhgc.png';
 import zhdcgc from '../../assets/zhdcgc.png';
 import anzhgjzx from '../../assets/anzhgjzx.png';
@@ -34,8 +34,7 @@ class Project extends React.PureComponent {
           <div className={styles.textBox}>
             <div className={styles.lefttxt}>
               <Link to={{pathname:'/',state:{page:3}}}>
-                <img className={styles.turnb + " " + styles.turn} src={turnb} alt=""/>
-                <img className={styles.returny} src={returnb} alt=""/>
+                <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} src={returnb} alt=""/>
               </Link>
               <img className={styles.topimg4} src={topimg4} alt=""/>
               <div className={styles.itembtnimg}>
