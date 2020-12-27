@@ -16,7 +16,32 @@ class Project extends React.PureComponent {
   constructor (props) {
     super(props);
     this.state={
-
+      bj: [
+        {
+          img: zhgc,
+          tel: '010-5977 2083'
+        },
+        {
+          img: zhdcgc,
+          tel: '010-5783 7888'
+        },
+        {
+          img: anzhgjzx,
+          tel: '010-5704 0668'
+        },
+        {
+          img: zj,
+          tel: '010-5704 0668'
+        },
+        {
+          img: zhgjzxcgz,
+          tel: '010-6625 6188'
+        },
+        {
+          img: zhds,
+          tel: '010-5977 2888'
+        },
+      ]
     };
   }
   componentDidMount=()=>{
@@ -28,6 +53,7 @@ class Project extends React.PureComponent {
   }
 
   render() {
+    const {bj} = this.state
     return (
       <div className={styles.projectBox}>
         <div>
@@ -38,30 +64,12 @@ class Project extends React.PureComponent {
               </Link>
               <img className={styles.topimg4} src={topimg4} alt=""/>
               <div className={styles.itembtnimg}>
-                <div>
-                    <img src={zhgc} alt="" onClick={e=>this.onDetailgo()}/>
-                    <a className={styles.tel} href="tel:010-59772083">010-5977 2083</a>
-                </div>
-                <div className={styles.telstyle2}>
-                  <img src={zhdcgc} alt=""/>
-                  <a className={styles.tel} href="tel:010-57837888">010-5783 7888</a>
-                </div>
-                <div className={styles.telstyle2}>
-                  <img src={anzhgjzx} alt=""/>
-                  <a className={styles.tel} href="tel:010-57040668">010-5704 0668</a>
-                </div>
-                <div>
-                  <img src={zj} alt=""/>
-                  <a className={styles.tel} href="tel:010-57040668">010-5704 0668</a>
-                </div>
-                <div className={styles.telstyle3}>
-                  <img src={zhgjzxcgz} alt=""/>
-                  <a className={styles.tel} href="tel:010-66256188">010-6625 6188</a>
-                </div>
-                <div>
-                  <img src={zhds} alt=""/>
-                  <a className={styles.tel} href="tel:010-59772888">010-5977 2888</a>
-                </div>
+                {bj.map((el,i)=>{
+                  return <div key={i}>
+                      <img src={el.img} alt="" onClick={e=>this.onDetailgo()}/>
+                      <a className={styles.tel} href={"tel:"+(el.tel).replace(/\s/g,"")}>{el.tel}</a>
+                  </div>
+                })}
               </div>
             </div>
           </div>
