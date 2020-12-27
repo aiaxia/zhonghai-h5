@@ -18,6 +18,13 @@ import ty_zhgjzx from '../../assets/ty_zhgjzx.png';
 import qd_zhds from '../../assets/qd_zhds.png';
 import jn_zhgc from '../../assets/jn_zhgc.png';
 
+import bj_anhgjzx_topmain from '../../assets/bj_anhgjzx_topmain.png';
+import bj_zhdcgc_topmain from '../../assets/bj_zhdcgc_topmain.png';
+import bj_zhds_topmain from '../../assets/bj_zhds_topmain.png';
+import bj_zhgc_topmain from '../../assets/bj_zhgc_topmain.png';
+import bj_zhgjzx_topmain from '../../assets/bj_zhgjzx_topmain.png';
+import bj_zjcfgjzx_topmain from '../../assets/bj_zjcfgjzx_topmain.png';
+
 class Project extends React.PureComponent {
   constructor (props) {
     super(props);
@@ -26,32 +33,38 @@ class Project extends React.PureComponent {
         {
           img: bj_zhgc,
           name: 'bj_zhgc',
-          tel: '010-5977 2083'
+          tel: '010-5977 2083',
+          detailimg: bj_zhgc_topmain
         },
         {
           img: bj_zhdcgc,
           name: 'bj_zhdcgc',
-          tel: '010-5783 7888'
+          tel: '010-5783 7888',
+          detailimg: bj_zhdcgc_topmain
         },
         {
           img: bj_anzhgjzx,
           name: 'bj_anzhgjzx',
-          tel: '010-5704 0668'
+          tel: '010-5704 0668',
+          detailimg: bj_anhgjzx_topmain
         },
         {
           img: bj_zj,
           name: 'bj_zj',
-          tel: '010-5704 0668'
+          tel: '010-5704 0668',
+          detailimg: bj_zjcfgjzx_topmain
         },
         {
           img: bj_zhgjzxcgz,
           name: 'bj_zhgjzxcgz',
-          tel: '010-6625 6188'
+          tel: '010-6625 6188',
+          detailimg: bj_zhgjzx_topmain
         },
         {
           img: bj_zhds,
           name: 'bj_zhds',
-          tel: '010-5977 2888'
+          tel: '010-5977 2888',
+          detailimg: bj_zhds_topmain
         },
       ],
       tj: [
