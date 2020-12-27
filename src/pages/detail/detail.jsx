@@ -22,11 +22,6 @@ import { Link } from 'dva/router';
 class Detail extends React.PureComponent {
   constructor (props) {
     super(props);
-    let cityarea = this.props.location.search.split("?city=")[1]
-    let city = cityarea.split('&area=')[0]
-    let area = cityarea.split('&area=')[1]
-    console.log('city',city)
-    console.log('area',area)
     this.state={
       show: false,
       list: [
@@ -62,14 +57,12 @@ class Detail extends React.PureComponent {
     })
   }
   render() {
-    let cityarea = this.props.location.search.split("?city=")[1]
-    let city = cityarea.split('&area=')[0]
-    let area = cityarea.split('&area=')[1]
     const {show} = this.state
+    const {city, topImg} = localStorage
     return (
       <div className={styles.detailBox}>
         <div className={styles.topmainBox}>
-          <img className={styles.topmain} src={bj_anhgjzx_topmain} alt=""/>
+          <img className={styles.topmain} src={topImg} alt=""/>
           <Link to={"/project?city="+city}>
             <img className={styles.returnw+" "+styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} src={returnBtn} alt=""/>
           </Link>
