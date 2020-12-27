@@ -2,7 +2,12 @@ import { connect } from 'dva';
 import * as React from 'react';
 import styles from './detail.less';
 import styles2 from '../../components/animate.less';
-import topmain from '../../assets/topmain.png';
+import bj_anhgjzx_topmain from '../../assets/bj_anhgjzx_topmain.png';
+import bj_zhdcgc_topmain from '../../assets/bj_zhdcgc_topmain.png';
+import bj_zhds_topmain from '../../assets/bj_zhds_topmain.png';
+import bj_zhgc_topmain from '../../assets/bj_zhgc_topmain.png';
+import bj_zhgjzx_topmain from '../../assets/bj_zhgjzx_topmain.png';
+import bj_zjcfgjzx_topmain from '../../assets/bj_zjcfgjzx_topmain.png';
 import returnBtn from '../../assets/return.png';
 import master from '../../assets/master.png';
 import icon from '../../assets/icon.png';
@@ -17,6 +22,11 @@ import { Link } from 'dva/router';
 class Detail extends React.PureComponent {
   constructor (props) {
     super(props);
+    let cityarea = this.props.location.search.split("?city=")[1]
+    let city = cityarea.split('&area=')[0]
+    let area = cityarea.split('&area=')[1]
+    console.log('city',city)
+    console.log('area',area)
     this.state={
       show: false
     };
@@ -54,7 +64,7 @@ class Detail extends React.PureComponent {
     return (
       <div className={styles.detailBox}>
         <div className={styles.topmainBox}>
-          <img className={styles.topmain} src={topmain} alt=""/>
+          <img className={styles.topmain} src={bj_anhgjzx_topmain} alt=""/>
           <Link to={"/project?city="+city}>
             <img className={styles.returnw+" "+styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} src={returnBtn} alt=""/>
           </Link>
