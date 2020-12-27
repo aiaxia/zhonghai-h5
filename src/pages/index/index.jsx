@@ -129,11 +129,11 @@ class Index extends React.PureComponent {
                 <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} onClick={e=>this.lastpage()} src={returnb} alt=""/>
                 <img className={styles.topimg4} src={topimg4} alt=""/>
                 <div className={styles.itembtnimg}>
-                  <Link to="/project"><img src={bj} alt=""/></Link>
-                  <img src={tj} alt=""/>
-                  <img src={ty} alt=""/>
-                  <img src={qd} alt=""/>
-                  <img src={jn} alt=""/>
+                  <Link to="/project?city=bj"><img src={bj} alt=""/></Link>
+                  <Link to="/project?city=tj"><img src={tj} alt=""/></Link>
+                  <Link to="/project?city=ty"><img src={ty} alt=""/></Link>
+                  <Link to="/project?city=qd"><img src={qd} alt=""/></Link>
+                  <Link to="/project?city=jn"><img src={jn} alt=""/></Link>
                 </div>
               </div>
             </div>

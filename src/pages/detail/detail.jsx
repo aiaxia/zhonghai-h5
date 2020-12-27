@@ -46,14 +46,16 @@ class Detail extends React.PureComponent {
       show: !show
     })
   }
-
   render() {
+    let cityarea = this.props.location.search.split("?city=")[1]
+    let city = cityarea.split('&area=')[0]
+    let area = cityarea.split('&area=')[1]
     const {show} = this.state
     return (
       <div className={styles.detailBox}>
         <div className={styles.topmainBox}>
           <img className={styles.topmain} src={topmain} alt=""/>
-          <Link to="/project">
+          <Link to={"/project?city="+city}>
             <img className={styles.returnw+" "+styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} src={returnBtn} alt=""/>
           </Link>
         </div>

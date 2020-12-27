@@ -7,7 +7,7 @@ import slip from '../../assets/slip.png'
 import indextext from '../../assets/indextext.png';
 import text2 from '../../assets/text2.png';
 import styles from './botbox.less';
-import styles2 from './animate.less';
+import styles2 from '../../components/animate.less';
 import { Link } from 'dva/router';
 
 class Botbox extends React.PureComponent {
