@@ -13,6 +13,7 @@ import showmore from '../../assets/showmore.png';
 import shrink from '../../assets/shrink.png';
 import topimg from '../../assets/top.png';
 import { Link } from 'dva/router';
+import Mainitem from '../../components/mainitem/mainitem';
 
 class Detail extends React.PureComponent {
   constructor (props) {
@@ -53,8 +54,8 @@ class Detail extends React.PureComponent {
   }
   render() {
     const {show} = this.state
-    const {city, topImg, returnB} = localStorage
-    console.log('returnB',returnB)
+    const {city, topImg, returnB, list} = localStorage
+    console.log('list',list)
     return (
       <div className={styles.detailBox}>
         <div className={styles.topmainBox}>

@@ -2758,6 +2758,7 @@ class Project extends React.PureComponent {
     let city = this.props.location.search.split("?city=")[1]
     localStorage.setItem("city", city);
     localStorage.setItem("topImg", obj.detailimg);
+    localStorage.setItem("list", obj.data);
     if(obj.returnB){
       localStorage.setItem("returnB", true);
     }else{
