@@ -932,7 +932,328 @@ class Project extends React.PureComponent {
           name: 'bj_zj',
           tel: '010-5704 0668',
           detailimg: bj_zjcfgjzx_topmain,
-          returnB: true
+          data: [
+            {
+              icon: master,
+              data:[
+                {
+                  title: '招商银行北京分行',
+                  sercon: '为北京中海商务写字楼客户提供专属金融产品及服务，提供企业经营贷款、企业财富管理等全身名周期服务，伴随企业持续发展',
+                  sertime: '长久',
+                  serphone: '见北京中海商务写字楼客户专享合作方案',
+                  seradr: '北京市西城区复兴门内大街156号A座首层',
+                  discont: '见北京中海商务写字楼客户专享合作方案',
+                  zs: true
+                },
+                {
+                  title: '世纪二千',
+                  sercon: '网络搭建',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京金世浩远电子商贸有限公司',
+                  sercon: '电脑上门维修维护',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                }
+              ],
+            },
+            {
+              icon: icon,
+              data:[
+                {
+                  title: '北舞星空流行舞蹈培训中心',
+                  sercon: '各类舞蹈培训',
+                  sertime: '2020/7/1-2021/6/30',
+                  serphone: '13621257423',
+                  oflshop: '北舞星空流行舞蹈培训中心',
+                  seradr: '西直门西环广场凯德T2楼10层C8室',
+                  discont: '享受年度专属优惠'
+                },
+                {
+                  title: '康乐家园俱乐部',
+                  sercon: '提供血压、血糖等各项身体指标检测，提供解决方案',
+                  sertime: '2020/6/10-2020/12/10',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '正华国贸财富中心',
+                  discont: '享受专属优惠'
+                }
+              ],
+            },{
+              icon: epicure,
+              data:[
+                {
+                  title: '云订餐',
+                  sercon: '提供楼内客户各式餐饮活动服务',
+                  sertime: '2.21-长期',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                }
+              ],
+            },{
+              icon: ungrander,
+              data:[
+                {
+                  title: '北京奥林匹克公园管委会',
+                  sercon: '优化营商环境，简化企业开办流程宣讲',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '',
+                  sercon: '联合COOC中海商务的广泛校园资源，帮助企业建立校企沟通渠道。',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '',
+                  sercon: '协力企业建立完善的人力培训课程及架构',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '',
+                  sercon: '提供优质人力资源企业合作搭桥，提供整体解决方案。',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京亮歌保洁技术有限公司',
+                  sercon: '日常保洁，全天侯保洁服务；开荒保洁，装修后开荒、保洁、清洗、养护服务；地毯清洗，地毯全面清洁与保养服务；室内全面清洁、消毒。',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京绿一方园林绿化工程有限公司',
+                  sercon: '外围绿化养护、室内绿植租摆',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京今希建设集团有限公司',
+                  sercon: '建筑装修装饰工程',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京裕元荣商贸有限公司',
+                  sercon: '办公文具集采、印务耗材采购、办公设备租赁与购买',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京中海物业管理有限公司奥南分公司',
+                  sercon: '形象岗迎宾，专梯服务',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京国泰饭店',
+                  sercon: '中海系酒店',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京国泰饭店',
+                  sercon: '会议服务',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京煜祥文化产业有限公司',
+                  sercon: '公关活动，活动策划，推介会执行',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '华联咖世家（北京）餐饮管理有限公司',
+                  sercon: '茶歇服务',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京煜祥文化产业有限公司',
+                  sercon: '团建拓展，策划服务',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京市高朋律师事务所',
+                  sercon: '法务咨询',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '',
+                  sercon: '联合各大银行，针对企业推出综合信贷服务',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: 'OFFICEZIP',
+                  sercon: '分散办公',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京九五石科贸发展有限公司',
+                  sercon: '企业内购',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '诺梵（上海）系统科技股份有限公司北京分公司',
+                  sercon: '一、售后快速响应;二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。',
+                  sertime: '长久',
+                  serphone: '13810969446',
+                  oflshop: '诺梵家具定制',
+                  seradr: '东亿国际传媒产业园演播大厅A座5层',
+                  discont: '一、售后快速响应;二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。'
+                }
+              ],
+            },
+            {
+              icon: artist,
+              data:[
+                {
+                  title: '百米站',
+                  sercon: '快递收发',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '北京福奈特洗衣服务有限公司',
+                  sercon: '专业洗涤',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: 'cake boss蛋糕',
+                  sercon: '网红蛋糕定制、罐装蛋糕、纸杯蛋糕等',
+                  sertime: '2020/6/10-2020/12/10',
+                  serphone: '18611148297',
+                  oflshop: 'cake boss蛋糕老板',
+                  seradr: '24家店北京市范围内可配送',
+                  discont: '定制专属优惠'
+                },
+                {
+                  title: '维尔纳斯蛋糕',
+                  sercon: '蛋糕定制、甜点定制',
+                  sertime: '2020/6/10-2020/12/10',
+                  serphone: '13366127029',
+                  oflshop: '维尔纳斯意大利手工艺蛋糕',
+                  seradr: '23家店北京市范围内可配送',
+                  discont: '9折优惠'
+                },
+                {
+                  title: '爱喜猫自助洗车',
+                  sercon: '自助洗车',
+                  sertime: '2020/6/15-2021/6/15',
+                  serphone: '13716644007',
+                  oflshop: '爱喜猫自助洗车',
+                  seradr: '北京市范围内可选择',
+                  discont: '享受专属优惠'
+                },
+                {
+                  title: '馨花语商贸有限公司',
+                  sercon: '鲜花定制',
+                  sertime: '2020/6/9-2020/12/10',
+                  serphone: '13911589165',
+                  oflshop: '馨花语花卉',
+                  seradr: '王四营桥南盛华宏林粮油批发市场1层花花市界A20号',
+                  discont: '享受专属优惠'
+                },
+                {
+                  title: '世纪佳缘',
+                  sercon: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券',
+                  sertime: '2020/6/10-2020/8/31',
+                  serphone: '',
+                  oflshop: '世纪佳缘',
+                  seradr: '',
+                  discont: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券'
+                },
+                {
+                  title: '滴滴出行',
+                  sercon: '滴滴出行',
+                  sertime: '2020/6/2-2020/6/29',
+                  serphone: '',
+                  oflshop: '滴滴出行',
+                  seradr: '',
+                  discont: '5折优惠'
+                },
+              ]
+            }
+          ]
         },
         {
           img: bj_zhgjzxcgz,
@@ -1650,7 +1971,226 @@ class Project extends React.PureComponent {
           img: tj_zhds,
           name: 'tj_zhds',
           tel: '022-5807 5888',
-          detailimg: tj_top3
+          detailimg: tj_top3,
+          data: [
+            {
+              icon: icon,
+              data:[
+                {
+                  title: '天津市河西区明远美容美体店',
+                  sercon: '楼内客户持楼控卡享价格优惠',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '明远·NDIANA肌肤管理中心',
+                  seradr: '天津河西区黑牛城道南侧四信公寓底商',
+                  discont: ''
+                },
+                {
+                  title: '天津市河西区艺阁美容美发中心',
+                  sercon: '楼内客户持楼控卡享价格优惠',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '米娜造型',
+                  seradr: '天津河西区黑牛城道北侧四里底商',
+                  discont: ''
+                },
+                {
+                  title: '吉健身、塑来健身',
+                  sercon: '楼内客户持楼控卡享价格优惠',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '吉健身',
+                  seradr: '天津河西区黑牛城道南侧四信公寓7号楼82号底商',
+                  discont: ''
+                }
+              ],
+            },{
+              icon: epicure,
+              data:[
+                {
+                  title: '漫恩文化传播有限公司',
+                  sercon: '楼内客户享价格优惠',
+                  sertime: '长久',
+                  serphone: '13502029348',
+                  oflshop: '漫恩文化传播',
+                  seradr: '河西区中海八里台君禧华庭底商2-36号',
+                  discont: ''
+                },
+                {
+                  title: '花里咖啡',
+                  sercon: '咖啡休闲',
+                  sertime: '长久',
+                  serphone: '15822996415',
+                  oflshop: '花里咖啡',
+                  seradr: '吴家窑大街与卫津路交口君禧华庭2号楼36号底商',
+                  discont: '享受专属优惠价格，详见店里'
+                }
+              ],
+            },{
+              icon: ungrander,
+              data:[
+                {
+                  title: '河西区商务局',
+                  sercon: '提供实时政策解读',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '海纳万商',
+                  sercon: '收费提供保洁相关及客户入室服务',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '中海物业',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '天津市和平区沐尔鲜花店',
+                  sercon: '绿植鲜花等服务',
+                  sertime: '长久',
+                  serphone: '15002270507',
+                  oflshop: '天津市和平区沐尔鲜花店',
+                  seradr: '天津市和平区赤峰道129号210室',
+                  discont: ''
+                },
+                {
+                  title: '晨光',
+                  sercon: '办公用品采购',
+                  sertime: '长久',
+                  serphonename: '线上采购',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '海纳万商',
+                  sercon: '楼内车位预留、形象岗迎宾、接待',
+                  sertime: '长久',
+                  serphone: '17710256579',
+                  oflshop: '中海物业',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '天津伯派樂智能酒店',
+                  sercon: '价格优惠',
+                  sertime: '长久',
+                  serphone: '86666688',
+                  oflshop: '天津伯派樂智能酒店',
+                  seradr: '河西区陈塘庄地铁站A口向北500米',
+                  discont: ''
+                },
+                {
+                  title: '天津市律师协会',
+                  sercon: '免费提供基础法律问题的解答',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '上海银行',
+                  sercon: '可为由需求的企业提供上门定制服务',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: '漫恩文化传播有限公司',
+                  sercon: '简单的礼品定制',
+                  sertime: '长久',
+                  serphone: '13502029348',
+                  oflshop: '漫恩文化传播',
+                  seradr: '河西区中海八里台君禧华庭底商2-36号',
+                  discont: ''
+                },
+                {
+                  title: '诺梵（上海）系统科技股份有限公司北京分公司',
+                  sercon: '一、售后快速响应；二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。',
+                  sertime: '长久',
+                  serphone: '13810969446',
+                  oflshop: '诺梵家具定制',
+                  seradr: '东亿国际传媒产业园演播大厅A座5层',
+                  discont: '一、售后快速响应；二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。'
+                }
+              ],
+            },
+            {
+              icon: artist,
+              data:[
+                {
+                  title: '顺丰',
+                  sercon: '上门快递收发服务',
+                  sertime: '长久',
+                  serphone: '18512282400',
+                  oflshop: '顺丰速运',
+                  seradr: '',
+                  discont: ''
+                },
+                {
+                  title: 'UCC国际洗衣',
+                  sercon: '上门收送、价格优惠',
+                  sertime: '长久',
+                  serphone: '18920238526',
+                  oflshop: 'UCC国际洗衣',
+                  seradr: '天津河西区黑牛城道北侧四里底商',
+                  discont: ''
+                },
+                {
+                  title: '北京易车生活汽车服务连锁有限公司',
+                  sercon: '楼内客户持楼控卡享价格优惠',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '易车生活',
+                  seradr: '天津河西区黑牛城道五里住宅B1',
+                  discont: ''
+                },
+                {
+                  title: '拂礼兰卡酌象（天津）科技发展有限公司',
+                  sercon: '楼内客户持楼控卡享价格优惠',
+                  sertime: '长久',
+                  serphone: '',
+                  oflshop: '酌象进口酒水体验馆',
+                  seradr: '天津河西区黑牛城道南侧四信公寓6-79号底商',
+                  discont: ''
+                },
+                {
+                  title: '世纪佳缘',
+                  sercon: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券',
+                  sertime: '2020/6/10-2020/8/31',
+                  serphone: '',
+                  oflshop: '世纪佳缘',
+                  seradr: '',
+                  discont: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券'
+                },
+                {
+                  title: '滴滴出行',
+                  sercon: '滴滴出行',
+                  sertime: '2020/6/2-2020/6/29',
+                  serphone: '',
+                  oflshop: '滴滴出行',
+                  seradr: '',
+                  discont: '5折优惠'
+                },
+                {
+                  title: '维纳西装定制',
+                  sercon: '个性化的高端西装定制服务',
+                  sertime: '长久',
+                  serphone: '13212151005',
+                  oflshop: '维纳西装定制',
+                  seradr: '大悦城3号楼1903',
+                  discont: '享受专属优惠价格，详见店里'
+                },
+              ]
+            }
+          ]
         },
       ],
       ty: [
