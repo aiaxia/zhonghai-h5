@@ -70,13 +70,6 @@ class Project extends React.PureComponent {
                   zs: true
                 },
                 {
-                  title: 'CBD管委会',
-                  sercon: '积极对接CBD管委会，深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备',
-                  sertime: '长久',
-                  serphone: '010-58780000',
-                  seradr: '东大桥路8号SOHO尚都北塔A座'
-                },
-                {
                   title: '北京通达三季科技有限公司',
                   sercon: '服务的产品有：国际、国内、BGP互联网接入、IDC互联网数据中心、办公区系统集成  智能化无线Wifi覆盖系统、 智能化会议系统、机房搭建、设备代购、监控系统、门禁系统、网管服务（IT外包）',
                   sertime: '长久',
@@ -309,13 +302,6 @@ class Project extends React.PureComponent {
                   seradr: '北京市西城区复兴门内大街156号A座首层',
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
-                },
-                {
-                  title: 'CBD管委会',
-                  sercon: '积极对接CBD管委会，深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备',
-                  sertime: '长久',
-                  serphone: '010-58780000',
-                  seradr: '东大桥路8号SOHO尚都北塔A座'
                 },
                 {
                   title: '北京通达三季科技有限公司',
@@ -630,13 +616,6 @@ class Project extends React.PureComponent {
                   seradr: '北京市西城区复兴门内大街156号A座首层',
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
-                },
-                {
-                  title: 'CBD管委会',
-                  sercon: '积极对接CBD管委会，深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备',
-                  sertime: '长久',
-                  serphone: '010-58780000',
-                  seradr: '东大桥路8号SOHO尚都北塔A座'
                 },
                 {
                   title: '世纪二千',
@@ -965,13 +944,6 @@ class Project extends React.PureComponent {
                   seradr: '北京市西城区复兴门内大街156号A座首层',
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
-                },
-                {
-                  title: 'CBD管委会',
-                  sercon: '积极对接CBD管委会，深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备',
-                  sertime: '长久',
-                  serphone: '010-58780000',
-                  seradr: '东大桥路8号SOHO尚都北塔A座'
                 },
                 {
                   title: '世纪二千',
@@ -1413,13 +1385,6 @@ class Project extends React.PureComponent {
                   seradr: '北京市西城区复兴门内大街156号A座首层',
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
-                },
-                {
-                  title: 'CBD管委会',
-                  sercon: '积极对接CBD管委会，深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备',
-                  sertime: '长久',
-                  serphone: '010-58780000',
-                  seradr: '东大桥路8号SOHO尚都北塔A座'
                 },
                 {
                   title: '北京通达三季科技有限公司',
