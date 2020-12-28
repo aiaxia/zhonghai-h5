@@ -5,12 +5,14 @@
   <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" /> -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>中海云商</title>
-  <link rel="stylesheet" href="index.css" />
   <script type="text/javascript" src="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
-  <script type="text/javascript">
+	<script type="text/javascript">
+		document.write("<script type=\"text\/javascript\" src=\"\/wx\/wxshare\/?s=" + window.location.href + "\"><\/script>");
+  </script>
+  <script>
     var strTitle = "中海云商";
     var strLink = "http://www.youmaydraw.com/x/officloud/index.php?r=" + Math.random();
-    var strImgUrl = './static/share.png';
+    var strImgUrl = 'http://www.youmaydraw.com/x/officloud/img/share.png';
     var shareToFriends = {
       type: 'link',
       title: strTitle,
@@ -58,14 +60,10 @@
       // 2.1 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口
       wx.onMenuShareAppMessage(shareToFriends);
       wx.onMenuShareTimeline(shareToTimeline);
-
     });
   </script>
 </head>
 <body>
-
   <div id="root"></div>
-  <script src="index.js"></script>
-
 </body>
 </html>

@@ -3,7 +3,7 @@ import * as React from 'react';
 import styles from './detail.less';
 import styles2 from '../../components/animate.less';
 import topmain from '../../assets/topmain.png';
-import returnBtn from '../../assets/return.png';
+import returnBtn from '../../assets/returnw2.png';
 import master from '../../assets/master.png';
 import icon from '../../assets/icon.png';
 import epicure from '../../assets/epicure.png';
