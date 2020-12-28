@@ -2,7 +2,7 @@ import { connect } from 'dva';
 import * as React from 'react';
 import styles from './detail.less';
 import styles2 from '../../components/animate.less';
-import returnBtn from '../../assets/return.png';
+import returnBtn from '../../assets/returnw2.png';
 import returnb from '../../assets/returnb.png';
 import showmore from '../../assets/showmore.png';
 import shrink from '../../assets/shrink.png';
