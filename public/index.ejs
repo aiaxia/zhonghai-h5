@@ -7,10 +7,60 @@
   <title>中海云商</title>
   <link rel="stylesheet" href="index.css" />
   <script type="text/javascript" src="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
-	<script type="text/javascript">
-		document.write("<script type=\"text\/javascript\" src=\"\/wx\/wxshare\/?s=" + window.location.href + "\"><\/script>");
-	</script>
-	<script type="text/javascript" src="wx_share.js"></script>
+  <script type="text/javascript">
+    var strTitle = "中海云商";
+    var strLink = "http://www.youmaydraw.com/x/officloud/index.php?r=" + Math.random();
+    var strImgUrl = './static/share.png';
+    var shareToFriends = {
+      type: 'link',
+      title: strTitle,
+      desc: '全商务生态圈  聚商共赢',
+      link: strLink,
+      imgUrl: strImgUrl,
+      dataUrl: '',
+      trigger: function (res) {
+      //alert('用户点击发送给朋友');
+      },
+      success: function (res) {
+      //alert('已分享');
+      },
+      cancel: function (res) {
+      //alert('已取消');
+      },
+      fail: function (res) {
+      //alert(JSON.stringify(res));
+      }
+    };
+    // 2.2 监听“分享到朋友圈”按钮点击、自定义分享内容及分享结果接口
+    var shareToTimeline = {
+      type: 'link',
+      title: strTitle,
+      link: strLink,
+      imgUrl: strImgUrl,
+      trigger: function (res) {
+      //alert('用户点击分享到朋友圈');
+      },
+      success: function (res) {
+      //alert('已分享');
+      },
+      cancel: function (res) {
+      //alert('已取消');
+      },
+      fail: function (res) {
+      //alert(JSON.stringify(res));
+      }
+    };
+    wx.error(function (res) {
+      //alert(res.errMsg);
+    });
+    wx.ready(function () {
+      // 2. 分享接口
+      // 2.1 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口
+      wx.onMenuShareAppMessage(shareToFriends);
+      wx.onMenuShareTimeline(shareToTimeline);
+
+    });
+  </script>
 </head>
 <body>
 
