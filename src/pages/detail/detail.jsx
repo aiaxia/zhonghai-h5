@@ -20,14 +20,13 @@ class Detail extends React.PureComponent {
     super(props);
     this.state={
       show: false,
-      list: [
-        {
-          topmain: ''
-        }
-      ]
+      list: []
     };
   }
   componentDidMount=()=>{
+    this.setState({
+      list: JSON.parse(localStorage.getItem("list")),
+    })
   }
   showAll=()=>{
     this.setState({
@@ -52,10 +51,19 @@ class Detail extends React.PureComponent {
       show: !show
     })
   }
+  showAll=()=>{
+    this.child.showAll(true)
+  }
+  hiddenAll=()=>{
+    this.child.showAll(false)
+  }
+  onRef = (ref) => {
+    this.child = ref
+  }
   render() {
     const {show} = this.state
-    const {city, topImg, returnB, list} = localStorage
-    console.log('list',list)
+    const {city, topImg, returnB} = localStorage
+    const {list} = this.state
     return (
       <div className={styles.detailBox}>
         <div className={styles.topmainBox}>
@@ -65,65 +73,7 @@ class Detail extends React.PureComponent {
           </Link>
         </div>
         <div className={styles.mainBox}>
-          <ul>
-            <li>
-              <img src={master} alt="" onClick={e=>this.onHiddenshow()} />
-              {show?
-              <div className={styles.downBox}>
-                <div className={styles.itemBox}>
-                  <p>招商银行北京分行</p>
-                  <div className={styles.main}>
-                      <div>
-                        <div>服务内容：</div>
-                        <div>为北京中海商务写字楼客户提供专属金融产品及服务，提供企业经营贷款、企业财富管理等全身名周期服务，伴随企业持续发展</div>
-                      </div>
-                      <div>
-                        <div>服务时间：</div>
-                        <div>长久</div>
-                      </div>
-                      <div>
-                        <div>服务电话：</div>
-                        <div><Link to="/zsdetail">见北京中海商务写字楼客户专享合作方案</Link></div>
-                      </div>
-                      <div>
-                        <div>服务地址：</div>
-                        <div>北京市西城区复兴门内大街156号A座首层</div>
-                      </div>
-                      <div>
-                        <div>优惠折扣：</div>
-                        <div><Link to="/zsdetail">见北京中海商务写字楼客户专享合作方案</Link></div>
-                      </div>
-                  </div>
-                </div>
-                <div className={styles.itemBox}>
-                  <p>CBD管委会</p>
-                  <div className={styles.main}>
-                      <div>
-                        <div>服务内容：</div>
-                        <div>积极对接CBD管委会，深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备</div>
-                      </div>
-                      <div>
-                        <div>服务时间：</div>
-                        <div>长久</div>
-                      </div>
-                      <div>
-                        <div>服务电话：</div>
-                        <div><a href="tel:010-58780000">010-58780000</a></div>
-                      </div>
-                      <div>
-                        <div>服务地址：</div>
-                        <div>东大桥路8号SOHO尚都北塔A座</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              :''}
-            </li>
-            <li><img src={icon} alt=""/></li>
-            <li><img src={epicure} alt=""/></li>
-            <li><img src={ungrander} alt=""/></li>
-            <li><img src={artist} alt=""/></li>
-          </ul>
+          <Mainitem onRef={this.onRef} list={list} />
         </div>
         <div className={styles.opIcon}>
           <img src={showmore} onClick={e=>this.showAll()} alt=""/>
