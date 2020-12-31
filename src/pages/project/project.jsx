@@ -390,7 +390,7 @@ class Project extends React.PureComponent {
                   discont: ''
                 },
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '协力企业建立完善的人力培训课程及架构，同时提供单独的培训课程及资源。',
                   sertime: '长久',
                   serphone: '',
@@ -428,7 +428,7 @@ class Project extends React.PureComponent {
                   discont: '提供项目外围绿化及室内绿色办公空间，办公室绿化园艺服务'
                 },
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '空间设计、施工建造、软装服务全流程定制',
                   sertime: '长久',
                   serphone: '',
@@ -437,7 +437,7 @@ class Project extends React.PureComponent {
                   discont: ''
                 },
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '办公文具集采、印务耗材采购、办公设备租赁与购买。',
                   sertime: '长久',
                   serphone: '',
@@ -492,7 +492,7 @@ class Project extends React.PureComponent {
                   discont: ''
                 },
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '联合全国各地百余家媒体的推广合作资源，定制专属公关活动。',
                   sertime: '长久',
                   serphone: '',
@@ -501,7 +501,7 @@ class Project extends React.PureComponent {
                   discont: ''
                 },
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '专业、多元的团建活动组织，提供全流程服务。',
                   sertime: '长久',
                   serphone: '',
@@ -528,7 +528,7 @@ class Project extends React.PureComponent {
                   discont: ''
                 },
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '提供礼品策划、创意、设计、定制、生产、配送等一站式礼品定制服务。',
                   sertime: '长久',
                   serphone: '',
@@ -703,7 +703,7 @@ class Project extends React.PureComponent {
                   discont: ''
                 },
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '提供优质人力资源企业合作搭桥，提供整体解决方案。',
                   sertime: '长久',
                   serphone: '',
@@ -804,15 +804,6 @@ class Project extends React.PureComponent {
                 {
                   title: '北京市高朋律师事务所',
                   sercon: '法务咨询',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },
-                {
-                  title: '',
-                  sercon: '联合各大银行，针对企业推出综合信贷服务',
                   sertime: '长久',
                   serphone: '',
                   oflshop: '',
@@ -2331,7 +2322,7 @@ class Project extends React.PureComponent {
                   discont: ''
                 },
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '开放租赁中心的会议中心',
                   sertime: '长久',
                   serphone: '0351-8379888',
@@ -2445,7 +2436,7 @@ class Project extends React.PureComponent {
               icon: ungrander,
               data:[
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '提供实时政策解读，免费',
                   sertime: '长久',
                   serphone: '',
@@ -2606,7 +2597,7 @@ class Project extends React.PureComponent {
               icon: ungrander,
               data:[
                 {
-                  title: '',
+                  title: '中海商务',
                   sercon: '政府相关政策咨询解读',
                   sertime: '长久',
                   serphone: '',
