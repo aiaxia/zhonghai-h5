@@ -57,20 +57,10 @@ class Mainitem extends React.PureComponent {
                         <div className={styles.maincon}>{el2.sertime}</div>
                       </div>
                     :""}
-                    {el2.serphone?
+                    {el2.zs?
                       <div className={styles.mainitem + " " +styles.clearfix + " "+ styles.phone}>
                         <div>服务电话：</div>
-                        {el2.zs?
                           <div className={styles.maincon}><Link to="/zsdetail">见北京中海商务写字楼客户专享合作方案</Link></div>
-                          :
-                          <div className={styles.maincon}><a href={"tel:"+el2.serphone}>{el2.serphone}</a></div>
-                        }
-                      </div>
-                    :""}
-                    {el2.serphonename?
-                      <div className={styles.mainitem + " " +styles.clearfix + " "+ styles.phone}>
-                        <div>服务电话：</div>
-                        <div className={styles.maincon}>{el2.serphonename}</div>
                       </div>
                     :""}
                     {el2.seradr?
