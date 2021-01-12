@@ -15,6 +15,7 @@ import topimg4 from '../../assets/topimg4.png';
 import txt3 from '../../assets/txt3.png';
 import returnb from '../../assets/returnb.png';
 import returny from '../../assets/returny.png';
+import duty from '../../assets/duty.png';
 import bj from '../../assets/bj.png';
 import tj from '../../assets/tj.png';
 import ty from '../../assets/ty.png';
@@ -112,6 +113,7 @@ class Index extends React.PureComponent {
                 <div className={styles.lefttxt}>
                   <img className={styles.returny} src={returny} onClick={e=>this.showInterduce(false)} alt=""/>
                   <img className={styles.textimg} src={txt3} alt=""/>
+                  <img className={styles.dutyimg} src={duty} alt=""/>
                 </div>
               :
                 <div className={styles.lefttxt}>
