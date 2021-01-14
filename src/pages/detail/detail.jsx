@@ -5,6 +5,7 @@ import styles2 from '../../components/animate.less';
 import returnBtn from '../../assets/returnw2.png';
 import returnb from '../../assets/returnb.png';
 import showmore from '../../assets/showmore.png';
+import telimg from '../../assets/telimg.png';
 import shrink from '../../assets/shrink.png';
 import topimg from '../../assets/top.png';
 import { Link } from 'dva/router';
@@ -57,7 +58,7 @@ class Detail extends React.PureComponent {
   }
   render() {
     const {show} = this.state
-    const {city, topImg, returnB} = localStorage
+    const {city, topImg, returnB, sertel} = localStorage
     const {list} = this.state
     return (
       <div className={styles.detailBox}>
@@ -68,6 +69,11 @@ class Detail extends React.PureComponent {
           </Link>
         </div>
         <div className={styles.mainBox}>
+          {sertel?
+            <div className={styles.telbox}>
+              <img src={telimg} alt=""/>  <a className={styles.tel} href={"tel:"+(sertel).replace(/\s/g,"")}>{sertel}</a>
+            </div>:''
+          }
           <Mainitem onRef={this.onRef} list={list} />
         </div>
         <div className={styles.opIcon}>

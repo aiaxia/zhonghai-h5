@@ -56,6 +56,7 @@ class Project extends React.PureComponent {
           name: 'bj_zhgc',
           tel: '010-5977 2083',
           detailimg: bj_zhgc_topmain,
+          sertel: '010-597 72083',
           data: [
             {
               icon: master,
@@ -290,6 +291,7 @@ class Project extends React.PureComponent {
           name: 'bj_zhdcgc',
           tel: '010-5783 7888',
           detailimg: bj_zhdcgc_topmain,
+          sertel: '010-5783 7888',
           data: [
             {
               icon: master,
@@ -604,6 +606,7 @@ class Project extends React.PureComponent {
           name: 'bj_anzhgjzx',
           tel: '010-5704 0668',
           detailimg: bj_anhgjzx_topmain,
+          sertel: '010-5704 0668',
           data: [
             {
               icon: master,
@@ -923,6 +926,7 @@ class Project extends React.PureComponent {
           name: 'bj_zj',
           tel: '010-5704 0668',
           detailimg: bj_zjcfgjzx_topmain,
+          sertel: '010-5704 0668',
           data: [
             {
               icon: master,
@@ -1251,6 +1255,7 @@ class Project extends React.PureComponent {
           name: 'bj_zhgjzxcgz',
           tel: '010-6625 6188',
           detailimg: bj_zhgjzx_topmain,
+          sertel: '010-6625 6188',
           data: [
             {
               icon: icon,
@@ -1363,6 +1368,7 @@ class Project extends React.PureComponent {
           name: 'bj_zhds',
           tel: '010-5977 2888',
           detailimg: bj_zhds_topmain,
+          sertel: '010-5977 2888',
           returnB: true,
           data: [
             {
@@ -1604,6 +1610,7 @@ class Project extends React.PureComponent {
           name: 'tj_zhgc',
           tel: '022-2422 6677',
           detailimg: tj_top1,
+          sertel: '022-2422 6677',
           data: [
             {
               icon: icon,
@@ -1738,6 +1745,7 @@ class Project extends React.PureComponent {
           name: 'tj_zhcfzx',
           tel: '022-5995 6688',
           detailimg: tj_top2,
+          sertel: '022-5995 6688',
           data: [
             {
               icon: icon,
@@ -1963,6 +1971,7 @@ class Project extends React.PureComponent {
           name: 'tj_zhds',
           tel: '022-5807 5888',
           detailimg: tj_top3,
+          sertel: '022-5807 5888',
           data: [
             {
               icon: icon,
@@ -2190,6 +2199,7 @@ class Project extends React.PureComponent {
           name: 'ty_zhgjzx',
           tel: '0351-8379 888',
           detailimg: ty_top1,
+          sertel: '0351-837 9888',
           data: [
             {
               icon: icon,
@@ -2418,6 +2428,7 @@ class Project extends React.PureComponent {
           name: 'qd_zhds',
           tel: '0532-6866 0777',
           detailimg: qd_top1,
+          sertel: '0532-6866 0777',
           data: [
             {
               icon: epicure,
@@ -2568,6 +2579,7 @@ class Project extends React.PureComponent {
           name: 'jn_zhgc',
           tel: '0531-5868 8888',
           detailimg: jn_top1,
+          sertel: '0531-5868 8888',
           data: [
             {
               icon: master,
@@ -2762,6 +2774,7 @@ class Project extends React.PureComponent {
     localStorage.setItem("city", city);
     localStorage.setItem("topImg", obj.detailimg);
     localStorage.setItem("list", JSON.stringify(obj.data));
+    localStorage.setItem("sertel", obj.sertel);
     if(obj.returnB){
       localStorage.setItem("returnB", true);
     }else{

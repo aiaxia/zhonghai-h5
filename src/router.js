@@ -11,6 +11,7 @@ function RouterConfig({ history }) {
     <Router history={history}>
         <Switch>
             <Route path="/" exact component={Index} />
+            <Route path="/index" exact component={Index} />
             <Route path="/zsdetail" exact component={Zsdetail} />
             <Route path="/introduce" component={Introduce} />
             <Route path="/project" component={Project} />
