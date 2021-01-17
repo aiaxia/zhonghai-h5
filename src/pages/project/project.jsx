@@ -69,20 +69,105 @@ class Project extends React.PureComponent {
                   seradr: '北京市西城区复兴门内大街156号A座首层',
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
-                },
-                {
-                  title: '北京通达三季科技有限公司',
-                  sercon: '服务的产品有：国际、国内、BGP互联网接入、IDC互联网数据中心、办公区系统集成  智能化无线Wifi覆盖系统、 智能化会议系统、机房搭建、设备代购、监控系统、门禁系统、网管服务（IT外包）',
-                  sertime: '长久',
-                  serphone: '010-59772009',
-                  seradr: '北京中海广场'
-                },
-                {
-                  title: '北京通达三季科技有限公司',
-                  sercon: 'SLA服务：在线支持，5分钟内电话响应，10分钟内到达现场；7*24*365小时全天候不间断电话支持服务；专人客服代表服务：可以通过客服代表获得DataCom的全部服务项目；',
-                  sertime: '长久',
-                  serphone: '010-59772009',
-                  seradr: '北京中海广场'
+                },{
+                  "classify":"行政服务",
+                  "project":"政策解析",
+                  "sertime":"长久",
+                  "sertime":"长久",
+                  "title":"CBD管委会",
+                  "sercon":"积极对接CBD管委会，深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备；",
+                  "oflshop":"",
+                  "discont":""
+                },{
+                  "classify":"行政服务",
+                  "project":"专业机构",
+                  "sertime":"长久",
+                  "sertime":"长久",
+                  "title":"中海云商",
+                  "sercon":"提供楼内企业人力帮办",
+                  "oflshop":"",
+                  "discont":""
+                },{
+                  "classify":"行政服务",
+                  "project":"企业保洁",
+                  "sertime":"长久",
+                  "sertime":"长久",
+                  "title":"北京长海物业管理服务有限公司",
+                  "sercon":"日常保洁消杀服务。",
+                  "oflshop":"",
+                  "discont":""
+                },{
+                  "classify":"行政服务",
+                  "project":"绿植租摆",
+                  "sertime":"长久",
+                  "sertime":"长久",
+                  "title":"北京雨辰梦文园林绿化有限公司",
+                  "sercon":"打造绿色办公空间，办公室绿化园艺服务",
+                  "oflshop":"",
+                  "discont":""
+                },{
+                  "classify":"行政服务",
+                  "project":"企业装修",
+                  "sertime":"长久",
+                  "sertime":"长久",
+                  "title":"北京旭峰建设工程有限公司",
+                  "sercon":"空间设计、施工建造、软装服务全流程定制",
+                  "oflshop":"",
+                  "discont":""
+                },{
+                  "classify":"行政服务",
+                  "project":"贵宾接待",
+                  "sertime":"长久",
+                  "sertime":"长久",
+                  "title":"中海物业",
+                  "sercon":"专属车位预留、酒店预订、形象岗迎宾、专车接送。",
+                  "oflshop":"",
+                  "discont":""
+                },{
+                  "classify":"行政服务",
+                  "project":"快递收发",
+                  "sertime":"长久",
+                  "sertime":"长久",
+                  "title":"顺丰",
+                  "sercon":"上门代收代发公司、个人快递，安全可靠。",
+                  "oflshop":"",
+                  "discont":""
+                },{
+                  "classify":"行政服务",
+                  "project":"酒店预订",
+                  "sertime":"长久",
+                  "sertime":"长久",
+                  "title":"国泰饭店",
+                  "sercon":"中海系商务酒店，将为COOC合作企业提供会务场地、团购房、个人优惠订房的特惠权益。",
+                  "oflshop":"国泰饭店",
+                  "discont":""
+                },{
+                  "classify":"行政服务"
+                  , "project":"活动场地"
+                  , "sertime":"长久"
+                  , "sertime":"长久"
+                  , "title":"国泰饭店"
+                  , "sercon":"利用中海商业旗下酒店等资源，亦可于项目内进行会务空间与服务的定制。"
+                  , "oflshop":"国泰饭店"
+                  , "discont":""
+                },{
+                  "classify":"行政服务"
+                  , "project":"分散办公"
+                  , "sertime":"长久"
+                  , "sertime":"长久"
+                  , "title":"OFFICEZIP"
+                  , "sercon":"开放空置房源，提供其他地区企业分散办公；提供楼内企业会议室服务"
+                  , "oflshop":""
+                  , "discont":""
+                },{
+                  "classify":"行政服务"
+                  , "project":"家具定制"
+                  , "sertime":"长久"
+                  , "sertime":"长久"
+                  , "title":"诺梵（上海）系统科技股份有限公司北京分公司"
+                  , "sercon":"一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。"
+                  , "oflshop":"诺梵家具定制"
+                  , "discont":"享受专属优惠"
                 }
               ],
             },
