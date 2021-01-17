@@ -2173,13 +2173,12 @@ class Project extends React.PureComponent {
               icon: icon,
               data:[
                 {
-                  title: '太原市万柏林区源途健身俱乐部',
-                  sercon: '',
-                  sertime: '2019/8/1-2020/7/1',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: '租户协议价'
+                  "classify": "服饰美容",
+                  "project": "健康（含健身）",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "太原市万柏林区源途健身俱乐部",
+                  "sercon": "",
+                  "discont": "租户协议价"
                 }
               ],
             },
@@ -2187,29 +2186,26 @@ class Project extends React.PureComponent {
               icon: epicure,
               data:[
                 {
-                  title: '太原锄禾园餐饮服务有限公司',
-                  sercon: '',
-                  sertime: '2019/8/1-2020/7/1',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: '楼内租户用餐享九五折'
+                  "classify": "餐饮服务",
+                  "project": "餐饮",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "太原锄禾园餐饮服务有限公司",
+                  "sercon": "",
+                  "discont": "楼内租户用餐享九五折"
                 },{
-                  title: '太原市三晋饭庄有限公司晋品轩',
-                  sercon: '',
-                  sertime: '2019/8/1-2020/7/1',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: '楼内租户用餐享九五折'
+                  "classify": "餐饮服务",
+                  "project": "餐饮",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "太原市三晋饭庄有限公司晋品轩",
+                  "sercon": "",
+                  "discont": "楼内租户用餐享九五折"
                 },{
-                  title: '太原市万柏林区恒岳春粗粮饺子馆',
-                  sercon: '',
-                  sertime: '2019/8/1-2020/7/1',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: '楼内租户用餐享九五折'
+                  "classify": "餐饮服务",
+                  "project": "餐饮",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "太原市万柏林区恒岳春粗粮饺子馆",
+                  "sercon": "",
+                  "discont": "楼内租户用餐享九五折"
                 }
               ],
             },
@@ -2217,117 +2213,110 @@ class Project extends React.PureComponent {
               icon: ungrander,
               data:[
                 {
-                  title: '太原市万柏林区促进楼宇经济发展领导组办公室',
-                  sercon: '万柏林区企业扶持政策、相关申报',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '中海国际中心B座807',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "政策解析",
+                  "sertime": "长久",
+                  "title": "太原市万柏林区促进楼宇经济发展领导组办公室",
+                  "sercon": "万柏林区企业扶持政策、相关申报",
+                  "discont": ""
                 },{
-                  title: '山西方胜人力资源服务有限公司',
-                  sercon: '人力资源服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '中海国际中心B座19层',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "专业机构",
+                  "sertime": "长久",
+                  "title": "山西方胜人力资源服务有限公司",
+                  "sercon": "人力资源服务",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '提供日常保洁服务',
-                  sertime: '长久',
-                  serphone: '0351-5264666',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "企业保洁",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "提供日常保洁服务",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '增值收费服务，提供绿植供应商名录，包括绿植租摆设计与养护',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "绿植租摆",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "增值收费服务，提供绿植供应商名录，包括绿植租摆设计与养护",
+                  "discont": ""
                 },{
-                  title: '择优推荐',
-                  sercon: '租赁单元设计装修',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "企业装修",
+                  "sertime": "长久",
+                  "title": "择优推荐",
+                  "sercon": "租赁单元设计装修",
+                  "discont": ""
                 },{
-                  title: '合作商择优推荐',
-                  sercon: '办公文具集采、印务耗材采购、办公设备租赁与购买。',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "办公用品采购",
+                  "sertime": "长久",
+                  "title": "合作商择优推荐",
+                  "sercon": "办公文具集采、印务耗材采购、办公设备租赁与购买。",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '专属车位预留、形象岗迎宾、专梯等候',
-                  sertime: '长久',
-                  serphone: '0351-5264666',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "贵宾接待",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "专属车位预留、形象岗迎宾、专梯等候",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '中海系酒店/本地协议酒店预订',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": " 酒店预订",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "中海系酒店/本地协议酒店预订",
+                  "discont": ""
                 },{
-                  title: '君恒信和企业管理咨询有限公司、山西纵合横律师事务所、山西正磐律师事务所',
-                  sercon: '企业咨询、法务咨询',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '中海国际中心B座11层、12层',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "茶歇服务",
+                  "sertime": "长久",
+                  "title": "合作商择优推荐",
+                  "sercon": "冷餐、下午茶定制",
+                  "discont": ""
                 },{
-                  title: '中海商务',
-                  sercon: '开放租赁中心的会议中心',
-                  sertime: '长久',
-                  serphone: '0351-8379888',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "法务咨询",
+                  "sertime": "长久",
+                  "title": "君恒信和企业管理咨询有限公司、山西纵合横律师事务所、山西正磐律师事务所",
+                  "sercon": "企业咨询、法务咨询",
+                  "discont": ""
                 },{
-                  title: '诺梵（上海）系统科技股份有限公司北京分公司',
-                  sercon: '一、售后快速响应;二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。',
-                  sertime: '长久',
-                  serphone: '13810969446',
-                  oflshop: '诺梵家具定制',
-                  seradr: '东亿国际传媒产业园演播大厅A座5层',
-                  discont: '一、售后快速响应;二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。'
+                  "classify": "行政服务",
+                  "project": "礼品定制",
+                  "sertime": "长久",
+                  "title": "",
+                  "sercon": "",
+                  "discont": ""
                 },{
-                  title: '山西丽华大酒店',
-                  sercon: '',
-                  sertime: '2019/8/1-2020/7/1',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: '租户协议价'
+                  "classify": "行政服务",
+                  "project": "七夕交友",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "世纪佳缘",
+                  "sercon": "婚恋交友",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '太原市三晋酒店管理有限公司',
-                  sercon: '',
-                  sertime: '2019/8/1-2020/7/1',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: '租户协议价'
+                  "classify": "行政服务",
+                  "project": "家具定制",
+                  "sertime": "长久",
+                  "title": "诺梵（上海）系统科技股份有限公司北京分公司",
+                  "sercon": "一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '太原市万柏林区翠翠洗衣店',
-                  sercon: '',
-                  sertime: '2019/8/1-2020/7/1',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: '租户协议价'
+                  "classify": "行政服务",
+                  "project": "酒店",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "山西丽华大酒店",
+                  "sercon": "",
+                  "discont": "租户协议价"
+                },{
+                  "classify": "行政服务",
+                  "project": "酒店",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "太原市三晋酒店管理有限公司",
+                  "sercon": "",
+                  "discont": "租户协议价"
                 }
               ],
             },
@@ -2335,37 +2324,33 @@ class Project extends React.PureComponent {
               icon: artist,
               data:[
                 {
-                  title: '合作商择优推荐',
-                  sercon: '上门收送，专业洗涤',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '中海寰宇天下6号楼底商',
-                  discont: '协议价'
+                  "classify": "生活服务",
+                  "project": "综合",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "太原市万柏林区翠翠洗衣店",
+                  "sercon": "",
+                  "discont": "租户协议价"
                 },{
-                  title: '合作商择优推荐',
-                  sercon: '冷餐、下午茶定制',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "生活服务",
+                  "project": "上门洗衣",
+                  "sertime": "长久",
+                  "title": "合作商择优推荐",
+                  "sercon": "上门收送，专业洗涤",
+                  "discont": "协议价"
                 },{
-                  title: '世纪佳缘',
-                  sercon: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券',
-                  sertime: '2020/6/10-2020/8/31',
-                  serphone: '',
-                  oflshop: '世纪佳缘',
-                  seradr: '',
-                  discont: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券'
+                  "classify": "生活服务",
+                  "project": "分散办公",
+                  "sertime": "长久",
+                  "title": "",
+                  "sercon": "开放租赁中心的会议中心",
+                  "discont": ""
                 },{
-                  title: '滴滴出行',
-                  sercon: '滴滴出行',
-                  sertime: '2020/6/2-2020/6/29',
-                  serphone: '',
-                  oflshop: '滴滴出行',
-                  seradr: '',
-                  discont: '5折优惠'
+                  "classify": "生活服务",
+                  "project": "滴滴出行",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "滴滴出行",
+                  "sercon": "滴滴出行",
+                  "discont": "享受专属优惠"
                 }
               ]
             }
