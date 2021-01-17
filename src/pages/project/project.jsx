@@ -1316,101 +1316,158 @@ class Project extends React.PureComponent {
           sertel: '010-6625 6188',
           data: [
             {
+              icon: master,
+              data:[
+                {
+                  "classify": "职场办公",
+                  title: '招商银行北京分行',
+                  sercon: '为北京中海商务写字楼客户提供专属金融产品及服务，提供企业经营贷款、企业财富管理等全身名周期服务，伴随企业持续发展',
+                  sertime: '长久',
+                  serphone: '见北京中海商务写字楼客户专享合作方案',
+                  seradr: '北京市西城区复兴门内大街156号A座首层',
+                  discont: '见北京中海商务写字楼客户专享合作方案',
+                  zs: true
+                },{
+                  "classify": "职场办公",
+                  "project": "体育运动",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "英狮体育公园",
+                  "sercon": "体育运动、公司团建",
+                  "oflshop": "英狮体育公园",
+                  "discont": "享受专属优惠"
+                }
+              ],
+            },
+            {
               icon: icon,
               data:[
                 {
-                  title: '北舞星空流行舞蹈培训',
-                  sercon: '街舞培训',
-                  sertime: '2020/7/1-2021/6/30',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "服饰美容",
+                  "project": "舞蹈培训",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "北舞星空流行舞蹈培训中心",
+                  "sercon": "各类舞蹈培训",
+                  "oflshop": "北舞星空流行舞蹈培训中心",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '康乐家园俱乐部',
-                  sercon: '健康咨询',
-                  sertime: '2020/6/10-2020/12/10',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "服饰美容",
+                  "project": "健康咨询",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "康乐家园俱乐部",
+                  "sercon": "提供血压、血糖等各项身体指标检测，提供解决方案",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
+                }
+              ],
+            },,{
+              icon: epicure,
+              data:[
+                {
+                  "classify": "餐饮服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "cake boss蛋糕",
+                  "sercon": "网红蛋糕定制、罐装蛋糕、纸杯蛋糕等",
+                  "oflshop": "cake boss蛋糕老板",
+                  "discont": "享受专属优惠"
+                },{
+                  "classify": "餐饮服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "维尔纳斯蛋糕",
+                  "sercon": "蛋糕定制、甜点定制",
+                  "oflshop": "维尔纳斯意大利手工艺蛋糕",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: ungrander,
               data:[
                 {
-                  title: '诺梵家具定制',
-                  sercon: '家具定制',
-                  sertime: '2020/6/20-2021/6/20',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "家具定制",
+                  "sertime": "长久",
+                  "title": "诺梵（上海）系统科技股份有限公司北京分公司",
+                  "sercon": "一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
+                  "oflshop": "诺梵家具定制",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '英狮体育公园',
-                  sercon: '体育运动、公司团建',
-                  sertime: '2020/7/1-2021/6/30',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },
+                  "classify": "行政服务",
+                  "project": "贵宾接待",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "专属车位预留、酒店预订、形象岗迎宾、专车接送。",
+                  "oflshop": "",
+                  "discont": ""
+                },{
+                  "classify": "行政服务",
+                  "project": "快递收发",
+                  "sertime": "长久",
+                  "title": "顺丰",
+                  "sercon": "上门代收代发公司、个人快递，安全可靠。",
+                  "oflshop": "",
+                  "discont": ""
+                },{
+                  "classify": "行政服务",
+                  "project": "酒店预订",
+                  "sertime": "长久",
+                  "title": "国泰饭店",
+                  "sercon": "中海系商务酒店，将为COOC合作企业提供会务场地、团购房、个人优惠订房的特惠权益。",
+                  "oflshop": "国泰饭店",
+                  "discont": ""
+                },{
+                  "classify": "行政服务",
+                  "project": "活动场地",
+                  "sertime": "长久",
+                  "title": "国泰饭店",
+                  "sercon": "利用中海商业旗下酒店等资源，亦可于项目内进行会务空间与服务的定制。",
+                  "oflshop": "国泰饭店",
+                  "discont": ""
+                }
               ]
             },
             {
               icon: artist,
               data:[
                 {
-                  title: '滴滴出行',
-                  sercon: '出行服务、权益等',
-                  sertime: '2020/6/21-2021/12/31',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },{
-                  title: '世纪佳缘',
-                  sercon: '交友平台',
-                  sertime: '2020/6/20-2021/6/20',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },{
-                  title: 'cake boss蛋糕',
-                  sercon: '产品定制等',
-                  sertime: '2020/6/9-2021/6/8',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },{
-                  title: '维尔纳斯蛋糕',
-                  sercon: '产品定制等',
-                  sertime: '2020/6/10-2020/12/10',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },{
-                  title: '馨花语鲜花',
-                  sercon: '产品定制，开业礼品定制等',
-                  sertime: '2020/6/9-2020/12/10',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },{
-                  title: '爱喜猫自助洗车',
-                  sercon: '洗车服务、权益等',
-                  sertime: '2020/6/15-2021/6/15',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "生活服务",
+                  "project": "自助洗车",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "爱喜猫自助洗车",
+                  "sercon": "自助洗车",
+                  "oflshop": "爱喜猫自助洗车",
+                  "discont": "享受专属优惠"
                 }
-              ]
+                ,
+                {
+                  "classify": "生活服务",
+                  "project": "鲜花定制",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "馨花语商贸有限公司",
+                  "sercon": "鲜花定制",
+                  "oflshop": "馨花语花卉",
+                  "discont": "享受专属优惠"
+                }
+                ,
+                {
+                  "classify": "生活服务",
+                  "project": "七夕交友",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "世纪佳缘",
+                  "sercon": "婚恋交友",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
+                }
+                ,
+                {
+                  "classify": "生活服务",
+                  "project": "滴滴出行",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "滴滴出行",
+                  "sercon": "滴滴出行",
+                  "oflshop": "滴滴出行",
+                  "discont": "享受专属优惠"
+                }]
             },
           ]
         },
