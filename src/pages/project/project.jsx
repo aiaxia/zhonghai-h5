@@ -1900,9 +1900,7 @@ class Project extends React.PureComponent {
                   "sercon": "上门快递收发服务",
                   "oflshop": "顺丰速运",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "上门洗衣",
                   "sertime": "长久",
@@ -1910,9 +1908,7 @@ class Project extends React.PureComponent {
                   "sercon": "上门收送、价格优惠",
                   "oflshop": "UCC国际洗衣",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "洗车",
                   "sertime": "长久",
@@ -1920,9 +1916,7 @@ class Project extends React.PureComponent {
                   "sercon": "楼内客户持楼控卡享价格优惠",
                   "oflshop": "易车生活",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "酒水批发",
                   "sertime": "长久",
@@ -1930,9 +1924,7 @@ class Project extends React.PureComponent {
                   "sercon": "楼内客户持楼控卡享价格优惠",
                   "oflshop": "酌象进口酒水体验馆",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "七夕交友",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -1940,9 +1932,7 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "滴滴出行",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -1950,9 +1940,7 @@ class Project extends React.PureComponent {
                   "sercon": "滴滴出行",
                   "oflshop": "滴滴出行",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "西装定制",
                   "sertime": "长久",
@@ -2119,9 +2107,7 @@ class Project extends React.PureComponent {
                   "sercon": "上门快递收发服务",
                   "oflshop": "顺丰速运",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "上门洗衣",
                   "sertime": "长久",
@@ -2129,9 +2115,7 @@ class Project extends React.PureComponent {
                   "sercon": "上门收送、价格优惠",
                   "oflshop": "UCC国际洗衣",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "洗车",
                   "sertime": "长久",
@@ -2139,9 +2123,7 @@ class Project extends React.PureComponent {
                   "sercon": "楼内客户持楼控卡享价格优惠",
                   "oflshop": "易车生活",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "酒水批发",
                   "sertime": "长久",
@@ -2149,9 +2131,7 @@ class Project extends React.PureComponent {
                   "sercon": "楼内客户持楼控卡享价格优惠",
                   "oflshop": "酌象进口酒水体验馆",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "七夕交友",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -2159,9 +2139,7 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "滴滴出行",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -2169,9 +2147,7 @@ class Project extends React.PureComponent {
                   "sercon": "滴滴出行",
                   "oflshop": "滴滴出行",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "西装定制",
                   "sertime": "长久",
@@ -2562,163 +2538,174 @@ class Project extends React.PureComponent {
               icon: master,
               data:[
                 {
-                  title: '中海物业',
-                  sercon: '提供每年3次的免费上门维修服务，超出部分按维修项目收费',
-                  sertime: '长久',
-                  serphone: '',
-                  seradr: ''
-                },
+                  "classify": "职场办公",
+                  "project": "硬件维修",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "提供每年3次的免费上门维修服务，超出部分按维修项目收费",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
+                }
               ],
             },{
               icon: epicure,
               data:[
                 {
-                  title: '中海商务',
-                  sercon: '为重点客户及周年庆客户提供提供免费定制下午茶',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },
+                  "classify": "餐饮服务",
+                  "project": "茶歇服务",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "为重点客户及周年庆客户提供提供免费定制下午茶",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
+                }
               ],
             },{
               icon: ungrander,
               data:[
                 {
-                  title: '中海商务',
-                  sercon: '政府相关政策咨询解读',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "政策解析",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "政府相关政策咨询解读",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '正歆集团',
-                  sercon: '提供收费地毯清洗等日常保洁及客户入室服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "企业保洁",
+                  "sertime": "长久",
+                  "title": "正歆集团",
+                  "sercon": "提供收费地毯清洗等日常保洁及客户入室服务",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '济南缤纷花卉有限公司',
-                  sercon: '绿植花卉租摆与养护',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "绿植租摆",
+                  "sertime": "长久",
+                  "title": "济南缤纷花卉有限公司",
+                  "sercon": "绿植花卉租摆与养护",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '意内雅',
-                  sercon: '提供收费的室内装修',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "企业装修",
+                  "sertime": "长久",
+                  "title": "意内雅",
+                  "sercon": "提供收费的室内装修",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '得力',
-                  sercon: '提供协议价格的优质办公用品',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "办公用品采购",
+                  "sertime": "长久",
+                  "title": "得力",
+                  "sercon": "提供协议价格的优质办公用品",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '专属车位及专梯预留等',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "贵宾接待",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "专属车位及专梯预留等",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '为中海租户提供本地协议商务酒店订房服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": " 酒店预订",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "为中海租户提供本地协议商务酒店订房服务",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '于客户价值日为重点VIP客户进行定向空调进出风口清洗',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "空调清洗",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "于客户价值日为重点VIP客户进行定向空调进出风口清洗",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '为企业提供收费的沙龙及会议场地定制化服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "活动场地",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "为企业提供收费的沙龙及会议场地定制化服务",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '中海商务',
-                  sercon: '为楼内企业提供有偿法律咨询服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "法务咨询",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "为楼内企业提供有偿法律咨询服务",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '北京银行/招商银行',
-                  sercon: '为企业提供贷款咨询和支持',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "分散办公",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "联合OFFICEZIP，对企业提供装修过渡期和分散办公服务，同时开放会议服务",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '中海商务',
-                  sercon: '联合OFFICEZIP，对企业提供装修过渡期和分散办公服务，同时开放会议服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "福利定制",
+                  "sertime": "长久",
+                  "title": "亿百葩鲜",
+                  "sercon": "联合环宇城进口超市，为持有中海广场工牌的租户提供全线产品9折优惠",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '亿百葩鲜',
-                  sercon: '联合环宇城进口超市，为持有中海广场工牌的租户提供全线产品9折优惠',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },{
-                  title: '诺梵（上海）系统科技股份有限公司北京分公司',
-                  sercon: '一、售后快速响应；二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。',
-                  sertime: '长久',
-                  serphone: '13810969446',
-                  oflshop: '诺梵家具定制',
-                  seradr: '东亿国际传媒产业园演播大厅A座5层',
-                  discont: '一、售后快速响应；二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。'
-                },
+                  "classify": "行政服务",
+                  "project": "家具定制",
+                  "sertime": "长久",
+                  "title": "诺梵（上海）系统科技股份有限公司北京分公司",
+                  "sercon": "一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
+                  "oflshop": "诺梵家具定制",
+                  "address": "东亿国际传媒产业园演播大厅A座5层",
+                  "discont": "享受专属服务"
+                }
               ],
             },
             {
               icon: artist,
               data:[
                 {
-                  title: '爱喜猫自助洗车',
-                  sercon: '自助洗车',
-                  sertime: '2020/6/15-2021/6/15',
-                  serphone: '13716644007',
-                  oflshop: '爱喜猫自助洗车',
-                  seradr: '北京市范围内可选择',
-                  discont: '享受专属优惠'
+                  "classify": "生活服务",
+                  "project": "快递收发",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "提供各快递公司的联系及上门取件服务",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": ""
                 },{
-                  title: '中海物业',
-                  sercon: '提供各快递公司的联系及上门取件服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "生活服务",
+                  "project": "七夕交友",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "世纪佳缘",
+                  "sercon": "婚恋交友",
+                  "oflshop": "",
+                  "address": "",
+                  "discont": "享受专属服务"
                 }
               ]
             }
