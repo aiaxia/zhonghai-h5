@@ -1630,117 +1630,117 @@ class Project extends React.PureComponent {
               icon: icon,
               data:[
                 {
-                  title: '维纳西装定制',
-                  sercon: '个性化的高端西装定制服务',
-                  sertime: '长久',
-                  serphone: '13212151005',
-                  oflshop: '维纳西装定制',
-                  seradr: '大悦城3号楼1903',
-                  discont: '享受专属优惠价格，详见店里'
+                  "classify": "服饰美容",
+                  "project": "西装定制",
+                  "sertime": "长久",
+                  "title": "维纳西装定制",
+                  "sercon": "个性化的高端西装定制服务",
+                  "oflshop": "维纳西装定制",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: epicure,
               data:[
                 {
-                  title: '花里咖啡',
-                  sercon: '咖啡休闲',
-                  sertime: '长久',
-                  serphone: '15822996415',
-                  oflshop: '花里咖啡',
-                  seradr: '吴家窑大街与卫津路交口君禧华庭2号楼36号底商',
-                  discont: '享受专属优惠价格，详见店里'
+                  "classify": "餐饮服务",
+                  "project": "花里咖啡",
+                  "sertime": "长久",
+                  "title": "花里咖啡",
+                  "sercon": "咖啡休闲",
+                  "oflshop": "花里咖啡",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: ungrander,
               data:[
                 {
-                  title: '天津市和平区沐尔鲜花店',
-                  sercon: '可为租户提供绿植鲜花租摆服务',
-                  sertime: '长久',
-                  serphone: '15002270507',
-                  oflshop: '天津市和平区沐尔鲜花店',
-                  seradr: '天津市和平区赤峰道129号210室',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "绿植租摆",
+                  "sertime": "长久",
+                  "title": "天津市和平区沐尔鲜花店",
+                  "sercon": "可为租户提供绿植鲜花租摆服务",
+                  "oflshop": "天津市和平区沐尔鲜花店",
+                  "discont": ""
                 },{
-                  title: '康莱德酒店',
-                  sercon: '协议价格',
-                  sertime: '长久',
-                  serphone: '19845258861',
-                  oflshop: '康莱德酒店',
-                  seradr: '天塔道46号',
-                  discont: '享受专属优惠价格，详见店里'
+                  "classify": "行政服务",
+                  "project": " 酒店预订",
+                  "sertime": "长久",
+                  "title": "康莱德酒店",
+                  "sercon": "协议价格",
+                  "oflshop": "康莱德酒店",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '天津闱墨文化传播有限公司',
-                  sercon: '应租户需求提供美陈、各种大小活动',
-                  sertime: '长久',
-                  serphone: '13163176771',
-                  oflshop: '天津闱墨文化传播有限公司',
-                  seradr: '天津市南开区凌宾路凌奥产业园6号楼3层闱墨公关',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "公关活动",
+                  "sertime": "长久",
+                  "title": "天津闱墨文化传播有限公司",
+                  "sercon": "应租户需求提供美陈、各种大小活动",
+                  "oflshop": "天津闱墨文化传播有限公司",
+                  "discont": ""
                 },{
-                  title: '漫恩文化传播有限公司',
-                  sercon: '提供咖啡、糕点、鲜花',
-                  sertime: '长久',
-                  serphone: '13502029348',
-                  oflshop: '漫恩文化传播有限公司',
-                  seradr: '河西区中海八里台君禧华庭底商2-36号',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "茶歇服务",
+                  "sertime": "长久",
+                  "title": "漫恩文化传播有限公司",
+                  "sercon": "提供咖啡、糕点、鲜花",
+                  "oflshop": "漫恩文化传播有限公司",
+                  "discont": ""
                 },{
-                  title: '天津闱墨文化传播有限公司',
-                  sercon: '提供各类活动服务',
-                  sertime: '长久',
-                  serphone: '13163176771',
-                  oflshop: '天津闱墨文化传播有限公司',
-                  seradr: '天津市南开区凌宾路凌奥产业园6号楼3层闱墨公关',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "团建拓展",
+                  "sertime": "长久",
+                  "title": "天津闱墨文化传播有限公司",
+                  "sercon": "提供各类活动服务",
+                  "oflshop": "天津闱墨文化传播有限公司",
+                  "discont": ""
                 },{
-                  title: '永丰盛世文化传播有限公司',
-                  sercon: '可应租户需求提供各类礼品定制服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "礼品定制",
+                  "sertime": "长久",
+                  "title": "永丰盛世文化传播有限公司",
+                  "sercon": "可应租户需求提供各类礼品定制服务",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '诺梵（上海）系统科技股份有限公司北京分公司',
-                  sercon: '一、售后快速响应；二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。',
-                  sertime: '长久',
-                  serphone: '13810969446',
-                  oflshop: '诺梵家具定制',
-                  seradr: '东亿国际传媒产业园演播大厅A座5层',
-                  discont: '一、售后快速响应；二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。'
-                },
+                  "classify": "行政服务",
+                  "project": "家具定制",
+                  "sertime": "长久",
+                  "title": "诺梵（上海）系统科技股份有限公司北京分公司",
+                  "sercon": "一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
+                  "oflshop": "诺梵家具定制",
+                  "discont": "享受专属优惠"
+                }
               ],
             },
             {
               icon: artist,
               data:[
                 {
-                  title: '穆诺洗衣馆',
-                  sercon: '一周提供两次上门取送衣服，并享有折扣',
-                  sertime: '长久',
-                  serphone: '16600347346',
-                  oflshop: '穆诺洗衣馆',
-                  seradr: '卫津南路君禧华庭西门7-15底商',
-                  discont: '享受专属优惠价格，详见店里'
+                  "classify": "生活服务",
+                  "project": "上门洗衣",
+                  "sertime": "长久",
+                  "title": "穆诺洗衣馆",
+                  "sercon": "一周提供两次上门取送衣服，并享有折扣",
+                  "oflshop": "穆诺洗衣馆",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '世纪佳缘',
-                  sercon: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券',
-                  sertime: '2020/6/10-2020/8/31',
-                  serphone: '',
-                  oflshop: '世纪佳缘',
-                  seradr: '',
-                  discont: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券'
+                  "classify":"生活服务",
+                  "project":"七夕交友",
+                  "sertime":"2021年1月1日-2021年12月31日",
+                  "title":"世纪佳缘",
+                  "sercon":"婚恋交友",
+                  "oflshop":"",
+                  "discont":"享受专属优惠"
                 },{
-                  title: '滴滴出行',
-                  sercon: '滴滴出行',
-                  sertime: '2020/6/2-2020/6/29',
-                  serphone: '',
-                  oflshop: '滴滴出行',
-                  seradr: '',
-                  discont: '5折优惠'
+                  "classify":"生活服务",
+                  "project":"滴滴出行",
+                  "sertime":"2021年1月1日-2021年12月31日",
+                  "title":"滴滴出行",
+                  "sercon":"滴滴出行",
+                  "oflshop":"",
+                  "discont":"享受专属优惠"
                 }
               ]
             }
