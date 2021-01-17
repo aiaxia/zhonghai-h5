@@ -303,25 +303,25 @@ class Project extends React.PureComponent {
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
                 },{
-                  "classify":"职场办公",
-                  "project":"信息化搭建",
-                  "sertime":"长久",
-                  "title":"北京通达三季科技有限公司",
-                  "sercon":"提供网络搭接及维护服务",
-                  "oflshop":"北京通达三季科技有限公司",
-                  "discont":"北京东城区永定门外西滨河路8号中海地产广场B2层",
-                  "":"提供网络搭接及维护服务"
+                  "classify": "职场办公",
+                  "project": "信息化搭建",
+                  "sertime": "长久",
+                  "title": "北京通达三季科技有限公司",
+                  "sercon": "提供网络搭接及维护服务",
+                  "oflshop": "北京通达三季科技有限公司",
+                  "discont": "北京东城区永定门外西滨河路8号中海地产广场B2层",
+                  "": "提供网络搭接及维护服务"
                 }
                 ,
                 {
-                  "classify":"职场办公",
-                  "project":"电脑维修",
-                  "sertime":"长久",
-                  "title":"北京通达三季科技有限公司",
-                  "sercon":"提供网络设备搭接及维护服务",
-                  "oflshop":"北京通达三季科技有限公司",
-                  "discont":"北京东城区永定门外西滨河路8号中海地产广场B2层",
-                  "":"提供网络设备搭接及维护服务"
+                  "classify": "职场办公",
+                  "project": "电脑维修",
+                  "sertime": "长久",
+                  "title": "北京通达三季科技有限公司",
+                  "sercon": "提供网络设备搭接及维护服务",
+                  "oflshop": "北京通达三季科技有限公司",
+                  "discont": "北京东城区永定门外西滨河路8号中海地产广场B2层",
+                  "": "提供网络设备搭接及维护服务"
                 }
               ],
             },
@@ -329,257 +329,257 @@ class Project extends React.PureComponent {
               icon: icon,
               data:[
                 {
-                  "classify":"服饰美容",
-                  "project":"舞蹈培训",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"北舞星空流行舞蹈培训中心",
-                  "sercon":"各类舞蹈培训",
-                  "oflshop":"北舞星空流行舞蹈培训中心",
-                  "discont":"西直门西环广场凯德T2楼10层C8室",
-                  "":"享受专属优惠"
+                  "classify": "服饰美容",
+                  "project": "舞蹈培训",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "北舞星空流行舞蹈培训中心",
+                  "sercon": "各类舞蹈培训",
+                  "oflshop": "北舞星空流行舞蹈培训中心",
+                  "discont": "西直门西环广场凯德T2楼10层C8室",
+                  "": "享受专属优惠"
                 }
                 ,
                 {
-                  "classify":"服饰美容",
-                  "project":"健康咨询",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"康乐家园俱乐部",
-                  "sercon":"提供血压、血糖等各项身体指标检测，提供解决方案",
-                  "oflshop":"",
-                  "discont":"正华国贸财富中心",
-                  "":"享受专属优惠"
+                  "classify": "服饰美容",
+                  "project": "健康咨询",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "康乐家园俱乐部",
+                  "sercon": "提供血压、血糖等各项身体指标检测，提供解决方案",
+                  "oflshop": "",
+                  "discont": "正华国贸财富中心",
+                  "": "享受专属优惠"
                 }
               ],
             },{
               icon: epicure,
               data:[
                 {
-                  "classify":"餐饮服务",
-                  "project":"茶歇服务",
-                  "sertime":"长久",
-                  "title":"北京莉莉世界文化有限公司",
-                  "sercon":"提供楼内客户各式餐饮活动服务",
-                  "oflshop":"北京莉莉世界文化有限公司",
-                  "discont":"北京东城区永定门外西滨河路8号中海地产广场1层"
+                  "classify": "餐饮服务",
+                  "project": "茶歇服务",
+                  "sertime": "长久",
+                  "title": "北京莉莉世界文化有限公司",
+                  "sercon": "提供楼内客户各式餐饮活动服务",
+                  "oflshop": "北京莉莉世界文化有限公司",
+                  "discont": "北京东城区永定门外西滨河路8号中海地产广场1层"
                 }
                 ,
                 {
-                  "classify":"餐饮服务",
-                  "project":"定制蛋糕",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"cake boss蛋糕",
-                  "sercon":"网红蛋糕定制、罐装蛋糕、纸杯蛋糕等",
-                  "oflshop":"cake boss蛋糕老板",
-                  "discont":"24家店北京市范围内可配送",
-                  "":"享受专属优惠"
+                  "classify": "餐饮服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "cake boss蛋糕",
+                  "sercon": "网红蛋糕定制、罐装蛋糕、纸杯蛋糕等",
+                  "oflshop": "cake boss蛋糕老板",
+                  "discont": "24家店北京市范围内可配送",
+                  "": "享受专属优惠"
                 }
                 ,
                 {
-                  "classify":"餐饮服务",
-                  "project":"定制蛋糕",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"维尔纳斯蛋糕",
-                  "sercon":"蛋糕定制、甜点定制",
-                  "oflshop":"维尔纳斯意大利手工艺蛋糕",
-                  "discont":"23家店北京市范围内可配送",
-                  "":"享受专属优惠"
+                  "classify": "餐饮服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "维尔纳斯蛋糕",
+                  "sercon": "蛋糕定制、甜点定制",
+                  "oflshop": "维尔纳斯意大利手工艺蛋糕",
+                  "discont": "23家店北京市范围内可配送",
+                  "": "享受专属优惠"
                 }
               ],
             },{
               icon: ungrander,
               data:[
                 {
-                  "classify":"行政服务",
-                  "project":"家具定制",
-                  "sertime":"长久",
-                  "title":"诺梵（上海）系统科技股份有限公司北京分公司",
-                  "sercon":"一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
-                  "oflshop":"诺梵家具定制",
-                  "discont":"东亿国际传媒产业园演播大厅A座5层",
-                  "":"享受专属优惠"
+                  "classify": "行政服务",
+                  "project": "家具定制",
+                  "sertime": "长久",
+                  "title": "诺梵（上海）系统科技股份有限公司北京分公司",
+                  "sercon": "一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
+                  "oflshop": "诺梵家具定制",
+                  "discont": "东亿国际传媒产业园演播大厅A座5层",
+                  "": "享受专属优惠"
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"政策解析",
-                  "sertime":"长久",
-                  "title":"永外街道办事处",
-                  "sercon":"积极联络所在市、区级政府，深度了解企业的相关扶持政策；同时经营中心设置解析服务人员，协助企业进行相关申报资料筹备",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "政策解析",
+                  "sertime": "长久",
+                  "title": "永外街道办事处",
+                  "sercon": "积极联络所在市、区级政府，深度了解企业的相关扶持政策；同时经营中心设置解析服务人员，协助企业进行相关申报资料筹备",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"校企对接",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"联合COOC中海商务的广泛校园资源，帮助企业建立校企沟通渠道。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "校企对接",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "联合COOC中海商务的广泛校园资源，帮助企业建立校企沟通渠道。",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"人资培训",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"协力企业建立完善的人力培训课程及架构，同时提供单独的培训课程及资源。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "人资培训",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "协力企业建立完善的人力培训课程及架构，同时提供单独的培训课程及资源。",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"专业机构",
-                  "sertime":"长久",
-                  "title":"中海云商",
-                  "sercon":"提供楼内企业人力帮办",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "专业机构",
+                  "sertime": "长久",
+                  "title": "中海云商",
+                  "sercon": "提供楼内企业人力帮办",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"企业保洁",
-                  "sertime":"长久",
-                  "title":"北京城坤筑洁生物科技有限公司",
-                  "sercon":"日常保洁消杀服务。",
-                  "oflshop":"",
-                  "discont":"",
-                  "":"日常保洁消杀服务"
+                  "classify": "行政服务",
+                  "project": "企业保洁",
+                  "sertime": "长久",
+                  "title": "北京城坤筑洁生物科技有限公司",
+                  "sercon": "日常保洁消杀服务。",
+                  "oflshop": "",
+                  "discont": "",
+                  "": "日常保洁消杀服务"
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"绿植租摆",
-                  "sertime":"长久",
-                  "title":"北京盛芳润雅花卉有限公司",
-                  "sercon":"提供项目外围绿化及室内绿色办公空间，办公室绿化园艺服务",
-                  "oflshop":"",
-                  "discont":"",
-                  "":"提供项目外围绿化及室内绿色办公空间，办公室绿化园艺服务"
+                  "classify": "行政服务",
+                  "project": "绿植租摆",
+                  "sertime": "长久",
+                  "title": "北京盛芳润雅花卉有限公司",
+                  "sercon": "提供项目外围绿化及室内绿色办公空间，办公室绿化园艺服务",
+                  "oflshop": "",
+                  "discont": "",
+                  "": "提供项目外围绿化及室内绿色办公空间，办公室绿化园艺服务"
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"企业装修",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"空间设计、施工建造、软装服务全流程定制",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "企业装修",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "空间设计、施工建造、软装服务全流程定制",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"办公用品采购",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"办公文具集采、印务耗材采购、办公设备租赁与购买。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "办公用品采购",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "办公文具集采、印务耗材采购、办公设备租赁与购买。",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"贵宾接待",
-                  "sertime":"长久",
-                  "title":"中海物业",
-                  "sercon":"提供专属车位预留，形象岗迎宾等服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "贵宾接待",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "提供专属车位预留，形象岗迎宾等服务",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":" 酒店预订",
-                  "sertime":"长久",
-                  "title":"国泰饭店",
-                  "sercon":"搭接楼内企业国泰饭店联系",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": " 酒店预订",
+                  "sertime": "长久",
+                  "title": "国泰饭店",
+                  "sercon": "搭接楼内企业国泰饭店联系",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"大客户VIP专梯服务",
-                  "sertime":"长久",
-                  "title":"中海物业",
-                  "sercon":"提供大客户专用VIP梯服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "大客户VIP专梯服务",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "提供大客户专用VIP梯服务",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"员工团购服务",
-                  "sertime":"长久",
-                  "title":"柒一拾壹（北京）有限公司",
-                  "sercon":"提供楼内员工店内商品团购活动",
-                  "oflshop":"柒一拾壹（北京中海地产广场店）",
-                  "discont":"北京东城区永定门外西滨河路8号中海地产广场1层",
-                  "":"定期提供楼内员工店内商品团购及福袋等活动"
+                  "classify": "行政服务",
+                  "project": "员工团购服务",
+                  "sertime": "长久",
+                  "title": "柒一拾壹（北京）有限公司",
+                  "sercon": "提供楼内员工店内商品团购活动",
+                  "oflshop": "柒一拾壹（北京中海地产广场店）",
+                  "discont": "北京东城区永定门外西滨河路8号中海地产广场1层",
+                  "": "定期提供楼内员工店内商品团购及福袋等活动"
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"活动场地",
-                  "sertime":"长久",
-                  "title":"OFFICEZIP",
-                  "sercon":"提供项目内进行会务空间与服务的定制",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "活动场地",
+                  "sertime": "长久",
+                  "title": "OFFICEZIP",
+                  "sercon": "提供项目内进行会务空间与服务的定制",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"公关活动",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"联合全国各地百余家媒体的推广合作资源，定制专属公关活动。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "公关活动",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "联合全国各地百余家媒体的推广合作资源，定制专属公关活动。",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"团建拓展",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"专业、多元的团建活动组织，提供全流程服务。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "团建拓展",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "专业、多元的团建活动组织，提供全流程服务。",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"金融服务",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"联合各大银行，针对企业推出综合信贷服务包",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "金融服务",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "联合各大银行，针对企业推出综合信贷服务包",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"分散办公",
-                  "sertime":"长久",
-                  "title":"OFFICEZIP",
-                  "sercon":"开放空置房源，提供其他地区企业分散办公；提供楼内企业会议室服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "分散办公",
+                  "sertime": "长久",
+                  "title": "OFFICEZIP",
+                  "sercon": "开放空置房源，提供其他地区企业分散办公；提供楼内企业会议室服务",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":"礼品定制",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"提供礼品策划、创意、设计、定制、生产、配送等一站式礼品定制服务。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "礼品定制",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "提供礼品策划、创意、设计、定制、生产、配送等一站式礼品定制服务。",
+                  "oflshop": "",
+                  "discont": ""
                 }
               ],
             },
@@ -587,67 +587,67 @@ class Project extends React.PureComponent {
               icon: artist,
               data:[
                 {
-                  "classify":"生活服务",
-                  "project":"快递收发",
-                  "sertime":"长久",
-                  "title":"丰巢快递",
-                  "sercon":"提供快递暂存服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "生活服务",
+                  "project": "快递收发",
+                  "sertime": "长久",
+                  "title": "丰巢快递",
+                  "sercon": "提供快递暂存服务",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"生活服务",
-                  "project":"上门洗衣",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"衣物洗涤",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "生活服务",
+                  "project": "上门洗衣",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "衣物洗涤",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"生活服务",
-                  "project":"自助洗车",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"爱喜猫自助洗车",
-                  "sercon":"自助洗车",
-                  "oflshop":"爱喜猫自助洗车",
-                  "discont":"北京市范围内可选择",
-                  "":"享受专属优惠"
+                  "classify": "生活服务",
+                  "project": "自助洗车",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "爱喜猫自助洗车",
+                  "sercon": "自助洗车",
+                  "oflshop": "爱喜猫自助洗车",
+                  "discont": "北京市范围内可选择",
+                  "": "享受专属优惠"
                 }
                 ,
                 {
-                  "classify":"生活服务",
-                  "project":"鲜花定制",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"馨花语商贸有限公司",
-                  "sercon":"鲜花定制",
-                  "oflshop":"馨花语花卉",
-                  "discont":"王四营桥南盛华宏林粮油批发市场1层花花市界A20号",
-                  "":"享受专属优惠"
+                  "classify": "生活服务",
+                  "project": "鲜花定制",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "馨花语商贸有限公司",
+                  "sercon": "鲜花定制",
+                  "oflshop": "馨花语花卉",
+                  "discont": "王四营桥南盛华宏林粮油批发市场1层花花市界A20号",
+                  "": "享受专属优惠"
                 }
                 ,
                 {
-                  "classify":"生活服务",
-                  "project":"七夕交友",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"世纪佳缘",
-                  "sercon":"婚恋交友",
-                  "oflshop":"",
-                  "discont":"",
-                  "":"享受专属优惠"
+                  "classify": "生活服务",
+                  "project": "七夕交友",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "世纪佳缘",
+                  "sercon": "婚恋交友",
+                  "oflshop": "",
+                  "discont": "",
+                  "": "享受专属优惠"
                 }
                 ,
                 {
-                  "classify":"生活服务",
-                  "project":"滴滴出行",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"滴滴出行",
-                  "sercon":"滴滴出行",
-                  "oflshop":"",
-                  "discont":"",
-                  "":"享受专属优惠"
+                  "classify": "生活服务",
+                  "project": "滴滴出行",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "滴滴出行",
+                  "sercon": "滴滴出行",
+                  "oflshop": "",
+                  "discont": "",
+                  "": "享受专属优惠"
                 }
               ]
             }
@@ -672,21 +672,21 @@ class Project extends React.PureComponent {
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
                 },{
-                  "classify":"职场办公",
-                  "project":"信息化搭建",
-                  "sertime":"长久",
-                  "title":"世纪二千",
-                  "sercon":"网络搭建",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "职场办公",
+                  "project": "信息化搭建",
+                  "sertime": "长久",
+                  "title": "世纪二千",
+                  "sercon": "网络搭建",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"职场办公",
-                  "project":"电脑维修",
-                  "sertime":"长久",
-                  "title":"北京金世浩远电子商贸有限公司",
-                  "sercon":"电脑上门维修维护",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "职场办公",
+                  "project": "电脑维修",
+                  "sertime": "长久",
+                  "title": "北京金世浩远电子商贸有限公司",
+                  "sercon": "电脑上门维修维护",
+                  "oflshop": "",
+                  "discont": ""
                 }
               ],
             },
@@ -694,201 +694,201 @@ class Project extends React.PureComponent {
               icon: icon,
               data:[
                 {
-                  "classify":"服饰美容",
-                  "project":"舞蹈培训",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"北舞星空流行舞蹈培训中心",
-                  "sercon":"各类舞蹈培训",
-                  "oflshop":"北舞星空流行舞蹈培训中心",
-                  "discont":"享受专属优惠"
+                  "classify": "服饰美容",
+                  "project": "舞蹈培训",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "北舞星空流行舞蹈培训中心",
+                  "sercon": "各类舞蹈培训",
+                  "oflshop": "北舞星空流行舞蹈培训中心",
+                  "discont": "享受专属优惠"
                 },{
-                  "classify":"服饰美容",
-                  "project":"健康咨询",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"康乐家园俱乐部",
-                  "sercon":"提供血压、血糖等各项身体指标检测，提供解决方案",
-                  "oflshop":"",
-                  "discont":"享受专属优惠"
+                  "classify": "服饰美容",
+                  "project": "健康咨询",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "康乐家园俱乐部",
+                  "sercon": "提供血压、血糖等各项身体指标检测，提供解决方案",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: epicure,
               data:[
                 {
-                  "classify":"餐饮服务",
-                  "project":"环宇荟餐饮商户",
-                  "sertime":"长久",
-                  "title":"云订餐",
-                  "sercon":"线上订餐服务",
-                  "oflshop":"",
-                  "discont":"享受专属优惠"
+                  "classify": "餐饮服务",
+                  "project": "环宇荟餐饮商户",
+                  "sertime": "长久",
+                  "title": "云订餐",
+                  "sercon": "线上订餐服务",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: ungrander,
               data:[
                 {
-                  "classify":"行政服务",
-                  "project":"政策解析",
-                  "sertime":"长久",
-                  "title":"北京奥林匹克公园管委会",
-                  "sercon":"优化营商环境，简化企业开办流程宣讲",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "政策解析",
+                  "sertime": "长久",
+                  "title": "北京奥林匹克公园管委会",
+                  "sercon": "优化营商环境，简化企业开办流程宣讲",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"校企对接",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"联合COOC中海商务的广泛校园资源，帮助企业建立校企沟通渠道。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "校企对接",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "联合COOC中海商务的广泛校园资源，帮助企业建立校企沟通渠道。",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"人资培训",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"协力企业建立完善的人力培训课程及架构",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "人资培训",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "协力企业建立完善的人力培训课程及架构",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"专业机构",
-                  "sertime":"长久",
-                  "title":"中海商务",
-                  "sercon":"提供优质人力资源企业合作搭桥，提供整体解决方案。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "专业机构",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "提供优质人力资源企业合作搭桥，提供整体解决方案。",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"企业保洁",
-                  "sertime":"长久",
-                  "title":"北京亮歌保洁技术有限公司",
-                  "sercon":"日常保洁，全天侯保洁服务；开荒保洁，装修后开荒、保洁、清洗、养护服务；地毯清洗，地毯全面清洁与保养服务；室内全面清洁、消毒。",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "企业保洁",
+                  "sertime": "长久",
+                  "title": "北京亮歌保洁技术有限公司",
+                  "sercon": "日常保洁，全天侯保洁服务；开荒保洁，装修后开荒、保洁、清洗、养护服务；地毯清洗，地毯全面清洁与保养服务；室内全面清洁、消毒。",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"绿植租摆",
-                  "sertime":"长久",
-                  "title":"北京绿一方园林绿化工程有限公司",
-                  "sercon":"外围绿化养护、室内绿植租摆",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "绿植租摆",
+                  "sertime": "长久",
+                  "title": "北京绿一方园林绿化工程有限公司",
+                  "sercon": "外围绿化养护、室内绿植租摆",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"企业装修",
-                  "sertime":"长久",
-                  "title":"北京今希建设集团有限公司",
-                  "sercon":"建筑装修装饰工程",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "企业装修",
+                  "sertime": "长久",
+                  "title": "北京今希建设集团有限公司",
+                  "sercon": "建筑装修装饰工程",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"办公用品采购",
-                  "sertime":"长久",
-                  "title":"北京裕元荣商贸有限公司",
-                  "sercon":"办公文具集采、印务耗材采购、办公设备租赁与购买",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "办公用品采购",
+                  "sertime": "长久",
+                  "title": "北京裕元荣商贸有限公司",
+                  "sercon": "办公文具集采、印务耗材采购、办公设备租赁与购买",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"贵宾接待",
-                  "sertime":"长久",
-                  "title":"北京中海物业管理有限公司奥南分公司",
-                  "sercon":"形象岗迎宾，专梯服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "贵宾接待",
+                  "sertime": "长久",
+                  "title": "北京中海物业管理有限公司奥南分公司",
+                  "sercon": "形象岗迎宾，专梯服务",
+                  "oflshop": "",
+                  "discont": ""
                 }
                 ,
                 {
-                  "classify":"行政服务",
-                  "project":" 酒店预订",
-                  "sertime":"长久",
-                  "title":"北京国泰饭店",
-                  "sercon":"中海系酒店",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": " 酒店预订",
+                  "sertime": "长久",
+                  "title": "北京国泰饭店",
+                  "sercon": "中海系酒店",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"活动场地",
-                  "sertime":"长久",
-                  "title":"北京国泰饭店",
-                  "sercon":"会议服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "活动场地",
+                  "sertime": "长久",
+                  "title": "北京国泰饭店",
+                  "sercon": "会议服务",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"公关活动",
-                  "sertime":"长久",
-                  "title":"北京煜祥文化产业有限公司",
-                  "sercon":"公关活动，活动策划，推介会执行",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "公关活动",
+                  "sertime": "长久",
+                  "title": "北京煜祥文化产业有限公司",
+                  "sercon": "公关活动，活动策划，推介会执行",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"茶歇服务",
-                  "sertime":"长久",
-                  "title":"华联咖世家（北京）餐饮管理有限公司",
-                  "sercon":"茶歇服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "茶歇服务",
+                  "sertime": "长久",
+                  "title": "华联咖世家（北京）餐饮管理有限公司",
+                  "sercon": "茶歇服务",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"团建拓展",
-                  "sertime":"长久",
-                  "title":"北京煜祥文化产业有限公司",
-                  "sercon":"团建拓展，策划服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "团建拓展",
+                  "sertime": "长久",
+                  "title": "北京煜祥文化产业有限公司",
+                  "sercon": "团建拓展，策划服务",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"法务咨询",
-                  "sertime":"长久",
-                  "title":"北京市高朋律师事务所",
-                  "sercon":"法务咨询",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "法务咨询",
+                  "sertime": "长久",
+                  "title": "北京市高朋律师事务所",
+                  "sercon": "法务咨询",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"分散办公",
-                  "sertime":"长久",
-                  "title":"OFFICEZIP",
-                  "sercon":"分散办公",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "分散办公",
+                  "sertime": "长久",
+                  "title": "OFFICEZIP",
+                  "sercon": "分散办公",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"礼品定制",
-                  "sertime":"长久",
-                  "title":"北京九五石科贸发展有限公司",
-                  "sercon":"企业内购",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "礼品定制",
+                  "sertime": "长久",
+                  "title": "北京九五石科贸发展有限公司",
+                  "sercon": "企业内购",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"",
-                  "sertime":"",
-                  "title":"杂货集",
-                  "sercon":"礼品定制，伴手礼方案定制",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "行政服务",
+                  "project": "",
+                  "sertime": "",
+                  "title": "杂货集",
+                  "sercon": "礼品定制，伴手礼方案定制",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"行政服务",
-                  "project":"家具定制",
-                  "sertime":"长久",
-                  "title":"诺梵（上海）系统科技股份有限公司北京分公司",
-                  "sercon":"一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
-                  "oflshop":"诺梵家具定制",
-                  "discont":"享受专属优惠"
+                  "classify": "行政服务",
+                  "project": "家具定制",
+                  "sertime": "长久",
+                  "title": "诺梵（上海）系统科技股份有限公司北京分公司",
+                  "sercon": "一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
+                  "oflshop": "诺梵家具定制",
+                  "discont": "享受专属优惠"
                 },{
-                  "classify":"",
-                  "project":"",
-                  "sertime":"",
-                  "title":"北京优尚佳艺传媒广告有限公司",
-                  "sercon":"茶歇服务",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "",
+                  "project": "",
+                  "sertime": "",
+                  "title": "北京优尚佳艺传媒广告有限公司",
+                  "sercon": "茶歇服务",
+                  "oflshop": "",
+                  "discont": ""
                 }
               ],
             },
@@ -896,85 +896,85 @@ class Project extends React.PureComponent {
               icon: artist,
               data:[
                 {
-                  "classify":"生活服务",
-                  "project":"快递收发",
-                  "sertime":"长久",
-                  "title":"百米站",
-                  "sercon":"快递收发",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "生活服务",
+                  "project": "快递收发",
+                  "sertime": "长久",
+                  "title": "百米站",
+                  "sercon": "快递收发",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"生活服务",
-                  "project":"上门洗衣",
-                  "sertime":"长久",
-                  "title":"北京福奈特洗衣服务有限公司",
-                  "sercon":"专业洗涤",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "生活服务",
+                  "project": "上门洗衣",
+                  "sertime": "长久",
+                  "title": "北京福奈特洗衣服务有限公司",
+                  "sercon": "专业洗涤",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"生活服务",
-                  "project":"定制蛋糕",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"cake boss蛋糕",
-                  "sercon":"网红蛋糕定制、罐装蛋糕、纸杯蛋糕等",
-                  "oflshop":"cake boss蛋糕老板",
-                  "discont":"定制专属优惠"
+                  "classify": "生活服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "cake boss蛋糕",
+                  "sercon": "网红蛋糕定制、罐装蛋糕、纸杯蛋糕等",
+                  "oflshop": "cake boss蛋糕老板",
+                  "discont": "定制专属优惠"
                 },{
-                  "classify":"生活服务",
-                  "project":"定制蛋糕",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"维尔纳斯蛋糕",
-                  "sercon":"蛋糕定制、甜点定制",
-                  "oflshop":"维尔纳斯意大利手工艺蛋糕",
-                  "discont":"9折优惠"
+                  "classify": "生活服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "维尔纳斯蛋糕",
+                  "sercon": "蛋糕定制、甜点定制",
+                  "oflshop": "维尔纳斯意大利手工艺蛋糕",
+                  "discont": "9折优惠"
                 },{
-                  "classify":"生活服务",
-                  "project":"自助洗车",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"爱喜猫自助洗车",
-                  "sercon":"自助洗车",
-                  "oflshop":"爱喜猫自助洗车",
-                  "discont":"享受专属优惠"
+                  "classify": "生活服务",
+                  "project": "自助洗车",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "爱喜猫自助洗车",
+                  "sercon": "自助洗车",
+                  "oflshop": "爱喜猫自助洗车",
+                  "discont": "享受专属优惠"
                 },{
-                  "classify":"生活服务",
-                  "project":"鲜花定制",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"馨花语商贸有限公司",
-                  "sercon":"鲜花定制",
-                  "oflshop":"馨花语花卉",
-                  "discont":"享受专属优惠"
+                  "classify": "生活服务",
+                  "project": "鲜花定制",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "馨花语商贸有限公司",
+                  "sercon": "鲜花定制",
+                  "oflshop": "馨花语花卉",
+                  "discont": "享受专属优惠"
                 },{
-                  "classify":"生活服务",
-                  "project":"七夕交友",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"世纪佳缘",
-                  "sercon":"婚恋交友",
-                  "oflshop":"",
-                  "discont":"享受专属优惠"
+                  "classify": "生活服务",
+                  "project": "七夕交友",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "世纪佳缘",
+                  "sercon": "婚恋交友",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 },{
-                  "classify":"生活服务",
-                  "project":"滴滴出行",
-                  "sertime":"2021年1月1日-2021年12月31日",
-                  "title":"滴滴出行",
-                  "sercon":"滴滴出行",
-                  "oflshop":"",
-                  "discont":"享受专属优惠"
+                  "classify": "生活服务",
+                  "project": "滴滴出行",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "滴滴出行",
+                  "sercon": "滴滴出行",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 },{
-                  "classify":"生活服务",
-                  "project":"",
-                  "sertime":"",
-                  "title":"丰巢快递柜",
-                  "sercon":"快递收发",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "生活服务",
+                  "project": "",
+                  "sertime": "",
+                  "title": "丰巢快递柜",
+                  "sercon": "快递收发",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  "classify":"生活服务",
-                  "project":"",
-                  "sertime":"",
-                  "title":"北京顺丰速运有限公司",
-                  "sercon":"上门收发快递",
-                  "oflshop":"",
-                  "discont":""
+                  "classify": "生活服务",
+                  "project": "",
+                  "sertime": "",
+                  "title": "北京顺丰速运有限公司",
+                  "sercon": "上门收发快递",
+                  "oflshop": "",
+                  "discont": ""
                 }
               ]
             }
@@ -999,21 +999,21 @@ class Project extends React.PureComponent {
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
                 },{
-                  title: '世纪二千',
-                  sercon: '网络搭建',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "职场办公",
+                  "project": "信息化搭建",
+                  "sertime": "长久",
+                  "title": "世纪二千",
+                  "sercon": "网络搭建",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京金世浩远电子商贸有限公司',
-                  sercon: '电脑上门维修维护',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "职场办公",
+                  "project": "电脑维修",
+                  "sertime": "长久",
+                  "title": "北京金世浩远电子商贸有限公司",
+                  "sercon": "电脑上门维修维护",
+                  "oflshop": "",
+                  "discont": ""
                 }
               ],
             },
@@ -1021,191 +1021,201 @@ class Project extends React.PureComponent {
               icon: icon,
               data:[
                 {
-                  title: '北舞星空流行舞蹈培训中心',
-                  sercon: '各类舞蹈培训',
-                  sertime: '2020/7/1-2021/6/30',
-                  serphone: '13621257423',
-                  oflshop: '北舞星空流行舞蹈培训中心',
-                  seradr: '西直门西环广场凯德T2楼10层C8室',
-                  discont: '享受年度专属优惠'
+                  "classify": "服饰美容",
+                  "project": "舞蹈培训",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "北舞星空流行舞蹈培训中心",
+                  "sercon": "各类舞蹈培训",
+                  "oflshop": "北舞星空流行舞蹈培训中心",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '康乐家园俱乐部',
-                  sercon: '提供血压、血糖等各项身体指标检测，提供解决方案',
-                  sertime: '2020/6/10-2020/12/10',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '正华国贸财富中心',
-                  discont: '享受专属优惠'
+                  "classify": "服饰美容",
+                  "project": "健康咨询",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "康乐家园俱乐部",
+                  "sercon": "提供血压、血糖等各项身体指标检测，提供解决方案",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: epicure,
               data:[
                 {
-                  title: '云订餐',
-                  sercon: '提供楼内客户各式餐饮活动服务',
-                  sertime: '2.21-长期',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "餐饮服务",
+                  "project": "环宇荟餐饮商户",
+                  "sertime": "长久",
+                  "title": "云订餐",
+                  "sercon": "线上订餐服务",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: ungrander,
               data:[
                 {
-                  title: '北京奥林匹克公园管委会',
-                  sercon: '优化营商环境，简化企业开办流程宣讲',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "政策解析",
+                  "sertime": "长久",
+                  "title": "北京奥林匹克公园管委会",
+                  "sercon": "优化营商环境，简化企业开办流程宣讲",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '中海商务',
-                  sercon: '联合COOC中海商务的广泛校园资源，帮助企业建立校企沟通渠道。',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "校企对接",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "联合COOC中海商务的广泛校园资源，帮助企业建立校企沟通渠道。",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '中海商务',
-                  sercon: '协力企业建立完善的人力培训课程及架构',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "人资培训",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "协力企业建立完善的人力培训课程及架构",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '中海商务',
-                  sercon: '提供优质人力资源企业合作搭桥，提供整体解决方案。',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "专业机构",
+                  "sertime": "长久",
+                  "title": "中海商务",
+                  "sercon": "提供优质人力资源企业合作搭桥，提供整体解决方案。",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京亮歌保洁技术有限公司',
-                  sercon: '日常保洁，全天侯保洁服务；开荒保洁，装修后开荒、保洁、清洗、养护服务；地毯清洗，地毯全面清洁与保养服务；室内全面清洁、消毒。',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "企业保洁",
+                  "sertime": "长久",
+                  "title": "北京亮歌保洁技术有限公司",
+                  "sercon": "日常保洁，全天侯保洁服务；开荒保洁，装修后开荒、保洁、清洗、养护服务；地毯清洗，地毯全面清洁与保养服务；室内全面清洁、消毒。",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京绿一方园林绿化工程有限公司',
-                  sercon: '外围绿化养护、室内绿植租摆',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "绿植租摆",
+                  "sertime": "长久",
+                  "title": "北京绿一方园林绿化工程有限公司",
+                  "sercon": "外围绿化养护、室内绿植租摆",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京今希建设集团有限公司',
-                  sercon: '建筑装修装饰工程',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "企业装修",
+                  "sertime": "长久",
+                  "title": "北京今希建设集团有限公司",
+                  "sercon": "建筑装修装饰工程",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京裕元荣商贸有限公司',
-                  sercon: '办公文具集采、印务耗材采购、办公设备租赁与购买',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "办公用品采购",
+                  "sertime": "长久",
+                  "title": "北京裕元荣商贸有限公司",
+                  "sercon": "办公文具集采、印务耗材采购、办公设备租赁与购买",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京中海物业管理有限公司奥南分公司',
-                  sercon: '形象岗迎宾，专梯服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "贵宾接待",
+                  "sertime": "长久",
+                  "title": "北京中海物业管理有限公司奥南分公司",
+                  "sercon": "形象岗迎宾，专梯服务",
+                  "oflshop": "",
+                  "discont": ""
+                }
+                ,
+                {
+                  "classify": "行政服务",
+                  "project": "活动场地",
+                  "sertime": "长久",
+                  "title": "北京国泰饭店",
+                  "sercon": "会议服务",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京国泰饭店',
-                  sercon: '中海系酒店',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "公关活动",
+                  "sertime": "长久",
+                  "title": "北京煜祥文化产业有限公司",
+                  "sercon": "公关活动，活动策划，推介会执行",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京国泰饭店',
-                  sercon: '会议服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "茶歇服务",
+                  "sertime": "长久",
+                  "title": "华联咖世家（北京）餐饮管理有限公司",
+                  "sercon": "茶歇服务",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京煜祥文化产业有限公司',
-                  sercon: '公关活动，活动策划，推介会执行',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "团建拓展",
+                  "sertime": "长久",
+                  "title": "北京煜祥文化产业有限公司",
+                  "sercon": "团建拓展，策划服务",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '华联咖世家（北京）餐饮管理有限公司',
-                  sercon: '茶歇服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "法务咨询",
+                  "sertime": "长久",
+                  "title": "北京市高朋律师事务所",
+                  "sercon": "法务咨询",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京煜祥文化产业有限公司',
-                  sercon: '团建拓展，策划服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "分散办公",
+                  "sertime": "长久",
+                  "title": "OFFICEZIP",
+                  "sercon": "分散办公",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京市高朋律师事务所',
-                  sercon: '法务咨询',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "礼品定制",
+                  "sertime": "长久",
+                  "title": "北京九五石科贸发展有限公司",
+                  "sercon": "企业内购",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '中海商务',
-                  sercon: '联合各大银行，针对企业推出综合信贷服务',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "",
+                  "sertime": "",
+                  "title": "杂货集",
+                  "sercon": "礼品定制，伴手礼方案定制",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: 'OFFICEZIP',
-                  sercon: '分散办公',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": " 酒店预订",
+                  "sertime": "长久",
+                  "title": "北京国泰饭店",
+                  "sercon": "中海系酒店",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京九五石科贸发展有限公司',
-                  sercon: '企业内购',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "家具定制",
+                  "sertime": "长久",
+                  "title": "诺梵（上海）系统科技股份有限公司北京分公司",
+                  "sercon": "一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
+                  "oflshop": "诺梵家具定制",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '诺梵（上海）系统科技股份有限公司北京分公司',
-                  sercon: '一、售后快速响应;二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。',
-                  sertime: '长久',
-                  serphone: '13810969446',
-                  oflshop: '诺梵家具定制',
-                  seradr: '东亿国际传媒产业园演播大厅A座5层',
-                  discont: '一、售后快速响应;二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。'
+                  "classify": "",
+                  "project": "",
+                  "sertime": "",
+                  "title": "北京优尚佳艺传媒广告有限公司",
+                  "sercon": "茶歇服务",
+                  "oflshop": "",
+                  "discont": ""
                 }
               ],
             },
@@ -1213,70 +1223,87 @@ class Project extends React.PureComponent {
               icon: artist,
               data:[
                 {
-                  title: '百米站',
-                  sercon: '快递收发',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "生活服务",
+                  "project": "快递收发",
+                  "sertime": "长久",
+                  "title": "百米站",
+                  "sercon": "快递收发",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京福奈特洗衣服务有限公司',
-                  sercon: '专业洗涤',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "生活服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "cake boss蛋糕",
+                  "sercon": "网红蛋糕定制、罐装蛋糕、纸杯蛋糕等",
+                  "oflshop": "cake boss蛋糕老板",
+                  "discont": "定制专属优惠"
                 },{
-                  title: 'cake boss蛋糕',
-                  sercon: '网红蛋糕定制、罐装蛋糕、纸杯蛋糕等',
-                  sertime: '2020/6/10-2020/12/10',
-                  serphone: '18611148297',
-                  oflshop: 'cake boss蛋糕老板',
-                  seradr: '24家店北京市范围内可配送',
-                  discont: '定制专属优惠'
+                  "classify": "生活服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "维尔纳斯蛋糕",
+                  "sercon": "蛋糕定制、甜点定制",
+                  "oflshop": "维尔纳斯意大利手工艺蛋糕",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '维尔纳斯蛋糕',
-                  sercon: '蛋糕定制、甜点定制',
-                  sertime: '2020/6/10-2020/12/10',
-                  serphone: '13366127029',
-                  oflshop: '维尔纳斯意大利手工艺蛋糕',
-                  seradr: '23家店北京市范围内可配送',
-                  discont: '9折优惠'
+                  "classify": "生活服务",
+                  "project": "自助洗车",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "爱喜猫自助洗车",
+                  "sercon": "自助洗车",
+                  "oflshop": "爱喜猫自助洗车",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '爱喜猫自助洗车',
-                  sercon: '自助洗车',
-                  sertime: '2020/6/15-2021/6/15',
-                  serphone: '13716644007',
-                  oflshop: '爱喜猫自助洗车',
-                  seradr: '北京市范围内可选择',
-                  discont: '享受专属优惠'
+                  "classify": "生活服务",
+                  "project": "鲜花定制",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "sertime": "",
+                  "title": "馨花语商贸有限公司",
+                  "sercon": "鲜花定制",
+                  "oflshop": "馨花语花卉",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '馨花语商贸有限公司',
-                  sercon: '鲜花定制',
-                  sertime: '2020/6/9-2020/12/10',
-                  serphone: '13911589165',
-                  oflshop: '馨花语花卉',
-                  seradr: '王四营桥南盛华宏林粮油批发市场1层花花市界A20号',
-                  discont: '享受专属优惠'
+                  "classify": "生活服务",
+                  "project": "七夕交友",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "世纪佳缘",
+                  "sercon": "婚恋交友",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '世纪佳缘',
-                  sercon: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券',
-                  sertime: '2020/6/10-2020/8/31',
-                  serphone: '',
-                  oflshop: '世纪佳缘',
-                  seradr: '',
-                  discont: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券'
+                  "classify": "生活服务",
+                  "project": "滴滴出行",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "滴滴出行",
+                  "sercon": "滴滴出行",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '滴滴出行',
-                  sercon: '滴滴出行',
-                  sertime: '2020/6/2-2020/6/29',
-                  serphone: '',
-                  oflshop: '滴滴出行',
-                  seradr: '',
-                  discont: '5折优惠'
-                },
+                  "classify": "生活服务",
+                  "project": "上门洗衣",
+                  "sertime": "长久",
+                  "title": "北京福奈特洗衣服务有限公司",
+                  "sercon": "专业洗涤",
+                  "oflshop": "",
+                  "discont": ""
+                },{
+                  "classify": "生活服务",
+                  "project": "",
+                  "sertime": "",
+                  "title": "丰巢快递柜",
+                  "sercon": "快递收发",
+                  "oflshop": "",
+                  "discont": ""
+                },{
+                  "classify": "生活服务",
+                  "project": "",
+                  "sertime": "",
+                  "title": "北京顺丰速运有限公司",
+                  "sercon": "上门收发快递",
+                  "oflshop": "",
+                  "discont": ""
+                }
               ]
             }
           ]
