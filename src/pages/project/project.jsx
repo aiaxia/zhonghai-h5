@@ -99,9 +99,7 @@ class Project extends React.PureComponent {
                   "sercon": "各类舞蹈培训",
                   "oflshop": "北舞星空流行舞蹈培训中心",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "服饰美容",
                   "project": "健康咨询",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -122,9 +120,7 @@ class Project extends React.PureComponent {
                   "sercon": "西式冷餐会、酒会party等餐饮活动服务。",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "餐饮服务",
                   "project": "定制蛋糕",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -132,9 +128,7 @@ class Project extends React.PureComponent {
                   "sercon": "网红蛋糕定制、罐装蛋糕、纸杯蛋糕等",
                   "oflshop": "cake boss蛋糕老板",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "餐饮服务",
                   "project": "定制蛋糕",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -249,9 +243,7 @@ class Project extends React.PureComponent {
                   "sercon": "自助洗车",
                   "oflshop": "爱喜猫自助洗车",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "鲜花定制",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -259,9 +251,7 @@ class Project extends React.PureComponent {
                   "sercon": "鲜花定制",
                   "oflshop": "馨花语花卉",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "七夕交友",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -269,9 +259,7 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "滴滴出行",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -311,9 +299,7 @@ class Project extends React.PureComponent {
                   "oflshop": "北京通达三季科技有限公司",
                   "discont": "北京东城区永定门外西滨河路8号中海地产广场B2层",
                   "": "提供网络搭接及维护服务"
-                }
-                ,
-                {
+                },{
                   "classify": "职场办公",
                   "project": "电脑维修",
                   "sertime": "长久",
@@ -337,9 +323,7 @@ class Project extends React.PureComponent {
                   "oflshop": "北舞星空流行舞蹈培训中心",
                   "discont": "西直门西环广场凯德T2楼10层C8室",
                   "": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "服饰美容",
                   "project": "健康咨询",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -361,9 +345,7 @@ class Project extends React.PureComponent {
                   "sercon": "提供楼内客户各式餐饮活动服务",
                   "oflshop": "北京莉莉世界文化有限公司",
                   "discont": "北京东城区永定门外西滨河路8号中海地产广场1层"
-                }
-                ,
-                {
+                },{
                   "classify": "餐饮服务",
                   "project": "定制蛋糕",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -372,9 +354,7 @@ class Project extends React.PureComponent {
                   "oflshop": "cake boss蛋糕老板",
                   "discont": "24家店北京市范围内可配送",
                   "": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "餐饮服务",
                   "project": "定制蛋糕",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -397,9 +377,7 @@ class Project extends React.PureComponent {
                   "oflshop": "诺梵家具定制",
                   "discont": "东亿国际传媒产业园演播大厅A座5层",
                   "": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "政策解析",
                   "sertime": "长久",
@@ -407,9 +385,7 @@ class Project extends React.PureComponent {
                   "sercon": "积极联络所在市、区级政府，深度了解企业的相关扶持政策；同时经营中心设置解析服务人员，协助企业进行相关申报资料筹备",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "校企对接",
                   "sertime": "长久",
@@ -417,9 +393,7 @@ class Project extends React.PureComponent {
                   "sercon": "联合COOC中海商务的广泛校园资源，帮助企业建立校企沟通渠道。",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "人资培训",
                   "sertime": "长久",
@@ -427,9 +401,7 @@ class Project extends React.PureComponent {
                   "sercon": "协力企业建立完善的人力培训课程及架构，同时提供单独的培训课程及资源。",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "专业机构",
                   "sertime": "长久",
@@ -437,9 +409,7 @@ class Project extends React.PureComponent {
                   "sercon": "提供楼内企业人力帮办",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "企业保洁",
                   "sertime": "长久",
@@ -448,9 +418,7 @@ class Project extends React.PureComponent {
                   "oflshop": "",
                   "discont": "",
                   "": "日常保洁消杀服务"
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "绿植租摆",
                   "sertime": "长久",
@@ -459,9 +427,7 @@ class Project extends React.PureComponent {
                   "oflshop": "",
                   "discont": "",
                   "": "提供项目外围绿化及室内绿色办公空间，办公室绿化园艺服务"
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "企业装修",
                   "sertime": "长久",
@@ -469,9 +435,7 @@ class Project extends React.PureComponent {
                   "sercon": "空间设计、施工建造、软装服务全流程定制",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "办公用品采购",
                   "sertime": "长久",
@@ -479,9 +443,7 @@ class Project extends React.PureComponent {
                   "sercon": "办公文具集采、印务耗材采购、办公设备租赁与购买。",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "贵宾接待",
                   "sertime": "长久",
@@ -489,9 +451,7 @@ class Project extends React.PureComponent {
                   "sercon": "提供专属车位预留，形象岗迎宾等服务",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": " 酒店预订",
                   "sertime": "长久",
@@ -499,9 +459,7 @@ class Project extends React.PureComponent {
                   "sercon": "搭接楼内企业国泰饭店联系",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "大客户VIP专梯服务",
                   "sertime": "长久",
@@ -509,9 +467,7 @@ class Project extends React.PureComponent {
                   "sercon": "提供大客户专用VIP梯服务",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "员工团购服务",
                   "sertime": "长久",
@@ -520,9 +476,7 @@ class Project extends React.PureComponent {
                   "oflshop": "柒一拾壹（北京中海地产广场店）",
                   "discont": "北京东城区永定门外西滨河路8号中海地产广场1层",
                   "": "定期提供楼内员工店内商品团购及福袋等活动"
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "活动场地",
                   "sertime": "长久",
@@ -530,9 +484,7 @@ class Project extends React.PureComponent {
                   "sercon": "提供项目内进行会务空间与服务的定制",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "公关活动",
                   "sertime": "长久",
@@ -540,9 +492,7 @@ class Project extends React.PureComponent {
                   "sercon": "联合全国各地百余家媒体的推广合作资源，定制专属公关活动。",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "团建拓展",
                   "sertime": "长久",
@@ -550,9 +500,7 @@ class Project extends React.PureComponent {
                   "sercon": "专业、多元的团建活动组织，提供全流程服务。",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "金融服务",
                   "sertime": "长久",
@@ -560,9 +508,7 @@ class Project extends React.PureComponent {
                   "sercon": "联合各大银行，针对企业推出综合信贷服务包",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "分散办公",
                   "sertime": "长久",
@@ -570,9 +516,7 @@ class Project extends React.PureComponent {
                   "sercon": "开放空置房源，提供其他地区企业分散办公；提供楼内企业会议室服务",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "礼品定制",
                   "sertime": "长久",
@@ -594,9 +538,7 @@ class Project extends React.PureComponent {
                   "sercon": "提供快递暂存服务",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "上门洗衣",
                   "sertime": "长久",
@@ -604,9 +546,7 @@ class Project extends React.PureComponent {
                   "sercon": "衣物洗涤",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "自助洗车",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -615,9 +555,7 @@ class Project extends React.PureComponent {
                   "oflshop": "爱喜猫自助洗车",
                   "discont": "北京市范围内可选择",
                   "": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "鲜花定制",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -626,9 +564,7 @@ class Project extends React.PureComponent {
                   "oflshop": "馨花语花卉",
                   "discont": "王四营桥南盛华宏林粮油批发市场1层花花市界A20号",
                   "": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "七夕交友",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -637,9 +573,7 @@ class Project extends React.PureComponent {
                   "oflshop": "",
                   "discont": "",
                   "": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "滴滴出行",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -799,9 +733,7 @@ class Project extends React.PureComponent {
                   "sercon": "形象岗迎宾，专梯服务",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": " 酒店预订",
                   "sertime": "长久",
@@ -1126,9 +1058,7 @@ class Project extends React.PureComponent {
                   "sercon": "形象岗迎宾，专梯服务",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": "活动场地",
                   "sertime": "长久",
@@ -1437,9 +1367,7 @@ class Project extends React.PureComponent {
                   "sercon": "自助洗车",
                   "oflshop": "爱喜猫自助洗车",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "鲜花定制",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -1447,9 +1375,7 @@ class Project extends React.PureComponent {
                   "sercon": "鲜花定制",
                   "oflshop": "馨花语花卉",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "七夕交友",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -1457,9 +1383,7 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "滴滴出行",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -1602,9 +1526,7 @@ class Project extends React.PureComponent {
                   "sercon": "专属车位预留、酒店预订、形象岗迎宾、专车接送。",
                   "oflshop": "中海物业",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "行政服务",
                   "project": " 酒店预订",
                   "sertime": "长久",
@@ -1658,9 +1580,7 @@ class Project extends React.PureComponent {
                   "sercon": "上门代收代发公司、个人快递，安全可靠。",
                   "oflshop": "",
                   "discont": ""
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "自助洗车",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -1668,9 +1588,7 @@ class Project extends React.PureComponent {
                   "sercon": "自助洗车",
                   "oflshop": "爱喜猫自助洗车",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "鲜花定制",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -1678,9 +1596,7 @@ class Project extends React.PureComponent {
                   "sercon": "鲜花定制",
                   "oflshop": "馨花语花卉",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "七夕交友",
                   "sertime": "2021年1月1日-2021年12月31日",
@@ -1688,9 +1604,7 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                }
-                ,
-                {
+                },{
                   "classify": "生活服务",
                   "project": "滴滴出行",
                   "sertime": "2021年1月1日-2021年12月31日",
