@@ -1491,21 +1491,21 @@ class Project extends React.PureComponent {
                   discont: '见北京中海商务写字楼客户专享合作方案',
                   zs: true
                 },{
-                  title: '北京通达三季科技有限公司',
-                  sercon: '提供网络搭接及维护服务',
-                  sertime: '长久',
-                  serphone: '15611525858',
-                  oflshop: '北京通达三季科技有限公司',
-                  seradr: '北京中海大厦B1',
-                  discont: ''
+                  "classify": "职场办公",
+                  "project": "信息化搭建",
+                  "sertime": "长久",
+                  "title": "北京通达三季科技有限公司",
+                  "sercon": "提供网络搭接及维护服务",
+                  "oflshop": "北京通达三季科技有限公司",
+                  "discont": ""
                 },{
-                  title: '北京通达三季科技有限公司',
-                  sercon: '提供网络设备搭接及维护服务',
-                  sertime: '长久',
-                  serphone: '15611525858',
-                  oflshop: '北京通达三季科技有限公司',
-                  seradr: '北京中海大厦B1',
-                  discont: ''
+                  "classify": "职场办公",
+                  "project": "电脑维修",
+                  "sertime": "长久",
+                  "title": "北京通达三季科技有限公司",
+                  "sercon": "提供网络设备搭接及维护服务",
+                  "oflshop": "北京通达三季科技有限公司",
+                  "discont": ""
                 }
               ],
             },
@@ -1513,181 +1513,191 @@ class Project extends React.PureComponent {
               icon: icon,
               data:[
                 {
-                  title: '北舞星空流行舞蹈培训中心',
-                  sercon: '各类舞蹈培训',
-                  sertime: '2020/7/1-2021/6/30',
-                  serphone: '13621257423',
-                  oflshop: '北舞星空流行舞蹈培训中心',
-                  seradr: '西直门西环广场凯德T2楼10层C8室',
-                  discont: '享受年度专属优惠'
+                  "classify": "服饰美容",
+                  "project": "舞蹈培训",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "北舞星空流行舞蹈培训中心",
+                  "sercon": "各类舞蹈培训",
+                  "oflshop": "北舞星空流行舞蹈培训中心",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '康乐家园俱乐部',
-                  sercon: '提供血压、血糖等各项身体指标检测，提供解决方案',
-                  sertime: '2020/6/10-2020/12/10',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '正华国贸财富中心',
-                  discont: '享受专属优惠'
+                  "classify": "服饰美容",
+                  "project": "健康咨询",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "康乐家园俱乐部",
+                  "sercon": "提供血压、血糖等各项身体指标检测，提供解决方案",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: epicure,
               data:[
                 {
-                  title: 'cake boss蛋糕',
-                  sercon: '网红蛋糕定制、罐装蛋糕、纸杯蛋糕等',
-                  sertime: '2020/6/10-2020/12/10',
-                  serphone: '18611148297',
-                  oflshop: 'cake boss蛋糕老板',
-                  seradr: '24家店北京市范围内可配送',
-                  discont: '定制专属优惠'
+                  "classify": "餐饮服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "cake boss蛋糕",
+                  "sercon": "网红蛋糕定制、罐装蛋糕、纸杯蛋糕等",
+                  "oflshop": "cake boss蛋糕老板",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '维尔纳斯蛋糕',
-                  sercon: '蛋糕定制、甜点定制',
-                  sertime: '2020/6/10-2020/12/10',
-                  serphone: '13366127029',
-                  oflshop: '维尔纳斯意大利手工艺蛋糕',
-                  seradr: '23家店北京市范围内可配送',
-                  discont: '9折优惠'
+                  "classify": "餐饮服务",
+                  "project": "定制蛋糕",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "维尔纳斯蛋糕",
+                  "sercon": "蛋糕定制、甜点定制",
+                  "oflshop": "维尔纳斯意大利手工艺蛋糕",
+                  "discont": "享受专属优惠"
                 }
               ],
             },{
               icon: ungrander,
               data:[
                 {
-                  title: '石景山投促局、古城街道办事处',
-                  sercon: '深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "政策解析",
+                  "sertime": "长久",
+                  "title": "石景山投促局、古城街道办事处",
+                  "sercon": "深度了解企业的相关扶持政策，协助企业进行相关申报资料筹备",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '中海云商',
-                  sercon: '提供楼内企业人力帮办',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "专业机构",
+                  "sertime": "长久",
+                  "title": "中海云商",
+                  "sercon": "提供楼内企业人力帮办",
+                  "oflshop": "",
+                  "discont": ""
                 },{
-                  title: '北京城坤筑洁生物科技有限公司',
-                  sercon: '日常保洁，消杀服务。',
-                  sertime: '长久',
-                  serphone: '13691005506',
-                  oflshop: '北京城坤筑洁生物科技有限公司',
-                  seradr: '北京市朝阳区东三环中路39号院10号楼SH-1039室',
-                  discont: '低于市场价格（9折）'
+                  "classify": "行政服务",
+                  "project": "企业保洁",
+                  "sertime": "长久",
+                  "title": "北京城坤筑洁生物科技有限公司",
+                  "sercon": "日常保洁，消杀服务。",
+                  "oflshop": "北京城坤筑洁生物科技有限公司",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '北京盛芳润雅花卉有限公司',
-                  sercon: '办公室绿化园艺服务',
-                  sertime: '长久',
-                  serphone: '18911587818',
-                  oflshop: '北京盛芳润雅花卉有限公司',
-                  seradr: '北京市房山区琉璃河镇白庄9区1号-9号',
-                  discont: '低于市场价格（9折）'
+                  "classify": "行政服务",
+                  "project": "绿植租摆",
+                  "sertime": "长久",
+                  "title": "北京盛芳润雅花卉有限公司",
+                  "sercon": "办公室绿化园艺服务",
+                  "oflshop": "北京盛芳润雅花卉有限公司",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '北京瑞祥佳艺建筑装饰工程有限公司',
-                  sercon: '空间设计、施工建造、软装服务全流程定制',
-                  sertime: '长久',
-                  serphone: '13810995719',
-                  oflshop: '北京瑞祥佳艺建筑装饰工程有限公司',
-                  seradr: '北京市丰台区宋家庄路苇子坑149北厂9幢',
-                  discont: '低于市场价格'
+                  "classify": "行政服务",
+                  "project": "企业装修",
+                  "sertime": "长久",
+                  "title": "北京瑞祥佳艺建筑装饰工程有限公司",
+                  "sercon": "空间设计、施工建造、软装服务全流程定制",
+                  "oflshop": "北京瑞祥佳艺建筑装饰工程有限公司",
+                  "discont": "享受专属优惠"
                 },{
-                  title: '中海物业',
-                  sercon: '专属车位预留、酒店预订、形象岗迎宾、专车接送。',
-                  sertime: '长久',
-                  serphone: '58345118',
-                  oflshop: '中海物业',
-                  seradr: '北京中海大厦B1',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "贵宾接待",
+                  "sertime": "长久",
+                  "title": "中海物业",
+                  "sercon": "专属车位预留、酒店预订、形象岗迎宾、专车接送。",
+                  "oflshop": "中海物业",
+                  "discont": ""
+                }
+                ,
+                {
+                  "classify": "行政服务",
+                  "project": " 酒店预订",
+                  "sertime": "长久",
+                  "title": "国泰饭店",
+                  "sercon": "搭接楼内企业国泰饭店联系",
+                  "oflshop": "国泰饭店",
+                  "discont": ""
                 },{
-                  title: '国泰饭店',
-                  sercon: '搭接楼内企业国泰饭店联系',
-                  sertime: '长久',
-                  serphone: '(010)65683366',
-                  oflshop: '国泰饭店',
-                  seradr: '北京市朝阳区永安西里12号',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "活动场地",
+                  "sertime": "长久",
+                  "title": "国泰饭店、OFFICEZIP",
+                  "sercon": "提供会务空间与服务的定制",
+                  "oflshop": "国泰饭店",
+                  "discont": ""
                 },{
-                  title: '国泰饭店、OFFICEZIP',
-                  sercon: '提供会务空间与服务的定制',
-                  sertime: '长久',
-                  serphone: '(010)65683366',
-                  oflshop: '国泰饭店',
-                  seradr: '北京市朝阳区永安西里12号',
-                  discont: ''
+                  "classify": "行政服务",
+                  "project": "茶歇服务",
+                  "sertime": "长久",
+                  "title": "OFFICEZIP",
+                  "sercon": "定制茶歇会、酒会party等餐饮活动服务",
+                  "oflshop": "OFFICEZIP",
+                  "discont": "享受专属优惠"
                 },{
-                  title: 'OFFICEZIP',
-                  sercon: '定制茶歇会、酒会party等餐饮活动服务',
-                  sertime: '长久',
-                  serphone: '13811402497',
-                  oflshop: 'OFFICEZIP',
-                  seradr: '北京中海大厦17层',
-                  discont: '低于市场价格（9折）'
+                  "classify": "行政服务",
+                  "project": "分散办公",
+                  "sertime": "长久",
+                  "title": "OFFICEZIP",
+                  "sercon": "开放空置房源，提供其他地区企业分散办公；提供楼内企业会议室服务",
+                  "oflshop": "OFFICEZIP",
+                  "discont": "享受专属优惠"
                 },{
-                  title: 'OFFICEZIP',
-                  sercon: '开放空置房源，提供其他地区企业分散办公；提供楼内企业会议室服务',
-                  sertime: '长久',
-                  serphone: '13811402497',
-                  oflshop: 'OFFICEZIP',
-                  seradr: '北京中海大厦17层',
-                  discont: '低于市场价格（9折）'
-                },{
-                  title: '诺梵（上海）系统科技股份有限公司北京分公司',
-                  sercon: '一、售后快速响应；二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。',
-                  sertime: '长久',
-                  serphone: '13810969446',
-                  oflshop: '诺梵家具定制',
-                  seradr: '东亿国际传媒产业园演播大厅A座5层',
-                  discont: '一、售后快速响应；二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。'
-                },
+                  "classify": "行政服务",
+                  "project": "家具定制",
+                  "sertime": "长久",
+                  "title": "诺梵（上海）系统科技股份有限公司北京分公司",
+                  "sercon": "一、售后快速响应二、提供诺梵专属高效办公策略wps调研服务、空间解决方案。",
+                  "oflshop": "诺梵家具定制",
+                  "discont": "享受专属优惠"
+                }
               ],
             },
             {
               icon: artist,
               data:[
                 {
-                  title: '丰巢、顺丰',
-                  sercon: '上门代收代发公司、个人快递，安全可靠。',
-                  sertime: '长久',
-                  serphone: '',
-                  oflshop: '',
-                  seradr: '',
-                  discont: ''
-                },{
-                  title: '爱喜猫自助洗车',
-                  sercon: '自助洗车',
-                  sertime: '2020/6/15-2021/6/15',
-                  serphone: '13716644007',
-                  oflshop: '爱喜猫自助洗车',
-                  seradr: '北京市范围内可选择',
-                  discont: '享受专属优惠'
-                },{
-                  title: '馨花语商贸有限公司',
-                  sercon: '鲜花定制',
-                  sertime: '2020/6/9-2020/12/10',
-                  serphone: '13911589165',
-                  oflshop: '馨花语花卉',
-                  seradr: '王四营桥南盛华宏林粮油批发市场1层花花市界A20号',
-                  discont: '享受专属优惠'
-                },{
-                  title: '世纪佳缘',
-                  sercon: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券',
-                  sertime: '2020/6/10-2020/8/31',
-                  serphone: '',
-                  oflshop: '世纪佳缘',
-                  seradr: '',
-                  discont: '一、线上世纪佳缘钻石会员9折优惠；二、线下约会吧免费体验券'
-                },{
-                  title: '滴滴出行',
-                  sercon: '滴滴出行',
-                  sertime: '2020/6/2-2020/6/29',
-                  serphone: '',
-                  oflshop: '滴滴出行',
-                  seradr: '',
-                  discont: '5折优惠'
+                  "classify": "生活服务",
+                  "project": "快递收发",
+                  "sertime": "长久",
+                  "title": "丰巢、顺丰",
+                  "sercon": "上门代收代发公司、个人快递，安全可靠。",
+                  "oflshop": "",
+                  "discont": ""
+                }
+                ,
+                {
+                  "classify": "生活服务",
+                  "project": "自助洗车",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "爱喜猫自助洗车",
+                  "sercon": "自助洗车",
+                  "oflshop": "爱喜猫自助洗车",
+                  "discont": "享受专属优惠"
+                }
+                ,
+                {
+                  "classify": "生活服务",
+                  "project": "鲜花定制",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "馨花语商贸有限公司",
+                  "sercon": "鲜花定制",
+                  "oflshop": "馨花语花卉",
+                  "discont": "享受专属优惠"
+                }
+                ,
+                {
+                  "classify": "生活服务",
+                  "project": "七夕交友",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "世纪佳缘",
+                  "sercon": "婚恋交友",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
+                }
+                ,
+                {
+                  "classify": "生活服务",
+                  "project": "滴滴出行",
+                  "sertime": "2021年1月1日-2021年12月31日",
+                  "title": "滴滴出行",
+                  "sercon": "滴滴出行",
+                  "oflshop": "",
+                  "discont": "享受专属优惠"
                 }
               ]
             }
