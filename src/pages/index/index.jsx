@@ -30,8 +30,7 @@ class Index extends React.PureComponent {
     super(props);
     this.state={
       showInterduce: false,
-      shownum: 'secbot',
-      iphone7p: ''
+      shownum: 'secbot'
     };
   }
   componentDidMount=()=>{
@@ -49,10 +48,12 @@ class Index extends React.PureComponent {
         direction: "ltr", // 翻书方向，值为rtl / ltr（3种写法），②HTML: <div id="flipbook" dir="rtl"></div> ③ CSS:#flipbook { direction:rtl; }
         display: 'single', // 显示单页or双页,默认值是double (如果single, class为hard的div首末各一个就可以)
     });
-    this.getmobiletype()
   }
   getmobiletype=()=>{
+    console.log(101)
     var events = navigator.userAgent;
+    console.log('events',events)
+    let iphone7p = ""
     if(events.indexOf('Android')>-1 || events.indexOf('Linux')>-1 || events.indexOf('Adr')>-1){
         console.log("安卓手机");
     }else if(events.indexOf('iPhone')>-1){
@@ -61,9 +62,7 @@ class Index extends React.PureComponent {
             console.log("苹果X");
         }else if(window.screen.height == 736 && window.screen.width == 414){
             console.log("iPhone7P - iPhone8P - iPhone6");
-            this.setState({
-              iphone7p: 'iphone7p'
-            })
+            iphone7p = "iphone7p"
         }else if(window.screen.height == 667 && window.screen.width == 375){
             console.log("iPhone7 - iPhone8 - iPhone6");
         }else if(window.screen.height == 568 && window.screen.width == 320){
@@ -77,6 +76,7 @@ class Index extends React.PureComponent {
     }else if(events.indexOf("iPad")>-1){
         console.log("平板");
     }
+    return iphone7p
   }
   nexpage=()=>{
     this.showInterduce(false)
@@ -102,7 +102,7 @@ class Index extends React.PureComponent {
   }
 
   render() {
-    const { showInterduce, shownum, iphone7p } = this.state
+    const { showInterduce, shownum } = this.state
     return (
       <div className={styles.homeBox} id="flipbook">
         <div className={styles.indexBox}>
@@ -143,7 +143,7 @@ class Index extends React.PureComponent {
               <div className={styles.lefttxt}>
                 <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} onClick={e=>this.lastpage()} src={returnb} alt=""/>
                 <img className={styles.topimg4} src={topimg4} alt=""/>
-                <div className={styles.itembtnimg+" "+styles[iphone7p]}>
+                <div className={styles.itembtnimg+" "+styles[this.getmobiletype()]}>
                   <Link to="/project?city=bj"><img src={bj} alt=""/></Link>
                   <Link to="/project?city=tj"><img src={tj} alt=""/></Link>
                   <Link to="/project?city=ty"><img src={ty} alt=""/></Link>
