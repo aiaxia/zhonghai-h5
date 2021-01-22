@@ -2,6 +2,7 @@ import { connect } from 'dva';
 import PropTypes from 'prop-types';
 import * as React from 'react';
 import { Flex } from 'antd-mobile';
+import { Link } from 'dva/router';
 import leftLogo from '../../assets/leftlogo.png'
 import rightLogo from '../../assets/righttoplogo.png'
 import styles from './logobox.less';
@@ -17,8 +18,12 @@ class Index extends React.PureComponent {
     return (
       <div className={styles.topBox}>
         <Flex>
-          <Flex.Item className={styles.leftLogo}><img src={leftLogo} /></Flex.Item>
-          <Flex.Item className={styles.rightLogo}><img src={rightLogo} /></Flex.Item>
+          <Flex.Item className={styles.leftLogo}>
+            <img src={leftLogo} />
+          </Flex.Item>
+          <Flex.Item className={styles.rightLogo}>
+            <Link to="/blank"><img src={rightLogo} /></Link>
+          </Flex.Item>
         </Flex>
       </div>
     )
