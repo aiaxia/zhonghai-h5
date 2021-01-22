@@ -49,35 +49,6 @@ class Index extends React.PureComponent {
         display: 'single', // 显示单页or双页,默认值是double (如果single, class为hard的div首末各一个就可以)
     });
   }
-  getmobiletype=()=>{
-    console.log(101)
-    var events = navigator.userAgent;
-    console.log('events',events)
-    let iphone7p = ""
-    if(events.indexOf('Android')>-1 || events.indexOf('Linux')>-1 || events.indexOf('Adr')>-1){
-        console.log("安卓手机");
-    }else if(events.indexOf('iPhone')>-1){
-        //根据尺寸进行判断 苹果的型号
-        if(window.screen.height == 812 && window.screen.width == 375){
-            console.log("苹果X");
-        }else if(window.screen.height == 736 && window.screen.width == 414){
-            console.log("iPhone7P - iPhone8P - iPhone6");
-            iphone7p = "iphone7p"
-        }else if(window.screen.height == 667 && window.screen.width == 375){
-            console.log("iPhone7 - iPhone8 - iPhone6");
-        }else if(window.screen.height == 568 && window.screen.width == 320){
-            console.log("iPhone5");
-        }else{
-            console.log("iPhone4");
-        }
-    }else if(events.indexOf('Windows Phone')>-1){
-        console.log("诺基亚手机");
-
-    }else if(events.indexOf("iPad")>-1){
-        console.log("平板");
-    }
-    return iphone7p
-  }
   nexpage=()=>{
     this.showInterduce(false)
     $("#flipbook").turn("next");
@@ -143,7 +114,7 @@ class Index extends React.PureComponent {
               <div className={styles.lefttxt}>
                 <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} onClick={e=>this.lastpage()} src={returnb} alt=""/>
                 <img className={styles.topimg4} src={topimg4} alt=""/>
-                <div className={styles.itembtnimg+" "+styles[this.getmobiletype()]}>
+                <div className={styles.itembtnimg+" "+styles[localStorage.getItem("iphone7p")]}>
                   <Link to="/project?city=bj"><img src={bj} alt=""/></Link>
                   <Link to="/project?city=tj"><img src={tj} alt=""/></Link>
                   <Link to="/project?city=ty"><img src={ty} alt=""/></Link>
