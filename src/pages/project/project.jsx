@@ -2695,13 +2695,43 @@ class Project extends React.PureComponent {
             }
           ]
         }
-      ]
+      ],
+      iphone7p: ''
     };
   }
   componentDidMount=()=>{
     localStorage.removeItem("city");
     localStorage.removeItem("topImg");
     localStorage.removeItem("list");
+    this.getmobiletype()
+  }
+
+  getmobiletype=()=>{
+    var events = navigator.userAgent;
+    if(events.indexOf('Android')>-1 || events.indexOf('Linux')>-1 || events.indexOf('Adr')>-1){
+        console.log("安卓手机");
+    }else if(events.indexOf('iPhone')>-1){
+        //根据尺寸进行判断 苹果的型号
+        if(window.screen.height == 812 && window.screen.width == 375){
+            console.log("苹果X");
+        }else if(window.screen.height == 736 && window.screen.width == 414){
+            console.log("iPhone7P - iPhone8P - iPhone6");
+            this.setState({
+              iphone7p: 'iphone7p'
+            })
+        }else if(window.screen.height == 667 && window.screen.width == 375){
+            console.log("iPhone7 - iPhone8 - iPhone6");
+        }else if(window.screen.height == 568 && window.screen.width == 320){
+            console.log("iPhone5");
+        }else{
+            console.log("iPhone4");
+        }
+    }else if(events.indexOf('Windows Phone')>-1){
+        console.log("诺基亚手机");
+
+    }else if(events.indexOf("iPad")>-1){
+        console.log("平板");
+    }
   }
   onDetailgo=(obj)=>{
     let city = this.props.location.search.split("?city=")[1]
@@ -2721,6 +2751,7 @@ class Project extends React.PureComponent {
 
   render() {
     let city = this.props.location.search.split("?city=")[1]
+    const {iphone7p} = this.state
     return (
       <div className={styles.projectBox}>
         <div>
@@ -2730,7 +2761,7 @@ class Project extends React.PureComponent {
                 <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} src={returnb} alt=""/>
               </Link>
               <img className={styles.topimg4} src={topimg4} alt=""/>
-              <div className={styles.itembtnimg}>
+              <div className={styles.itembtnimg+" "+styles[iphone7p]}>
                 {this.state[city].map((el,i)=>{
                   return <div className={styles[city]} key={i}>
                       <img src={el.img} alt="" onClick={e=>this.onDetailgo(el)}/>

@@ -29,25 +29,9 @@ class Index extends React.PureComponent {
   constructor (props) {
     super(props);
     this.state={
-      intruduceList:[
-        {
-          title: "中海商业",
-          lilTitle: "——践行国际一流标准的商业资产开发运营平台",
-          con: '中海商业，作为中国房地产领先企业——中海地产全资子公司，发轫于香港，立足国内中心城市，目前项目遍布伦敦、香港、澳门、北京、上海、深圳、天津、青岛、济南、苏州、武汉、海南、太原、等近30个经 济活跃城市。作为实力央企，中海商业致力于为城市创造价值，形成了以写字楼为核心，具备购物中心、长租公寓、酒店、文化场馆在内的完 备产业结构。'
-        },
-        {
-          title: "COOC中海商务",
-          lilTitle: "——全域商办资产管理品牌旗舰",
-          con: '中海商业，作为中国房地产领先企业——中海地产全资子公司，发轫于香港，立足国内中心城市，目前项目遍布伦敦、香港、澳门、北京、上海、深圳、天津、青岛、济南、苏州、武汉、海南、太原、等近30个经 济活跃城市。作为实力央企，中海商业致力于为城市创造价值，形成了以写字楼为核心，具备购物中心、长租公寓、酒店、文化场馆在内的完 备产业结构。'
-        },
-        {
-          title: "中海云商",
-          lilTitle: "——全域商办资产管理品牌旗舰",
-          con: '现代社会的办公需求日新月异，中海商务深度挖掘商业规律，调配内外部资源，退出综合商办服务品牌--中海云商。基于五大写字楼产品系的规模效应，多年来服务各行业的经验积累，令中海云商自诞生起就更懂市场。以中海商务规模化效应为基础，东西商机，凭借强大资源聚合能力，衔接周边商务磁场形成商业闭环；为上下游企业提供交互平台，打破产业壁垒，为闭环内的每一个商业伙伴创造良好的发展环境，从而反向影响闭环内的企业，创造更多的机会，开发更大的市场。'
-        },
-      ],
       showInterduce: false,
-      shownum: 'secbot'
+      shownum: 'secbot',
+      iphone7p: ''
     };
   }
   componentDidMount=()=>{
@@ -65,6 +49,34 @@ class Index extends React.PureComponent {
         direction: "ltr", // 翻书方向，值为rtl / ltr（3种写法），②HTML: <div id="flipbook" dir="rtl"></div> ③ CSS:#flipbook { direction:rtl; }
         display: 'single', // 显示单页or双页,默认值是double (如果single, class为hard的div首末各一个就可以)
     });
+    this.getmobiletype()
+  }
+  getmobiletype=()=>{
+    var events = navigator.userAgent;
+    if(events.indexOf('Android')>-1 || events.indexOf('Linux')>-1 || events.indexOf('Adr')>-1){
+        console.log("安卓手机");
+    }else if(events.indexOf('iPhone')>-1){
+        //根据尺寸进行判断 苹果的型号
+        if(window.screen.height == 812 && window.screen.width == 375){
+            console.log("苹果X");
+        }else if(window.screen.height == 736 && window.screen.width == 414){
+            console.log("iPhone7P - iPhone8P - iPhone6");
+            this.setState({
+              iphone7p: 'iphone7p'
+            })
+        }else if(window.screen.height == 667 && window.screen.width == 375){
+            console.log("iPhone7 - iPhone8 - iPhone6");
+        }else if(window.screen.height == 568 && window.screen.width == 320){
+            console.log("iPhone5");
+        }else{
+            console.log("iPhone4");
+        }
+    }else if(events.indexOf('Windows Phone')>-1){
+        console.log("诺基亚手机");
+
+    }else if(events.indexOf("iPad")>-1){
+        console.log("平板");
+    }
   }
   nexpage=()=>{
     this.showInterduce(false)
@@ -90,7 +102,7 @@ class Index extends React.PureComponent {
   }
 
   render() {
-    const { intruduceList, showInterduce, shownum } = this.state
+    const { showInterduce, shownum, iphone7p } = this.state
     return (
       <div className={styles.homeBox} id="flipbook">
         <div className={styles.indexBox}>
@@ -131,7 +143,7 @@ class Index extends React.PureComponent {
               <div className={styles.lefttxt}>
                 <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} onClick={e=>this.lastpage()} src={returnb} alt=""/>
                 <img className={styles.topimg4} src={topimg4} alt=""/>
-                <div className={styles.itembtnimg}>
+                <div className={styles.itembtnimg+" "+styles[iphone7p]}>
                   <Link to="/project?city=bj"><img src={bj} alt=""/></Link>
                   <Link to="/project?city=tj"><img src={tj} alt=""/></Link>
                   <Link to="/project?city=ty"><img src={ty} alt=""/></Link>
