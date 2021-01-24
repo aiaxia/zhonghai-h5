@@ -35,7 +35,8 @@ class Index extends React.PureComponent {
   }
   componentDidMount=()=>{
     let t = this
-    let pageindex = (this.props.location.state&&this.props.location.state.page)?this.props.location.state.page:1
+    let page = (this.props.location.search).split("page=")[1]
+    let pageindex = page?page:(this.props.location.state&&this.props.location.state.page)?this.props.location.state.page:1
     $("#flipbook").turn({
         page: pageindex,
         width: "100vw",
@@ -70,6 +71,9 @@ class Index extends React.PureComponent {
         shownum: 'secbot'
       })
     }
+  }
+  onJemp=(city)=>{
+    window.location.replace('/#/project?city='+city)
   }
 
   render() {
@@ -115,11 +119,11 @@ class Index extends React.PureComponent {
                 <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} onClick={e=>this.lastpage()} src={returnb} alt=""/>
                 <img className={styles.topimg4} src={topimg4} alt=""/>
                 <div className={styles.itembtnimg+" "+styles[localStorage.getItem("iphone7p")]}>
-                  <Link to="/project?city=bj"><img src={bj} alt=""/></Link>
-                  <Link to="/project?city=tj"><img src={tj} alt=""/></Link>
-                  <Link to="/project?city=ty"><img src={ty} alt=""/></Link>
-                  <Link to="/project?city=qd"><img src={qd} alt=""/></Link>
-                  <Link to="/project?city=jn"><img src={jn} alt=""/></Link>
+                  <img src={bj} alt="" onClick={e=>this.onJemp('bj')}/>
+                  <img src={tj} alt="" onClick={e=>this.onJemp('tj')} />
+                  <img src={ty} alt="" onClick={e=>this.onJemp('ty')} />
+                  <img src={qd} alt="" onClick={e=>this.onJemp('qd')} />
+                  <img src={jn} alt="" onClick={e=>this.onJemp('jn')} />
                 </div>
               </div>
             </div>

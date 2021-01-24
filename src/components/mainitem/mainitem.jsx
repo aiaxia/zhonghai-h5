@@ -29,6 +29,9 @@ class Mainitem extends React.PureComponent {
       ifshowList: showlist
     })
   }
+  onjump=()=>{
+    window.location.replace('/#/zsdetail')
+  }
   render() {
     const {ifshowList} = this.state
     const {list} = this.props
@@ -60,7 +63,7 @@ class Mainitem extends React.PureComponent {
                     {el2.zs?
                       <div className={styles.mainitem + " " +styles.clearfix + " "+ styles.phone}>
                         <div>服务电话：</div>
-                          <div className={styles.maincon}><Link to="/zsdetail">见北京中海商务写字楼客户专享合作方案</Link></div>
+                          <div className={styles.maincon + " " + styles.jump} onClick={e=>this.onjump()}>见北京中海商务写字楼客户专享合作方案</div>
                       </div>
                     :""}
                     {el2.seradr?
@@ -79,7 +82,7 @@ class Mainitem extends React.PureComponent {
                       <div className={styles.mainitem + " " +styles.clearfix}>
                         <div>优惠折扣：</div>
                         {el2.zs?
-                          <div className={styles.maincon}><Link to="/zsdetail">见北京中海商务写字楼客户专享合作方案</Link></div>
+                          <div className={styles.maincon + " " + styles.jump} onClick={e=>this.onjump()}>见北京中海商务写字楼客户专享合作方案</div>
                           :
                           <div className={styles.maincon}>{el2.discont}</div>
                         }

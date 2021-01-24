@@ -56,6 +56,9 @@ class Detail extends React.PureComponent {
   onRef = (ref) => {
     this.child = ref
   }
+  onjump=(city)=>{
+    window.location.replace('/#/project?city='+city)
+  }
   render() {
     const {show} = this.state
     const {city, topImg, returnB, sertel} = localStorage
@@ -64,9 +67,7 @@ class Detail extends React.PureComponent {
       <div className={styles.detailBox}>
         <div className={styles.topmainBox}>
           <img className={styles.topmain} src={topImg} alt=""/>
-          <Link to={"/project?city="+city}>
-            <img className={styles.returnw+" "+styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} src={returnB=="true"?returnb:returnBtn} alt=""/>
-          </Link>
+          <img onClick={e=>this.onjump(city)} className={styles.returnw+" "+styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} src={returnB=="true"?returnb:returnBtn} alt=""/>
         </div>
         <div className={styles.mainBox}>
           {sertel?

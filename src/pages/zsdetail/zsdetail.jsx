@@ -382,11 +382,8 @@ class Zsdetail extends React.PureComponent {
   componentDidMount=()=>{
   }
   onReturndetail=()=>{
-    this.props.history.push({
-        pathname:'/detail'
-    })
+    window.location.replace('/#/detail')
   }
-
   render() {
     const {list} = this.state
     return (

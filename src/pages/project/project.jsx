@@ -918,6 +918,7 @@ class Project extends React.PureComponent {
           tel: '010-5704 0668',
           detailimg: bj_zjcfgjzx_topmain,
           sertel: '010-5704 0668',
+          returnB: true,
           data: [
             {
               icon: master,
@@ -1288,7 +1289,7 @@ class Project extends React.PureComponent {
                   "discont": "享受专属优惠"
                 }
               ],
-            },,{
+            },{
               icon: epicure,
               data:[
                 {
@@ -1354,8 +1355,7 @@ class Project extends React.PureComponent {
                   "discont": ""
                 }
               ]
-            },
-            {
+            },{
               icon: artist,
               data:[
                 {
@@ -2714,9 +2714,10 @@ class Project extends React.PureComponent {
     }else{
       localStorage.setItem("returnB", false);
     }
-    this.props.history.push({
-      pathname: '/detail'
-    })
+    window.location.replace('/#/detail')
+  }
+  onjump=()=>{
+    window.location.replace('/#/?page=3')
   }
 
   render() {
@@ -2726,9 +2727,7 @@ class Project extends React.PureComponent {
         <div>
           <div className={styles.textBox}>
             <div className={styles.lefttxt}>
-              <Link to={{pathname:'/',state:{page:3}}}>
-                <img className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} src={returnb} alt=""/>
-              </Link>
+              <img onClick={e=>this.onjump()} className={styles.returny+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} src={returnb} alt=""/>
               <img className={styles.topimg4} src={topimg4} alt=""/>
               <div className={styles.itembtnimg+" "+styles[localStorage.getItem("iphone7p")]}>
                 {this.state[city].map((el,i)=>{
