@@ -1,5 +1,4 @@
 import { connect } from 'dva';
-import { Link } from 'dva/router';
 import * as React from 'react';
 import $ from "jquery";
 import "turn.js";
@@ -9,13 +8,9 @@ import main from '../../assets/main.png';
 import topimg from '../../assets/topimg.png';
 import textimg from '../../assets/textimg.png';
 import button2 from '../../assets/button2.png';
-import returnw from '../../assets/return.png';
 import returnw2 from '../../assets/returnw2.png';
 import topimg4 from '../../assets/topimg4.png';
-import txt3 from '../../assets/txt3.png';
 import returnb from '../../assets/returnb.png';
-import returny from '../../assets/returny.png';
-import duty from '../../assets/duty.png';
 import bj from '../../assets/bj.png';
 import tj from '../../assets/tj.png';
 import ty from '../../assets/ty.png';
@@ -29,8 +24,6 @@ class Index extends React.PureComponent {
   constructor (props) {
     super(props);
     this.state={
-      showInterduce: false,
-      shownum: 'secbot'
     };
   }
   componentDidMount=()=>{
@@ -55,35 +48,22 @@ class Index extends React.PureComponent {
     });
   }
   nexpage=()=>{
-    this.showInterduce(false)
     $("#flipbook").turn("next");
   }
   lastpage=()=>{
-    this.showInterduce(false)
     $("#flipbook").turn("previous");
-  }
-  showInterduce=(show)=>{
-    this.setState({
-      showInterduce: show
-    })
-    if(show){
-      this.setState({
-        shownum: 'secbot2'
-      })
-    }else{
-      this.setState({
-        shownum: 'secbot'
-      })
-    }
   }
   onJemp=(city)=>{
     let linkhref = localStorage.getItem("linkhref")
     console.log('linkhref1',linkhref)
     window.location.replace(linkhref+'project?city='+city)
   }
+  onGointroduce=()=>{
+    let linkhref = localStorage.getItem("linkhref")
+    window.location.replace(linkhref+'introduce')
+  }
 
   render() {
-    const { showInterduce, shownum } = this.state
     return (
       <div className={styles.homeBox} id="flipbook">
         <div className={styles.indexBox}>
@@ -98,22 +78,14 @@ class Index extends React.PureComponent {
           </div>
         </div>
         <div className={styles.introduce}>
-          <div className={styles[shownum]}>
+          <div className={styles.secbot}>
             <img className={styles.topimg} src={topimg} alt=""/>
             <img className={styles.returnw+" "+styles2.animated+" "+styles2.shake + " " +styles2.infinite} src={returnw2} onClick={e=>this.lastpage()} alt=""/>
             <div className={styles.textBox}>
-              {showInterduce?
-                <div className={styles.lefttxt}>
-                  <img className={styles.returny} src={returny} onClick={e=>this.showInterduce(false)} alt=""/>
-                  <img className={styles.textimg} src={txt3} alt=""/>
-                  <img className={styles.dutyimg} src={duty} alt=""/>
-                </div>
-              :
-                <div className={styles.lefttxt}>
-                  <img className={styles.textimg} src={textimg} alt=""/>
-                  <img className={styles.button2} src={button2} alt="" onClick={e=>this.showInterduce(true)}/>
-                </div>
-              }
+              <div className={styles.lefttxt}>
+                <img className={styles.textimg} src={textimg} alt=""/>
+                <img className={styles.button2} src={button2} alt="" onClick={e=>this.onGointroduce()}/>
+              </div>
             </div>
             <img className={styles2.animated+" "+styles.slip + " "+styles2.shake + " " +styles2.infinite} onClick={e=>this.nexpage()} src={slip} alt=""/>
           </div>

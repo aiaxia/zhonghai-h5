@@ -1,25 +1,56 @@
-.introduceBox{
+.introduce{
   position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
   background: #2f6bb4;
+  >div{
+    height: 100%;
+    height: 100%;
+  }
+  .secbot{
+    background: url('../../assets/secbot.png') no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+  }
+  .secbot2{
+    background: url('../../assets/secbot2.png') no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+  }
   .topimg{
     width: 100vw;
+  }
+  .turnw{
+    position: absolute;
+    top: 7.4vw;
+    left: 2.77vw;
+    width: 7.77vw;
+  }
+  .returnw{
+    position: absolute;
+    top: 9.72vw;
+    left: 7.72vw;
+    width: 6.48vw;
   }
   .textBox{
     width: 100%;
     height: 100%;
     .lefttxt{
-      width: 52vw;
+      width: 47vw;
+      padding-top: 2vh;
       padding-left: 10.64vw;
-      padding-top: 2.44vh;
+      .textimg{
+        width: 100%;
+      }
+      .dutyimg{
+        width: 38.42vw;
+        margin-top: 9vw;
+      }
       .returny{
+        visibility: hidden;
         width: 5.37vw;
         margin-bottom: 3.48vh;
-      }
-      .textimg{
-        width: 53.05vw;
       }
       .item{
         .title{
@@ -43,7 +74,7 @@
       }
       .button2{
         width: 37.22vw;
-        margin-top: 3.54vh;
+        margin-top: 2.3vh;
       }
     }
   }
@@ -51,5 +82,29 @@
     position: absolute;
     height: 14.0vh;
     bottom: 0;
+  }
+  .slip{
+    position: absolute;
+    right: 6.11vw;
+    bottom: 2.5vh;
+    width: 6.48vw;
+  }
+}
+@media screen and (min-height: 750px) {
+  .homeBox{
+    .indexBox{
+      .botbox{
+        height: 27.2vh;
+      }
+    }
+    .introduce{
+      .textBox{
+        .lefttxt{
+          .dutyimg{
+            margin-top: 27vw;
+          }
+        }
+      }
+    }
   }
 }
