@@ -382,7 +382,8 @@ class Zsdetail extends React.PureComponent {
   componentDidMount=()=>{
   }
   onReturndetail=()=>{
-    window.location.replace('/#/detail')
+    let linkhref = localStorage.getItem("linkhref")
+    window.location.replace(linkhref+'detail')
   }
   render() {
     const {list} = this.state
@@ -396,29 +397,29 @@ class Zsdetail extends React.PureComponent {
           </div>
         </div>
         <div className={styles.main}>
-          {list.map(el=>{
-            return <div className={styles.contentBox}>
+          {list.map((el,i)=>{
+            return <div className={styles.contentBox} key={i}>
                     <div>
                       <div className={styles.content}>
                         <div className={styles.title}>{el.title}</div>
                         <div className={styles.connect} dangerouslySetInnerHTML={{'__html':el.connect}}></div>
                         <div dangerouslySetInnerHTML={{'__html':el.content}}></div>
                         <div>
-                          {el.list&&el.list.map(el2=>{
-                            return <div className={styles.firstStle}>
+                          {el.list&&el.list.map((el2,i2)=>{
+                            return <div key={i2} className={styles.firstStle}>
                               <div className={styles.title2}>{el2.title}</div>
                               <div className={styles.connect2} dangerouslySetInnerHTML={{'__html':el2.connect}}></div>
                               <div className={styles.content2} dangerouslySetInnerHTML={{'__html':el2.content}}></div>
                               <div>
                                 {
-                                  el2.list&&el2.list.map(el3=>{
-                                    return <div className={styles.secBox}>
+                                  el2.list&&el2.list.map((el3,i3)=>{
+                                    return <div key={i3} className={styles.secBox}>
                                       <div className={styles.title3}>{el3.title}</div>
                                       <div className={styles.connect3} dangerouslySetInnerHTML={{'__html':el3.connect}}></div>
                                       <div className={styles.content3} dangerouslySetInnerHTML={{'__html':el3.content}}></div>
                                       <div className={styles.box4}>
-                                        {el3.list&&el3.list.map(el4=>{
-                                          return <div className={styles.thiBox}>
+                                        {el3.list&&el3.list.map((el4,i4)=>{
+                                          return <div key={i4} className={styles.thiBox}>
                                             <div className={styles.title4}>{el4.title}</div>
                                             <div className={styles.connect4} dangerouslySetInnerHTML={{'__html':el4.connect}}></div>
                                             <div className={styles.content4} dangerouslySetInnerHTML={{'__html':el4.content}}></div>

@@ -34,6 +34,10 @@ class Index extends React.PureComponent {
     };
   }
   componentDidMount=()=>{
+    let linkorigin = window.location.origin
+    let linkpathname = window.location.pathname
+    let linkhref = linkorigin+linkpathname+"#/"
+    localStorage.setItem("linkhref", linkhref)
     let t = this
     let page = (this.props.location.search).split("page=")[1]
     let pageindex = page?page:(this.props.location.state&&this.props.location.state.page)?this.props.location.state.page:1
@@ -73,7 +77,9 @@ class Index extends React.PureComponent {
     }
   }
   onJemp=(city)=>{
-    window.location.replace('/#/project?city='+city)
+    let linkhref = localStorage.getItem("linkhref")
+    console.log('linkhref1',linkhref)
+    window.location.replace(linkhref+'project?city='+city)
   }
 
   render() {

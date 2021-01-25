@@ -30,7 +30,8 @@ class Mainitem extends React.PureComponent {
     })
   }
   onjump=()=>{
-    window.location.replace('/#/zsdetail')
+    let linkhref = localStorage.getItem("linkhref")
+    window.location.replace(linkhref+'zsdetail')
   }
   render() {
     const {ifshowList} = this.state

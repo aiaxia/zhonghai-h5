@@ -57,7 +57,8 @@ class Detail extends React.PureComponent {
     this.child = ref
   }
   onjump=(city)=>{
-    window.location.replace('/#/project?city='+city)
+    let linkhref = localStorage.getItem("linkhref")
+    window.location.replace(linkhref+'project?city='+city)
   }
   render() {
     const {show} = this.state

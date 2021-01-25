@@ -2714,10 +2714,12 @@ class Project extends React.PureComponent {
     }else{
       localStorage.setItem("returnB", false);
     }
-    window.location.replace('/#/detail')
+    let linkhref = localStorage.getItem("linkhref")
+    window.location.replace(linkhref+'detail')
   }
   onjump=()=>{
-    window.location.replace('/#/?page=3')
+    let linkhref = localStorage.getItem("linkhref")
+    window.location.replace(linkhref+'?page=3')
   }
 
   render() {
