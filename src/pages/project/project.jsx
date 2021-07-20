@@ -259,15 +259,16 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "滴滴出行",
-                  "discont": "享受专属优惠"
-                }
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "滴滴出行",
+                //   "discont": "享受专属优惠"
+                // }
               ]
             }
           ]
@@ -573,16 +574,17 @@ class Project extends React.PureComponent {
                   "oflshop": "",
                   "discont": "",
                   "": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "",
-                  "discont": "",
-                  "": "享受专属优惠"
-                }
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "",
+                //   "discont": "",
+                //   "": "享受专属优惠"
+                // }
               ]
             }
           ]
@@ -883,15 +885,17 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "",
-                  "discont": "享受专属优惠"
-                },{
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "",
+                //   "discont": "享受专属优惠"
+                // },
+                {
                   "classify": "生活服务",
                   "project": "",
                   "sertime": "",
@@ -1201,15 +1205,17 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "",
-                  "discont": "享受专属优惠"
-                },{
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "",
+                //   "discont": "享受专属优惠"
+                // },
+                {
                   "classify": "生活服务",
                   "project": "上门洗衣",
                   "sertime": "长久",
@@ -1382,15 +1388,17 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "滴滴出行",
-                  "discont": "享受专属优惠"
-                }]
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "滴滴出行",
+                //   "discont": "享受专属优惠"
+                // }
+              ]
             },
           ]
         },
@@ -1603,15 +1611,16 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "",
-                  "discont": "享受专属优惠"
-                }
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "",
+                //   "discont": "享受专属优惠"
+                // }
               ]
             }
           ]
@@ -1732,15 +1741,16 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "",
-                  "discont": "享受专属优惠"
-                }
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "",
+                //   "discont": "享受专属优惠"
+                // }
               ]
             }
           ]
@@ -1931,15 +1941,17 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "滴滴出行",
-                  "discont": "享受专属优惠"
-                },{
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "滴滴出行",
+                //   "discont": "享受专属优惠"
+                // },
+                {
                   "classify": "生活服务",
                   "project": "西装定制",
                   "sertime": "长久",
@@ -2138,15 +2150,17 @@ class Project extends React.PureComponent {
                   "sercon": "婚恋交友",
                   "oflshop": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "滴滴出行",
-                  "discont": "享受专属优惠"
-                },{
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "滴滴出行",
+                //   "discont": "享受专属优惠"
+                // },
+                {
                   "classify": "生活服务",
                   "project": "西装定制",
                   "sertime": "长久",
@@ -2343,14 +2357,15 @@ class Project extends React.PureComponent {
                   "title": "",
                   "sercon": "开放租赁中心的会议中心",
                   "discont": ""
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "discont": "享受专属优惠"
-                }
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "discont": "享受专属优惠"
+                // }
               ]
             }
           ]
@@ -2495,16 +2510,17 @@ class Project extends React.PureComponent {
                   "oflshop": "",
                   "address": "",
                   "discont": "享受专属优惠"
-                },{
-                  "classify": "生活服务",
-                  "project": "滴滴出行",
-                  "sertime": "2021年1月1日-2021年12月31日",
-                  "title": "滴滴出行",
-                  "sercon": "滴滴出行",
-                  "oflshop": "",
-                  "address": "",
-                  "discont": "享受专属优惠"
-                }
+                },
+                // {
+                //   "classify": "生活服务",
+                //   "project": "滴滴出行",
+                //   "sertime": "2021年1月1日-2021年12月31日",
+                //   "title": "滴滴出行",
+                //   "sercon": "滴滴出行",
+                //   "oflshop": "",
+                //   "address": "",
+                //   "discont": "享受专属优惠"
+                // }
               ]
             }
           ]
